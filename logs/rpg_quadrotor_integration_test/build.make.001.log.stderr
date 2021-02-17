@@ -1,0 +1,5 @@
+[93mredefining global property: pi[0m
+when processing file: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_description/urdf/component_snippets.xacro
+included from: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_description/urdf/hummingbird_base.xacro
+included from: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_description/urdf/mav_generic_odometry_sensor.gazebo
+[31m[ERROR] [1613272896.330233179]: Couldn't open joystick /dev/input/js0. Will retry every second.[0m

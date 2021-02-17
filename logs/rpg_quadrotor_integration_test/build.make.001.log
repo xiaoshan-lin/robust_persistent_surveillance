@@ -1,0 +1,231 @@
+/usr/bin/cmake -H/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test -B/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/make -f CMakeFiles/Makefile2 run_tests
+make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/cmake -H/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test -B/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles 4
+/usr/bin/make -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
+make[2]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/build.make CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/depend
+/usr/bin/make -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /usr/src/googletest/googletest /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend.internal".
+[35m[1mScanning dependencies of target clean_test_results_rpg_quadrotor_integration_test[0m
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend.internal".
+[35m[1mScanning dependencies of target gtest[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/build.make CMakeFiles/clean_test_results_rpg_quadrotor_integration_test.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results/rpg_quadrotor_integration_test
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+Removing test result files from '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results/rpg_quadrotor_integration_test'
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[ 25%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest && /usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -O3 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc
+[ 25%] Built target clean_test_results_rpg_quadrotor_integration_test
+[ 50%] [32m[1mLinking CXX shared library libgtest.so[0m
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/src -Wl,-rpath,/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest/src -lpthread 
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[ 50%] Built target gtest
+/usr/bin/make -f CMakeFiles/rpg_quadrotor_integration_test.dir/build.make CMakeFiles/rpg_quadrotor_integration_test.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/rpg_quadrotor_integration_test.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/rpg_quadrotor_integration_test.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/rpg_quadrotor_integration_test.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/rpg_quadrotor_integration_test.dir/depend.internal".
+[35m[1mScanning dependencies of target rpg_quadrotor_integration_test[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/rpg_quadrotor_integration_test.dir/build.make CMakeFiles/rpg_quadrotor_integration_test.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[ 75%] [32mBuilding CXX object CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o[0m
+/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rpg_quadrotor_integration_test\" -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/include -I/home/xslin/Documents/xslin/research/rpg_ws/devel/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/position_controller/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/simulation/rpg_rotors_interface/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/state_predictor/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/src/googletest/googletest/include  -std=c++11 -O3 -DNDEBUG   -std=c++11 -O3 -o CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp
+[100%] [32m[1mLinking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rpg_quadrotor_integration_test.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o  -o /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test -Wl,-rpath,/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/gtest/googlemock/gtest:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:/opt/ros/melodic/lib gtest/googlemock/gtest/libgtest.so /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libautopilot_helper.so /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libposition_controller.so /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libstate_predictor.so /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libtrajectory_generation_helper.so /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so /opt/ros/melodic/lib/libroscpp.so -lboost_filesystem /opt/ros/melodic/lib/librosconsole.so /opt/ros/melodic/lib/librosconsole_log4cxx.so /opt/ros/melodic/lib/librosconsole_backend_interface.so -llog4cxx -lboost_regex /opt/ros/melodic/lib/libroscpp_serialization.so /opt/ros/melodic/lib/libxmlrpcpp.so /opt/ros/melodic/lib/librostime.so /opt/ros/melodic/lib/libcpp_common.so -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lpthread 
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[100%] Built target rpg_quadrotor_integration_test
+/usr/bin/make -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/tests.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/tests.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/tests.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/tests.dir/depend.internal".
+[35m[1mScanning dependencies of target tests[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+make[3]: Nothing to be done for 'CMakeFiles/tests.dir/build'.
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[100%] Built target tests
+/usr/bin/make -f CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/build.make CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/depend.internal".
+[35m[1mScanning dependencies of target _run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/build.make CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results/rpg_quadrotor_integration_test/rostest-launch_rpg_quadrotor_integration_test.xml "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test --package=rpg_quadrotor_integration_test --results-filename launch_rpg_quadrotor_integration_test.xml --results-base-dir \"/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results\" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/launch/rpg_quadrotor_integration_test.launch "
+-- run_tests.py: execute commands
+  /usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test --package=rpg_quadrotor_integration_test --results-filename launch_rpg_quadrotor_integration_test.xml --results-base-dir "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/launch/rpg_quadrotor_integration_test.launch 
+... logging to /home/xslin/.ros/log/rostest-Ainio-7184.log
+[93mredefining global property: pi[0m
+when processing file: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_description/urdf/component_snippets.xacro
+included from: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_description/urdf/hummingbird_base.xacro
+included from: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_description/urdf/mav_generic_odometry_sensor.gazebo
+[ROSUNIT] Outputting test results to /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results/rpg_quadrotor_integration_test/rostest-launch_rpg_quadrotor_integration_test.xml
+[0m[ INFO] [1613272896.302173812]: [/hummingbird/autopilot] state_predictor/integration_step_size = 0.001[0m
+[0m[ INFO] [1613272896.303474663]: [/hummingbird/autopilot] state_predictor/maximum_prediction_horizon = 0.1[0m
+[0m[ INFO] [1613272896.303908764]: [/hummingbird/autopilot] state_predictor/tau_thrust_up_dynamics = 0.03[0m
+[0m[ INFO] [1613272896.304320835]: [/hummingbird/autopilot] state_predictor/tau_thrust_down_dynamics = 0.03[0m
+[0m[ INFO] [1613272896.304818965]: [/hummingbird/autopilot] state_predictor/tau_angle_rate_dynamics = 0.04[0m
+[0m[ INFO] [1613272896.305621626]: [/hummingbird/autopilot] state_estimate_timeout = 0.1[0m
+[0m[ INFO] [1613272896.306128114]: [/hummingbird/autopilot] velocity_estimate_in_world_frame = 0[0m
+[0m[ INFO] [1613272896.306570423]: [/hummingbird/autopilot] control_command_delay = 0.05[0m
+[0m[ INFO] [1613272896.306998760]: [/hummingbird/autopilot] start_land_velocity = 0.5[0m
+[0m[ INFO] [1613272896.307413045]: [/hummingbird/autopilot] start_land_acceleration = 1[0m
+[0m[ INFO] [1613272896.307870323]: [/hummingbird/autopilot] start_idle_duration = 2[0m
+[0m[ INFO] [1613272896.308334443]: [/hummingbird/autopilot] idle_thrust = 2[0m
+[0m[ INFO] [1613272896.308765296]: [/hummingbird/autopilot] optitrack_start_height = 1[0m
+[0m[ INFO] [1613272896.309163088]: [/hummingbird/autopilot] optitrack_start_land_timeout = 5[0m
+[0m[ INFO] [1613272896.309911370]: [/hummingbird/autopilot] optitrack_land_drop_height = 0.3[0m
+[0m[ INFO] [1613272896.310338574]: [/hummingbird/autopilot] propeller_ramp_down_timeout = 1.5[0m
+[0m[ INFO] [1613272896.310661053]: [/hummingbird/autopilot] breaking_velocity_threshold = 0.2[0m
+[0m[ INFO] [1613272896.311006256]: [/hummingbird/autopilot] breaking_timeout = 0.5[0m
+[0m[ INFO] [1613272896.311275313]: [/hummingbird/autopilot] go_to_pose_max_velocity = 1.5[0m
+[0m[ INFO] [1613272896.311824577]: [/hummingbird/autopilot] go_to_pose_max_normalized_thrust = 12[0m
+[0m[ INFO] [1613272896.312101660]: [/hummingbird/autopilot] go_to_pose_max_roll_pitch_rate = 0.5[0m
+[0m[ INFO] [1613272896.312354167]: [/hummingbird/autopilot] velocity_command_input_timeout = 0.1[0m
+[0m[ INFO] [1613272896.312655948]: [/hummingbird/autopilot] tau_velocity_command = 0.8[0m
+[0m[ INFO] [1613272896.313371033]: [/hummingbird/autopilot] reference_state_input_timeout = 0.1[0m
+[0m[ INFO] [1613272896.313897726]: [/hummingbird/autopilot] emergency_land_duration = 4[0m
+[0m[ INFO] [1613272896.314280690]: [/hummingbird/autopilot] emergency_land_thrust = 9[0m
+[0m[ INFO] [1613272896.314735154]: [/hummingbird/autopilot] control_command_input_timeout = 0.1[0m
+[0m[ INFO] [1613272896.315244256]: [/hummingbird/autopilot] enable_command_feedthrough = 1[0m
+[0m[ INFO] [1613272896.315742805]: [/hummingbird/autopilot] predictive_control_lookahead = 2[0m
+[0m[ INFO] [1613272896.316227139]: [/hummingbird/autopilot] position_controller/use_rate_mode = 1[0m
+[0m[ INFO] [1613272896.316760522]: [/hummingbird/autopilot] position_controller/kpxy = 10[0m
+[0m[ INFO] [1613272896.317204608]: [/hummingbird/autopilot] position_controller/kdxy = 4[0m
+[0m[ INFO] [1613272896.317665289]: [/hummingbird/autopilot] position_controller/kpz = 15[0m
+[0m[ INFO] [1613272896.318171404]: [/hummingbird/autopilot] position_controller/kdz = 6[0m
+[0m[ INFO] [1613272896.318413624]: [/hummingbird/autopilot] position_controller/krp = 12[0m
+[0m[ INFO] [1613272896.318744099]: [/hummingbird/autopilot] position_controller/kyaw = 5[0m
+[0m[ INFO] [1613272896.319101866]: [/hummingbird/autopilot] position_controller/pxy_error_max = 0.6[0m
+[0m[ INFO] [1613272896.319647476]: [/hummingbird/autopilot] position_controller/vxy_error_max = 1[0m
+[0m[ INFO] [1613272896.320051022]: [/hummingbird/autopilot] position_controller/pz_error_max = 0.3[0m
+[0m[ INFO] [1613272896.320361779]: [/hummingbird/autopilot] position_controller/vz_error_max = 0.75[0m
+[0m[ INFO] [1613272896.320850304]: [/hummingbird/autopilot] position_controller/yaw_error_max = 0.7[0m
+[0m[ INFO] [1613272896.321289948]: [/hummingbird/autopilot] position_controller/perform_aerodynamics_compensation = 0[0m
+[0m[ INFO] [1613272896.322226598]: [/hummingbird/autopilot] position_controller/k_drag_x = 0[0m
+[0m[ INFO] [1613272896.322525877]: [/hummingbird/autopilot] position_controller/k_drag_y = 0[0m
+[0m[ INFO] [1613272896.322995300]: [/hummingbird/autopilot] position_controller/k_drag_z = 0[0m
+[0m[ INFO] [1613272896.323476124]: [/hummingbird/autopilot] position_controller/k_thrust_horz = 0[0m
+[31m[ERROR] [1613272896.330233179]: Couldn't open joystick /dev/input/js0. Will retry every second.[0m
+[0m[ INFO] [1613272896.356158608]: [/hummingbird/manual_flight_assistant] joypad_timeout = 0.5[0m
+[0m[ INFO] [1613272896.357705323]: [/hummingbird/manual_flight_assistant] sbus_timeout = 0.5[0m
+[0m[ INFO] [1613272896.358052853]: [/hummingbird/manual_flight_assistant] joypad_axes_zero_tolerance = 0.05[0m
+[0m[ INFO] [1613272896.358390851]: [/hummingbird/manual_flight_assistant] sbus_axes_zero_tolerance = 10[0m
+[0m[ INFO] [1613272896.358731448]: [/hummingbird/manual_flight_assistant] vmax_xy = 1.5[0m
+[0m[ INFO] [1613272896.359056914]: [/hummingbird/manual_flight_assistant] vmax_z = 0.7[0m
+[0m[ INFO] [1613272896.359322765]: [/hummingbird/manual_flight_assistant] rmax_yaw = 1.5[0m
+[0m[ INFO] [1613272896.697261975]: Finished loading Gazebo ROS API Plugin.[0m
+[0m[ INFO] [1613272896.699785010]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...[0m
+[0m[ INFO] [1613272896.701461083]: Finished loading Gazebo ROS API Plugin.[0m
+[0m[ INFO] [1613272896.702591661]: waitForService: Service [/gazebo_gui/set_physics_properties] has not been advertised, waiting...[0m
+[INFO] [1613272897.198129, 0.000000]: Loading model XML from ros parameter robot_description
+[INFO] [1613272897.204476, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[0m[ INFO] [1613272897.316847867]: waitForService: Service [/gazebo/set_physics_properties] is now available.[0m
+[0m[ INFO] [1613272897.338390055]: Physics dynamic reconfigure ready.[0m
+[INFO] [1613272897.508730, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1613272897.646876, 0.000000]: Spawn status: SpawnModel: Successfully spawned entity
+[0m[ INFO] [1613272900.880672921, 3.030000000]: [/hummingbird/autopilot] START command received[0m
+[0m[ INFO] [1613272900.880762184, 3.030000000]: [/hummingbird/autopilot] Absolute state estimate available, taking off based on it[0m
+[0m[ INFO] [1613272900.880812233, 3.030000000]: [/hummingbird/autopilot] Switched to START state[0m
+[0m[ INFO] [1613272900.923954890, 3.070000000]: [/hummingbird/autopilot] OFF command received[0m
+[0m[ INFO] [1613272900.924036773, 3.070000000]: [/hummingbird/autopilot] Switched to OFF state[0m
+[0m[ INFO] [1613272900.962507155, 3.110000000]: [/hummingbird/autopilot] Absolute state estimate available, taking off based on it[0m
+[0m[ INFO] [1613272900.962577602, 3.110000000]: [/hummingbird/autopilot] Switched to START state[0m
+[0m[ INFO] [1613272905.024148202, 7.010000000]: [/hummingbird/autopilot] Switched to BREAKING state[0m
+[0m[ INFO] [1613272905.483505623, 7.470000000]: [/hummingbird/autopilot] Switched to HOVER state[0m
+[0m[ INFO] [1613272905.505626505, 7.490000000]: [/hummingbird/autopilot] Switched to VELOCITY_CONTROL state[0m
+[0m[ INFO] [1613272910.693134127, 12.580000000]: [/hummingbird/autopilot] Switched to BREAKING state[0m
+[0m[ INFO] [1613272910.703360670, 12.590000000]: [/hummingbird/autopilot] Switched to HOVER state[0m
+[0m[ INFO] [1613272910.743607762, 12.630000000]: [/hummingbird/autopilot] Switched to GO_TO_POSE state[0m
+[0m[ INFO] [1613272910.798373412, 12.680000000]: [/hummingbird/autopilot] Switched to TRAJECTORY_CONTROL state[0m
+[0m[ INFO] [1613272915.420907713, 17.250000000]: [/hummingbird/autopilot] Switched to HOVER state[0m
+[0m[ INFO] [1613272915.503531847, 17.330000000]: [/hummingbird/autopilot] Switched to REFERENCE_CONTROL state[0m
+[0m[ INFO] [1613272918.918208886, 20.740000000]: [/hummingbird/autopilot] Switched to BREAKING state[0m
+[0m[ INFO] [1613272918.927766036, 20.750000000]: [/hummingbird/autopilot] Switched to HOVER state[0m
+[0m[ INFO] [1613272919.120377776, 20.940000000]: [/hummingbird/autopilot] Switched to TRAJECTORY_CONTROL state[0m
+[0m[ INFO] [1613272928.103926913, 29.840000000]: [/hummingbird/autopilot] FORCE HOVER command received[0m
+[0m[ INFO] [1613272928.104258479, 29.840000000]: [/hummingbird/autopilot] Switched to BREAKING state[0m
+[0m[ INFO] [1613272928.613789424, 30.350000000]: [/hummingbird/autopilot] Switched to HOVER state[0m
+[0m[ INFO] [1613272928.664861868, 30.400000000]: [/hummingbird/autopilot] LAND command received[0m
+[0m[ INFO] [1613272928.664949615, 30.400000000]: [/hummingbird/autopilot] Switched to BREAKING state[0m
+[0m[ INFO] [1613272929.174626933, 30.910000000]: [/hummingbird/autopilot] Switched to LAND state[0m
+[0m[ INFO] [1613272930.445740324, 32.180000000]: [/hummingbird/autopilot] Ramping propeller down[0m
+[0m[ INFO] [1613272930.781815844, 32.510000000]: [/hummingbird/autopilot] Switched to OFF state[0m
+[0m[ INFO] [1613272930.991286057, 32.720000000]: [/hummingbird/autopilot] Switched to COMMAND_FEEDTHROUGH state[0m
+[0m[ INFO] [1613272931.511567902, 33.240000000]: [/hummingbird/autopilot] OFF command received[0m
+[0m[ INFO] [1613272931.511661512, 33.240000000]: [/hummingbird/autopilot] Switched to OFF state[0m
+[Testcase: testrpg_quadrotor_integration_test] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[rpg_quadrotor_integration_test.rosunit-rpg_quadrotor_integration_test/AutopilotFunctionality][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 1
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/xslin/.ros/log/rostest-Ainio-7184.log
+-- run_tests.py: verify result "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/test_results/rpg_quadrotor_integration_test/rostest-launch_rpg_quadrotor_integration_test.xml"
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[100%] Built target _run_tests_rpg_quadrotor_integration_test_rostest_launch_rpg_quadrotor_integration_test.launch
+/usr/bin/make -f CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/build.make CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/depend.internal".
+[35m[1mScanning dependencies of target _run_tests_rpg_quadrotor_integration_test_rostest[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/build.make CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+make[3]: Nothing to be done for 'CMakeFiles/_run_tests_rpg_quadrotor_integration_test_rostest.dir/build'.
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[100%] Built target _run_tests_rpg_quadrotor_integration_test_rostest
+/usr/bin/make -f CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/build.make CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/depend.internal".
+[35m[1mScanning dependencies of target _run_tests_rpg_quadrotor_integration_test[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/build.make CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+make[3]: Nothing to be done for 'CMakeFiles/_run_tests_rpg_quadrotor_integration_test.dir/build'.
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[100%] Built target _run_tests_rpg_quadrotor_integration_test
+/usr/bin/make -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/run_tests.dir/DependInfo.cmake --color=
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/run_tests.dir/DependInfo.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/run_tests.dir/depend.internal".
+Dependee "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/run_tests.dir/depend.internal".
+[35m[1mScanning dependencies of target run_tests[0m
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/make -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+make[3]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+make[3]: Nothing to be done for 'CMakeFiles/run_tests.dir/build'.
+make[3]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+[100%] Built target run_tests
+make[2]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'
+/usr/bin/cmake -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles 0
+make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test'

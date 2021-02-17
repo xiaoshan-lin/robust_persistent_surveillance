@@ -1,0 +1,8 @@
+prefix=/home/xslin/Documents/xslin/research/rpg_ws/install
+
+Name: quad_launch_files
+Description: Description of quad_launch_files
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
