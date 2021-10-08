@@ -1,0 +1,5 @@
+#request
+float32[] data
+---
+#response
+bool flag

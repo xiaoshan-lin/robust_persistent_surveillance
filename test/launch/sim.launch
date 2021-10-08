@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="mav_name" default="hummingbird"/>
+  <arg name="robot_namespace" default="husky"/>
+  <arg name="world_name" default="basic"/>
+  <arg name="enable_logging" default="false" />
+  <arg name="enable_ground_truth" default="true" />
+  <arg name="log_file" default="$(arg mav_name)" />
+  <arg name="laser_enabled" default="true"/>
+  <arg name="realsense_enabled" default="false"/>
+  <arg name="start_idx" default="-1"/>
+
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find rotors_gazebo)/models"/>
+  <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find rotors_gazebo)/models"/>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find test)/worlds/basic.world" />
+    <!-- <arg name="debug" value="true"/> -->
+    <arg name="paused" value="true"/>
+    <!-- <arg name="gui" value="false"/> -->
+  </include>
+
+  <rosparam command="load" file="$(find test)/config/UAV_UGV.yaml" />
+  <node name="age_server_node" pkg="test" type="age_server.py" output="screen"/>
+
+  <!-- launch 1st UAV-UGV team-->
+  <include file="$(find test)/launch/spawn_UAV_UGV_team.launch">
+    <arg name="ugv_idx" value="0"/> 
+    <!-- ugv_idx: index of the UGV 
+         e.g. 0,1,2,3... --> 
+    <arg name="UGV_name" value="0"/>
+    <!-- UGV_name: type of the UGV 
+         e.g. 0 - husky
+              1 - turtlebot --> 
+    <arg name="mav_name" value="$(arg mav_name)"/>
+    <arg name="enable_logging" value="$(arg enable_logging)" />
+    <arg name="enable_ground_truth" value="$(arg enable_ground_truth)" />
+    <arg name="log_file" value="$(arg log_file)" />
+    <arg name="laser_enabled" value="$(arg laser_enabled)"/>
+    <arg name="realsense_enabled" value="$(arg realsense_enabled)"/>
+    <arg name="robot_namespace" value="$(arg robot_namespace)0"/>
+    <!-- UGV initial pose-->
+    <arg name="UGV_x" value="2.5"/> 
+    <arg name="UGV_y" value="5.5"/>
+    <arg name="UGV_z" value="0.0"/>
+    <arg name="UGV_yaw" value="0.0"/>
+    <!-- UAV global index-->
+    <arg name="uav0" value="0"/>
+    <arg name="uav1" value="1"/>
+    <arg name="uav2" value="2"/>
+    <arg name="uav3" value="3"/>
+
+    <!-- if set to i, in gazebo the UGV will start monitoring the i+1 partition-->
+    <arg name="start_idx" value="-1"/>   
+  </include>
+
+  <!-- launch 2nd UAV-UGV team-->
+  <!--include file="$(find test)/launch/spawn_UAV_UGV_team.launch">
+    <arg name="ugv_idx" value="1"/> 
+    <arg name="UGV_name" value="0"/>
+    <arg name="mav_name" value="$(arg mav_name)"/>
+    <arg name="enable_logging" value="$(arg enable_logging)" />
+    <arg name="enable_ground_truth" value="$(arg enable_ground_truth)" />
+    <arg name="log_file" value="$(arg log_file)" />
+    <arg name="laser_enabled" value="$(arg laser_enabled)"/>
+    <arg name="realsense_enabled" value="$(arg realsense_enabled)"/>
+    <arg name="robot_namespace" value="$(arg robot_namespace)1"/>
+
+    <arg name="UGV_x" value="2.5"/> 
+    <arg name="UGV_y" value="2.5"/>
+    <arg name="UGV_z" value="0.0"/>
+    <arg name="UGV_yaw" value="0.0"/>
+
+    <arg name="uav0" value="4"/>
+    <arg name="uav1" value="5"/>
+    <arg name="uav2" value="6"/>
+    <arg name="uav3" value="7"/>
+
+    <arg name="start_idx" value="-1"/>   
+  </include-->
+
+ 
+</launch>
