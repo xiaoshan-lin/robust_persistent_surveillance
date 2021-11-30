@@ -92,6 +92,7 @@ CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/ros/
 CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/std_msgs/Bool.h
 CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/std_msgs/Empty.h
 CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/std_msgs/Header.h
 CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h

@@ -1,0 +1,285 @@
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:30:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   bool [01;31m[Kis_stop[m[K
+        [01;31m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:43:45:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+   void cmd2UAV_sub_callback(const std_msgs::[01;31m[KInt8[m[K::ConstPtr& msg);
+                                             [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:43:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   void cmd2UAV_sub_callback(const std_msgs::Int8::ConstPtr[01;31m[K&[m[K msg);
+                                                           [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:43:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:43:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:43:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   void cmd2UAV_sub_callback(const std_msgs::Int8::ConstPtr& [01;31m[Kmsg[m[K);
+                                                             [01;31m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:45:46:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+   void UAVstate_sub_callback(const std_msgs::[01;31m[KBool[m[K::ConstPtr& msg);
+                                              [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:45:60:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   void UAVstate_sub_callback(const std_msgs::Bool::ConstPtr[01;31m[K&[m[K msg);
+                                                            [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:45:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:45:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   void UAVstate_sub_callback(const std_msgs::Bool::ConstPtr& [01;31m[Kmsg[m[K);
+                                                              [01;31m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:48:40:[m[K [01;31m[Kerror: [m[K‘[01m[KPointStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+                   const geometry_msgs::[01;31m[KPointStamped[m[K::ConstPtr& msg);
+                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:48:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+                   const geometry_msgs::PointStamped::ConstPtr[01;31m[K&[m[K msg);
+                                                              [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:48:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:47:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krotors_gazebo::UAV_CONTROL_CENTER::[m[K’ on member ‘[01m[KUAVpos_sub_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+   void [01;31m[KUAV_CONTROL_CENTER[m[K::UAVpos_sub_callback(
+        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:48:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+                   const geometry_msgs::PointStamped::ConstPtr[01;31m[K&[m[K msg);
+                                                              [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:48:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+                   const geometry_msgs::PointStamped::ConstPtr& [01;31m[Kmsg[m[K);
+                                                                [01;31m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In constructor ‘[01m[Krotors_gazebo::UAV_CONTROL_CENTER::UAV_CONTROL_CENTER(const ros::NodeHandle&, const ros::NodeHandle&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:32:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<trajectory_msgs::MultiDOFJointTrajectory>(const char [19], int) const[m[K’
+       mav_msgs::default_topics::COMMAND_TRAJECTORY, 10[01;31m[K)[m[K;
+                                                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = trajectory_msgs::MultiDOFJointTrajectory_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int] <near match>
+     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst ros::NodeHandle*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:32:55:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 2 provided
+       mav_msgs::default_topics::COMMAND_TRAJECTORY, 10[01;36m[K)[m[K;
+                                                       [01;36m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:34:57:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+     ros::Publisher cmd2UGV_pub = nh.advertise<std_msgs::[01;31m[KBool[m[K>(
+                                                         [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:34:57:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:35:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [8], int) const[m[K’
+       "cmd2UGV", 10[01;31m[K)[m[K;
+                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:35:20:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+       "cmd2UGV", 10[01;31m[K)[m[K;
+                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:35:20:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+       "cmd2UGV", 10[01;31m[K)[m[K;
+                    [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:38:36:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+             nh.advertise<std_msgs::[01;31m[KBool[m[K>(mav_msgs::default_topics::TURNOFFMOTOR, 1);
+                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:38:36:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:38:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [13], int) const[m[K’
+             nh.advertise<std_msgs::Bool>(mav_msgs::default_topics::TURNOFFMOTOR, 1[01;31m[K)[m[K;
+                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:38:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+             nh.advertise<std_msgs::Bool>(mav_msgs::default_topics::TURNOFFMOTOR, 1[01;31m[K)[m[K;
+                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:38:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+             nh.advertise<std_msgs::Bool>(mav_msgs::default_topics::TURNOFFMOTOR, 1[01;31m[K)[m[K;
+                                                                                   [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:41:67:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::UAVstate_sub_callback(...) &[m[K’
+                     UAV_CONTROL_CENTER::UAVstate_sub_callback,this[01;31m[K)[m[K;
+                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:45:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KUAVstate_sub_callback[m[K(const std_msgs::Bool::ConstPtr& msg);
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:44:66:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::cmd2UAV_sub_callback(...) &[m[K’
+                     UAV_CONTROL_CENTER::cmd2UAV_sub_callback,this[01;31m[K)[m[K;
+                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:43:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[Kcmd2UAV_sub_callback[m[K(const std_msgs::Int8::ConstPtr& msg);
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:47:66:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::UAVpos_sub_callback(...) &[m[K’
+                     UAV_CONTROL_CENTER::UAVpos_sub_callback, this[01;31m[K)[m[K;
+                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:47:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KUAV_CONTROL_CENTER[m[K::UAVpos_sub_callback(
+        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::uav_trajectory_publisher(double, double, double, double)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:66:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+   [01;31m[Kdouble[m[K desired_yaw = yaw  * DEG_2_RAD;
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:69:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_yaw[m[K’ was not declared in this scope
+       [01;31m[Kdesired_yaw[m[K, &trajectory_msg);
+       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h:32[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:76:12:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+            [01;31m[Kn[m[Kh.getNamespace().c_str(),
+            [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:75:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   [01;36m[KR[m[KOS_INFO("Publishing waypoint on namespace %s: [%f, %f, %f].",
+   [01;36m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:76:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knh_[m[K’
+            [01;36m[Kn[m[Kh.getNamespace().c_str(),
+            [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:75:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   [01;36m[KR[m[KOS_INFO("Publishing waypoint on namespace %s: [%f, %f, %f].",
+   [01;36m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K At global scope:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:84:63:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+ void UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const std_msgs::[01;31m[KInt8[m[K::ConstPtr& msg){
+                                                               [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:84:77:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const std_msgs::Int8::ConstPtr[01;31m[K&[m[K msg){
+                                                                             [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:84:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:84:79:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const std_msgs::Int8::ConstPtr& [01;31m[Kmsg[m[K){
+                                                                               [01;31m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:88:64:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+ void UAV_CONTROL_CENTER::UAVstate_sub_callback(const std_msgs::[01;31m[KBool[m[K::ConstPtr& msg){
+                                                                [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:88:78:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void UAV_CONTROL_CENTER::UAVstate_sub_callback(const std_msgs::Bool::ConstPtr[01;31m[K&[m[K msg){
+                                                                              [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:88:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:88:80:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void UAV_CONTROL_CENTER::UAVstate_sub_callback(const std_msgs::Bool::ConstPtr& [01;31m[Kmsg[m[K){
+                                                                                [01;31m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:93:30:[m[K [01;31m[Kerror: [m[K‘[01m[KPointStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+         const geometry_msgs::[01;31m[KPointStamped[m[K::ConstPtr& msg){
+                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:93:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+         const geometry_msgs::PointStamped::ConstPtr[01;31m[K&[m[K msg){
+                                                    [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:93:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:93:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+         const geometry_msgs::PointStamped::ConstPtr& [01;31m[Kmsg[m[K){
+                                                      [01;31m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:105:3:[m[K [01;31m[Kerror: [m[K‘[01m[KUAV_CONTROL_CENTER[m[K’ was not declared in this scope
+   [01;31m[KUAV_CONTROL_CENTER[m[K uav_control_center(nh, private_nh);
+   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:105:3:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:16:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Krotors_gazebo::UAV_CONTROL_CENTER[m[K’
+ class [01;36m[KUAV_CONTROL_CENTER[m[K {
+       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   std_msgs::[01;31m[KBool[m[K motormsg;
+             [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   std_msgs::[01;31m[KBool[m[K 2UGVmsg;
+             [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:131:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kuav_control_center[m[K’ was not declared in this scope
+   if ([01;31m[Kuav_control_center[m[K.target_index != -1){
+       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:133:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotormsg[m[K’ was not declared in this scope
+      [01;31m[Kmotormsg[m[K.data = false;
+      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:134:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kturnoffmotor_pub[m[K’ was not declared in this scope
+      [01;31m[Kturnoffmotor_pub[m[K.publish(motormsg);
+      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:137:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kc_pt[m[K’ was not declared in this scope
+      [01;31m[Kc_pt[m[K = uav_control_center.pt;
+      [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:137:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcrypt[m[K’
+      [01;36m[Kc_pt[m[K = uav_control_center.pt;
+      [01;36m[K^~~~[m[K
+      [32m[Kcrypt[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:138:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvtr_begin[m[K’ was not declared in this scope
+      [01;31m[Kvtr_begin[m[K =  waypoints.begin();
+      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:139:6:[m[K [01;31m[Kerror: [m[K‘[01m[Khover_p[m[K’ was not declared in this scope
+      [01;31m[Khover_p[m[K = waypoints;
+      [01;31m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:140:6:[m[K [01;31m[Kerror: [m[K‘[01m[Khover_yaw_1[m[K’ was not declared in this scope
+      [01;31m[Khover_yaw_1[m[K = waypoints[0].yaw;
+      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:141:6:[m[K [01;31m[Kerror: [m[K‘[01m[Khover_yaw_2[m[K’ was not declared in this scope
+      [01;31m[Khover_yaw_2[m[K = waypoints[waypoints.size()-1].yaw;
+      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:154:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+         [01;31m[K}[m[K
+         [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:163:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+         [01;31m[K}[m[K
+         [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:167:6:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""UGVmsg.data[m[K’
+      [01;31m[K2UGVmsg.data[m[K = true;
+      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:167:6:[m[K [01;36m[Knote: [m[Kuse -std=gnu++11 or -fext-numeric-literals to enable more built-in suffixes
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:169:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd2UGV_pub[m[K’ was not declared in this scope
+      [01;31m[Kcmd2UGV_pub[m[K.publish(2UGVmsg);
+      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:169:26:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""UGVmsg[m[K’
+      cmd2UGV_pub.publish([01;31m[K2UGVmsg[m[K);
+                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:169:26:[m[K [01;36m[Knote: [m[Kuse -std=gnu++11 or -fext-numeric-literals to enable more built-in suffixes
+make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
+make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
+make: *** [all] Error 2

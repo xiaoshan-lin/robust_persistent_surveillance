@@ -1,0 +1,21 @@
+UAV:
+ average_velocity: 0.4
+ height: 4
+ number: 4
+ footprint: 1
+ energy: 100
+ beta: 1
+ controller_sample_rate: 100
+ 
+UGV:
+ max_vel: 0.2
+
+environment:
+ x_dim: 10
+ y_dim: 10
+ robust: 0
+ 
+ 
+ 
+ 
+

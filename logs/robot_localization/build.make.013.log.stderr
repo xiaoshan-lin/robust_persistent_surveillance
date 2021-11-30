@@ -1,0 +1,145 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter_utilities.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter.h:36[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:33[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:[m[K In constructor ‘[01m[KRobotLocalization::RosFilter<T>::RosFilter(ros::NodeHandle, ros::NodeHandle, std::__cxx11::string, std::vector<double>)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kdo[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kdo[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:[m[K At global scope:
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:389:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   } [01;31m[Kw[m[Khile(false)
+     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:389:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   } [01;36m[Kwhile[m[K(false)
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:61:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+       disabledAtStartup_[01;31m[K([m[Kfalse),
+                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter_utilities.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter.h:36[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:33[m[K:
+/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp: In instantiation of ‘[01m[KRobotLocalization::RosFilter<T>::RosFilter(ros::NodeHandle, ros::NodeHandle, std::__cxx11::string, std::vector<double>) [with T = RobotLocalization::Ekf; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:3258:35:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter.h:53:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, const ros::NodeHandle&, bool)
+   [01;36m[KTransformListener[m[K(tf2::BufferCore& buffer, const ros::NodeHandle& nh, bool spin_thread = true);
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)
+   [01;36m[KTransformListener[m[K(tf2::BufferCore& buffer, bool spin_thread = true);
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter_utilities.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter.h:36[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:33[m[K:
+/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp: In instantiation of ‘[01m[KRobotLocalization::RosFilter<T>::RosFilter(ros::NodeHandle, ros::NodeHandle, std::__cxx11::string, std::vector<double>) [with T = RobotLocalization::Ukf; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:3259:35:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotLocalization::Ukf::Ukf()[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:36:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ukf.h:69:14:[m[K [01;36m[Knote: [m[Kcandidate: RobotLocalization::Ukf::Ukf(std::vector<double>)
+     explicit [01;36m[KUkf[m[K(std::vector<double> args);
+              [01;36m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ukf.h:69:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ukf.h:60:7:[m[K [01;36m[Knote: [m[Kcandidate: RobotLocalization::Ukf::Ukf(const RobotLocalization::Ukf&)
+ class [01;36m[KUkf[m[K: public FilterBase
+       [01;36m[K^~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ukf.h:60:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_ros/buffer.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter_utilities.h:38[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter.h:36[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:60:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KR[m[KOS_INFO("HHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+       [01;36m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/include/robot_localization/ros_filter.h:53:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, const ros::NodeHandle&, bool)
+   [01;36m[KTransformListener[m[K(tf2::BufferCore& buffer, const ros::NodeHandle& nh, bool spin_thread = true);
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)
+   [01;36m[KTransformListener[m[K(tf2::BufferCore& buffer, bool spin_thread = true);
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+make[2]: *** [CMakeFiles/ros_filter.dir/src/ros_filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_filter.dir/all] Error 2
+make: *** [all] Error 2

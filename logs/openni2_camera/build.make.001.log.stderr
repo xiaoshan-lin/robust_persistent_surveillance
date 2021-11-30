@@ -1,0 +1,386 @@
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:38:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:51:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ OpenNI2Device::OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception) :
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:418:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:438:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:445:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ const OpenNI2VideoMode OpenNI2Device::getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:463:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ const OpenNI2VideoMode OpenNI2Device::getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:481:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ const OpenNI2VideoMode OpenNI2Device::getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:499:72:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:512:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:525:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:538:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:554:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:571:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void OpenNI2Device::setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:662:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ boost::shared_ptr<openni::VideoStream> OpenNI2Device::getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:678:83:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ boost::shared_ptr<openni::VideoStream> OpenNI2Device::getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device.cpp:694:83:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ boost::shared_ptr<openni::VideoStream> OpenNI2Device::getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception)
+                                                                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_frame_listener.h:35:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_frame_listener.cpp:33[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_device_manager.cpp:34:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_driver.h:52:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_driver.cpp:32[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_driver.cpp:32:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_driver.h:84:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   std::string resolveDeviceURI(const std::string& device_id) [01;35m[Kthrow[m[K(OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/src/openni2_driver.cpp:726:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ std::string OpenNI2Driver::resolveDeviceURI(const std::string& device_id) [01;35m[Kthrow[m[K(OpenNI2Exception)
+                                                                           [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/test/test_wrapper.cpp:33:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_driver.h:52:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/ros/openni2_camera_nodelet.cpp:32[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/ros/openni2_camera_nodelet.cpp:32:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_driver.h:84:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   std::string resolveDeviceURI(const std::string& device_id) [01;35m[Kthrow[m[K(OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_driver.h:52:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/ros/openni2_camera_node.cpp:32[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:67:48:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   OpenNI2Device(const std::string& device_URI) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:99:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setImageRegistrationMode(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                               [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:100:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthColorSync(bool enabled) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:102:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getIRVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:103:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getColorVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:104:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   const OpenNI2VideoMode getDepthVideoMode() [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:114:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setIRVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:115:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setColorVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:116:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setDepthVideoMode(const OpenNI2VideoMode& video_mode) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:127:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoExposure(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:128:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setAutoWhiteBalance(bool enable) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:129:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void setExposure(int exposure) [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:140:67:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getIRVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:141:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getColorVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_device.h:142:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   boost::shared_ptr<openni::VideoStream> getDepthVideoStream() const [01;35m[Kthrow[m[K (OpenNI2Exception);
+                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/ros/openni2_camera_node.cpp:32:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/openni2_camera/openni2_camera/include/openni2_camera/openni2_driver.h:84:62:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   std::string resolveDeviceURI(const std::string& device_id) [01;35m[Kthrow[m[K(OpenNI2Exception);
+                                                              [01;35m[K^~~~~[m[K

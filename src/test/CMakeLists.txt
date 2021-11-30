@@ -9,9 +9,13 @@ project(test)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   quadrotor_msgs
+  trajectory_msgs
+  std_msgs
   roscpp
   rospy
+  message_generation
 )
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -47,18 +51,16 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
+add_message_files(
+   FILES
 #   Message2.msg
-# )
+)
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+    FILES
+    age.srv    
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -68,10 +70,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   quadrotor_msgs
-# )
+generate_messages(
+   DEPENDENCIES
+#  quadrotor_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -103,9 +105,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES test
-#  CATKIN_DEPENDS quadrotor_msgs roscpp rospy
+   INCLUDE_DIRS include
+   LIBRARIES ${PROJECT_NAME}
+   CATKIN_DEPENDS message_runtime trajectory_msgs
 #  DEPENDS system_lib
 )
 
@@ -116,9 +118,12 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
+include ${catkin_INCLUDE_DIRS}
 )
+
+add_executable(uav_control_center src/uav_control_center.cpp)
+target_link_libraries(uav_control_center ${catkin_LIBRARIES})
+add_dependencies(uav_control_center ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -149,6 +154,7 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+
 
 #############
 ## Install ##

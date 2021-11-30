@@ -1,0 +1,8 @@
+prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+
+Name: yocs_controllers
+Description: Description of yocs_controllers
+Version: 0.12.1
+Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/yocs_controllers/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

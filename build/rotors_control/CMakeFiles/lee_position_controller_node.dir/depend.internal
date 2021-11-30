@@ -88,6 +88,7 @@ CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_no
  /opt/ros/melodic/include/ros/wall_timer.h
  /opt/ros/melodic/include/ros/wall_timer_options.h
  /opt/ros/melodic/include/rosconsole/macros_generated.h
+ /opt/ros/melodic/include/std_msgs/Bool.h
  /opt/ros/melodic/include/std_msgs/Header.h
  /opt/ros/melodic/include/trajectory_msgs/MultiDOFJointTrajectory.h
  /opt/ros/melodic/include/trajectory_msgs/MultiDOFJointTrajectoryPoint.h

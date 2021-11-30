@@ -1,0 +1,53 @@
+/opt/ros/melodic/share/genmsg/cmake/pkg-genmsg.cmake.em:56: error: <class 'genmsg.base.InvalidMsgSpec'>: Invalid declaration: timelist.msg
+Traceback (most recent call last):
+  File "/usr/bin/empy", line 3302, in <module>
+    if __name__ == '__main__': main()
+  File "/usr/bin/empy", line 3300, in main
+    invoke(sys.argv[1:])
+  File "/usr/bin/empy", line 3283, in invoke
+    interpreter.wrap(interpreter.file, (file, name))
+  File "/usr/bin/empy", line 2295, in wrap
+    self.fail(e)
+  File "/usr/bin/empy", line 2284, in wrap
+    callable(*args)
+  File "/usr/bin/empy", line 2359, in file
+    self.safe(scanner, done, locals)
+  File "/usr/bin/empy", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/bin/empy", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/bin/empy", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/bin/empy", line 2595, in execute
+    _exec(statements, self.globals, locals)
+  File "/usr/bin/empy", line 42, in _exec
+    exec("""exec code in globals""")
+  File "<string>", line 1, in <module>
+  File "<string>", line 48, in <module>
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/deps.py", line 70, in find_srv_dependencies_with_type
+    spec = genmsg.msg_loader.load_srv_from_file(msg_context, msg_file, full_type_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 485, in load_srv_from_file
+    spec = load_srv_from_string(msg_context, text, full_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 469, in load_srv_from_string
+    msg_in = load_msg_from_string(msg_context, text_in.getvalue(), '%sRequest'%(full_name))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 266, in load_msg_from_string
+    field_type, name = _load_field_line(orig_line, package_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 225, in _load_field_line
+    raise InvalidMsgSpec("Invalid declaration: %s"%(orig_line))
+genmsg.base.InvalidMsgSpec: Invalid declaration: timelist.msg
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+
+  execute_process(/home/xslin/Documents/xslin/research/rpg_ws/build/test/catkin_generated/env_cached.sh
+  "/usr/bin/python2" "/usr/bin/empy" "--raw-errors" "-F"
+  "/home/xslin/Documents/xslin/research/rpg_ws/build/test/cmake/test-genmsg-context.py"
+  "-o"
+  "/home/xslin/Documents/xslin/research/rpg_ws/build/test/cmake/test-genmsg.cmake"
+  "/opt/ros/melodic/share/genmsg/cmake/pkg-genmsg.cmake.em") returned error
+  code 1
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/em_expand.cmake:25 (safe_execute_process)
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:303 (em_expand)
+  CMakeLists.txt:76 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

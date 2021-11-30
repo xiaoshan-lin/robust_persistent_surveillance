@@ -1,0 +1,46 @@
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:40:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   const float [01;31m[KDEG_2_RAD[m[K
+               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In constructor ‘[01m[Krotors_gazebo::UAV_CONTROL_CENTER::UAV_CONTROL_CENTER(const ros::NodeHandle&, const ros::NodeHandle&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:25:1:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst float[m[K’ [[01;31m[K-fpermissive[m[K]
+ [01;31m[KUAV_CONTROL_CENTER[m[K::UAV_CONTROL_CENTER(
+ [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:40:15:[m[K [01;36m[Knote: [m[K‘[01m[Kconst float rotors_gazebo::UAV_CONTROL_CENTER::DEG_2_RAD[m[K’ should be initialized
+   const float [01;36m[KDEG_2_RAD[m[K
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:41:67:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::UAVstate_sub_callback(const ConstPtr&)[m[K’
+                     UAV_CONTROL_CENTER::UAVstate_sub_callback,this[01;31m[K)[m[K;
+                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:56:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KUAVstate_sub_callback[m[K(const std_msgs::Bool::ConstPtr& msg);
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:44:66:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const ConstPtr&)[m[K’
+                     UAV_CONTROL_CENTER::cmd2UAV_sub_callback,this[01;31m[K)[m[K;
+                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:54:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[Kcmd2UAV_sub_callback[m[K(const std_msgs::Int8::ConstPtr& msg);
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:47:66:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::UAVpos_sub_callback(const ConstPtr&)[m[K’
+                     UAV_CONTROL_CENTER::UAVpos_sub_callback, this[01;31m[K)[m[K;
+                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:58:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   void [01;36m[KUAVpos_sub_callback[m[K(
+        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:51:24:[m[K [01;31m[Kerror: [m[Kassignment of read-only member ‘[01m[Krotors_gazebo::UAV_CONTROL_CENTER::DEG_2_RAD[m[K’
+     DEG_2_RAD = M_PI / [01;31m[K180.0[m[K
+                        [01;31m[K^~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:52:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     [01;31m[K}[m[K
+     [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:146:73:[m[K [01;31m[Kerror: [m[K‘[01m[KDEG_2_RAD[m[K’ was not declared in this scope
+                      waypointstruct(c_pt.x,c_pt.y,height, hover_yaw_1 * [01;31m[KDEG_2_RAD[m[K));
+                                                                         [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
+make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
+make: *** [all] Error 2

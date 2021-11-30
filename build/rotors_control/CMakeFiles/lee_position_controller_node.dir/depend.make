@@ -87,6 +87,7 @@ CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_no
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/std_msgs/Bool.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/std_msgs/Header.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/trajectory_msgs/MultiDOFJointTrajectory.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /opt/ros/melodic/include/trajectory_msgs/MultiDOFJointTrajectoryPoint.h

@@ -1,0 +1,8 @@
+prefix=/home/xslin/Documents/xslin/research/rpg_ws/install
+
+Name: hector_trajectory_server
+Description: Description of hector_trajectory_server
+Version: 0.5.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp hector_nav_msgs nav_msgs hector_map_tools tf

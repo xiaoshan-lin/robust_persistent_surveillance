@@ -1,0 +1,8 @@
+prefix=/home/xslin/Documents/xslin/research/rpg_ws/install
+
+Name: husky_gazebo
+Description: Description of husky_gazebo
+Version: 0.4.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

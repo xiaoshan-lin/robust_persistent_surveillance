@@ -1,0 +1,4 @@
+CMake Error: The source directory "/home/xslin/Documents/xslin/research/rpg_ws/src/openni2_camera/openni2_camera" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+Makefile:1594: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

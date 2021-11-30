@@ -1,0 +1,9 @@
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot.h:230:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_node.cpp:1[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:[m[K In member function ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::stateEstimateCallback(const ConstPtr&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:351:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kstdd[m[K’ has not been declared
+   std::cout<<"----control command delay:"<<control_command_delay_<<[01;31m[Kstdd[m[K::endl;
+                                                                    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/autopilot.dir/all] Error 2
+make: *** [all] Error 2

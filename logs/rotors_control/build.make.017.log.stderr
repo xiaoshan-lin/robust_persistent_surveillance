@@ -1,0 +1,7 @@
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/src/nodes/lee_position_controller_node.cpp:[m[K In member function ‘[01m[Kvoid rotors_control::LeePositionControllerNode::TurnOffMotorCallback(const BoolConstPtr&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/src/nodes/lee_position_controller_node.cpp:207:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lee_position_controller_node.dir/all] Error 2
+make: *** [all] Error 2

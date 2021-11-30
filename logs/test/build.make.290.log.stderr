@@ -1,0 +1,17 @@
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center_1.cpp:[m[K In member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const ConstPtr&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center_1.cpp:218:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rotors_gazebo::UAV_CONTROL_CENTER::X[m[K’ has no member named ‘[01m[Kflag[m[K’
+     flight_info.[01;31m[Kflag[m[K = msg -> flag;
+                 [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center_1.cpp:218:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct test::floatlist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kflag[m[K’
+     flight_info.flag = msg -> [01;31m[Kflag[m[K;
+                               [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center_1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center_1.cpp:297:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rotors_gazebo::UAV_CONTROL_CENTER::X[m[K’ has no member named ‘[01m[Kflag[m[K’
+      if (uav_control_center.flight_info.[01;31m[Kflag[m[K == true){
+                                         [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center_1.cpp:368:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rotors_gazebo::UAV_CONTROL_CENTER::X[m[K’ has no member named ‘[01m[Kflag[m[K’
+         uav_control_center.flight_info.[01;31m[Kflag[m[K = false;
+                                        [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center_1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
+make: *** [all] Error 2

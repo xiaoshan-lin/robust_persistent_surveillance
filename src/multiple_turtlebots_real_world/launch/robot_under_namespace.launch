@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robotName1" default="robot_0" />
+        <arg name="initial_pose_x" default="0.0" />
+	<arg name="initial_pose_y" default="0.0" />
+	<arg name="initial_pose_a" default="0.0" />
+
+	<arg name="base"              default="$(env TURTLEBOT_BASE)"        />
+	<arg name="stacks"            default="$(env TURTLEBOT_STACKS)"       />
+	<arg name="3d_sensor"         default="$(env TURTLEBOT_3D_SENSOR)"    />
+	
+
+	<arg name="map_file" default="$(find navigation_under_namespace)/maps/twoRooms.yaml" />
+	<node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)" respawn="false" >
+		<param name="frame_id" value="/map" />
+	</node>
+	<group ns="$(arg robotName1)">
+		<param name="tf_prefix" value="$(arg robotName1)" />
+		<include
+			file="$(find navigation_under_namespace)/launch/includes/single_robot_wild.launch">
+			<arg name="namespace" value="$(arg robotName1)" />
+			<arg name="initial_pose_x" value="0.0" />
+			<arg name="initial_pose_y" value="0.0" />
+			<arg name="initial_pose_a" value="0.0" />
+		</include>
+	</group>
+</launch>

@@ -1,0 +1,11 @@
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:108:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kargs[m[K’ was not declared in this scope
+   ros::removeROSArgs(argc, argv, [01;31m[Kargs[m[K);
+                                  [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:108:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kargc[m[K’
+   ros::removeROSArgs(argc, argv, [01;36m[Kargs[m[K);
+                                  [01;36m[K^~~~[m[K
+                                  [32m[Kargc[m[K
+make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
+make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
+make: *** [all] Error 2

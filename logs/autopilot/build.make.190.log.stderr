@@ -1,0 +1,16 @@
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot.h:230:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_node.cpp:1[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:[m[K In member function ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::trajectoryCallback(const ConstPtr&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:624:20:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[KEigen::GenericNumTraits<double>::Real {aka double}[m[K’ and ‘[01m[Kconst char [2][m[K’ to binary ‘[01m[Koperator<<[m[K’
+       std::cout<<([01;31m[K(trajectory_queue_.back().points.back().position -[m[K
+                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;31m[K         quadrotor_common::geometryToEigen(msg->points.front().pose.position))[m[K
+          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;31m[K            .norm()<<"\n"[m[K;
+             [01;31m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:624:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+             .norm()<<"\n"[01;31m[K;[m[K
+                          [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/autopilot.dir/all] Error 2
+make: *** [all] Error 2

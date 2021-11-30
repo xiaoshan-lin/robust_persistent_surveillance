@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2021-02-13T21:21:36" time="35.293" name="AllTests">
-  <testsuite name="QuadrotorIntegrationTest" tests="1" failures="0" disabled="0" errors="0" time="35.293">
-    <testcase name="AutopilotFunctionality" status="run" time="35.293" classname="QuadrotorIntegrationTest" />
-  </testsuite>
-</testsuites>

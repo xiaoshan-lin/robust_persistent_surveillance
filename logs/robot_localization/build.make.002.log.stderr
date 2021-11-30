@@ -1,0 +1,14 @@
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:[m[K In member function ‘[01m[Kvoid RobotLocalization::RosFilter<T>::loadParams()[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:1162:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kwhile[m[K’ before ‘[01m[K{[m[K’ token
+     else[01;31m[K{[m[K
+         [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:1162:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:1162:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:1162:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:1162:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/src/ros_filter.cpp:1164:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     [01;31m[K}[m[K
+     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ros_filter.dir/src/ros_filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_filter.dir/all] Error 2
+make: *** [all] Error 2

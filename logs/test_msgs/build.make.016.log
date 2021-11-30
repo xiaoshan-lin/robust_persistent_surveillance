@@ -1,0 +1,9 @@
+[  0%] Built target _test_msgs_generate_messages_check_deps_timelist
+[  0%] Built target _test_msgs_generate_messages_check_deps_floatlist_1
+[  0%] Built target _test_msgs_generate_messages_check_deps_floatlist
+[ 23%] Built target test_msgs_generate_messages_py
+[ 47%] Built target test_msgs_generate_messages_eus
+[ 64%] Built target test_msgs_generate_messages_nodejs
+[ 82%] Built target test_msgs_generate_messages_lisp
+[100%] Built target test_msgs_generate_messages_cpp
+[100%] Built target test_msgs_generate_messages

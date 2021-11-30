@@ -1,0 +1,59 @@
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot.h:230:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_node.cpp:1[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:534:61:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KreferenceStateCallback[m[K’ declared void
+ void AutoPilot<Tcontroller, Tparams>::referenceStateCallback[01;31m[K([m[K
+                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/position_controller/include/position_controller/position_controller.h:7[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot.h:11[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_node.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdo[m[K’
+   [01;31m[Kd[m[Ko \
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:381:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+   [01;36m[Kdo[m[K \
+   [01;36m[K^~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:535:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("-----Reference call back-----");
+     [01;36m[K^[m[K
+In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot.h:230:0[m[K,
+                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_node.cpp:1[m[K:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:536:57:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K)[m[K’ token
+     const quadrotor_msgs::TrajectoryPoint::ConstPtr& msg[01;31m[K)[m[K {
+                                                         [01;31m[K^[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:[m[K In member function ‘[01m[Kquadrotor_common::ControlCommand autopilot::AutoPilot<Tcontroller, Tparams>::start(const quadrotor_common::QuadStateEstimate&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:841:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+   std::cout<<"reference state:("<<reference_state_.[01;31m[Kpose[m[K.potition.x<<","
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:842:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+                                 <<reference_state_.[01;31m[Kpose[m[K.potition.y<<","
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:843:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+                                 <<reference_state_.[01;31m[Kpose[m[K.potition.z<<")"<<std::endl;
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:[m[K In member function ‘[01m[Kquadrotor_common::ControlCommand autopilot::AutoPilot<Tcontroller, Tparams>::hover(const quadrotor_common::QuadStateEstimate&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:872:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+   std::cout<<"reference state:("<<reference_state_.[01;31m[Kpose[m[K.potition.x<<","
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:873:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+                                 <<reference_state_.[01;31m[Kpose[m[K.potition.y<<","
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:874:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+                                 <<reference_state_.[01;31m[Kpose[m[K.potition.z<<")"<<std::endl;
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:[m[K In member function ‘[01m[Kquadrotor_common::ControlCommand autopilot::AutoPilot<Tcontroller, Tparams>::land(const quadrotor_common::QuadStateEstimate&)[m[K’:
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:904:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+   std::cout<<"reference state:("<<reference_state_.[01;31m[Kpose[m[K.potition.x<<","
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:905:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+                                 <<reference_state_.[01;31m[Kpose[m[K.potition.y<<","
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:906:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct quadrotor_common::TrajectoryPoint[m[K’ has no member named ‘[01m[Kpose[m[K’
+                                 <<reference_state_.[01;31m[Kpose[m[K.potition.z<<")"<<std::endl;
+                                                    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/autopilot.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6e6cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6e6cf.dir/build.make CMakeFiles/cmTC_6e6cf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c15cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c15cf.dir/build.make CMakeFiles/cmTC_c15cf.dir/build
 make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6e6cf.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_6e6cf.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_6e6cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e6cf.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6e6cf.dir/CheckSymbolExists.c.o  -o cmTC_6e6cf 
-CMakeFiles/cmTC_6e6cf.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_c15cf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c15cf.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c15cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c15cf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c15cf.dir/CheckSymbolExists.c.o  -o cmTC_c15cf 
+CMakeFiles/cmTC_c15cf.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6e6cf.dir/build.make:97: recipe for target 'cmTC_6e6cf' failed
-make[1]: *** [cmTC_6e6cf] Error 1
+CMakeFiles/cmTC_c15cf.dir/build.make:97: recipe for target 'cmTC_c15cf' failed
+make[1]: *** [cmTC_c15cf] Error 1
 make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6e6cf/fast' failed
-make: *** [cmTC_6e6cf/fast] Error 2
+Makefile:126: recipe for target 'cmTC_c15cf/fast' failed
+make: *** [cmTC_c15cf/fast] Error 2
 
 File /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c398c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c398c.dir/build.make CMakeFiles/cmTC_c398c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_01025/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01025.dir/build.make CMakeFiles/cmTC_01025.dir/build
 make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c398c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c398c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c398c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c398c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c398c.dir/CheckFunctionExists.c.o  -o cmTC_c398c -lpthreads 
+Building C object CMakeFiles/cmTC_01025.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_01025.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01025
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01025.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_01025.dir/CheckFunctionExists.c.o  -o cmTC_01025 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c398c.dir/build.make:97: recipe for target 'cmTC_c398c' failed
-make[1]: *** [cmTC_c398c] Error 1
+CMakeFiles/cmTC_01025.dir/build.make:97: recipe for target 'cmTC_01025' failed
+make[1]: *** [cmTC_01025] Error 1
 make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_description/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c398c/fast' failed
-make: *** [cmTC_c398c/fast] Error 2
+Makefile:126: recipe for target 'cmTC_01025/fast' failed
+make: *** [cmTC_01025/fast] Error 2
 
 

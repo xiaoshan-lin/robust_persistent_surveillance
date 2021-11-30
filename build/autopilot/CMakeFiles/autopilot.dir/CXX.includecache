@@ -217,6 +217,8 @@ thread
 -
 geometry_msgs/PoseStamped.h
 -
+std_msgs/Bool.h
+-
 geometry_msgs/TwistStamped.h
 -
 nav_msgs/Odometry.h
@@ -1165,6 +1167,22 @@ ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
 
 /opt/ros/melodic/include/rosconsole/macros_generated.h
+
+/opt/ros/melodic/include/std_msgs/Bool.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
 
 /opt/ros/melodic/include/std_msgs/Empty.h
 string

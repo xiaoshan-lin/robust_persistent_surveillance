@@ -3,6 +3,6 @@ prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
 Name: test
 Description: Description of test
 Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/devel/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/test/include
+Libs: -L${prefix}/lib -ltest
+Requires: message_runtime trajectory_msgs
