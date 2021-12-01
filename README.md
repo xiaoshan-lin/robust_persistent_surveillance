@@ -19,10 +19,18 @@ cd your preferred directory
 ```
 mkdir -p YOUR_WS/src 
 cd YOUR_WS/src
-git clone 
+git clone https://github.com/xiaoshan-lin/robust_persistent_surveillance.git
+cd ..
+catkin build
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
 ```
-- Instruction
+1. run the off-line planner
+> **Note** 
+```
+cd YOUR_WS/src/
+```
 - Instruction 2
 - Instruction 3
 
