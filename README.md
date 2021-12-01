@@ -1,7 +1,7 @@
-# robust_persistent_surveillance
+# Robust Planning for Persistent Surveillance with Energy-Constrained UAVs and Mobile Charging Stations
 <p align="center">
   <p align="center">
-    Short description
+    This project provides the code of our paper 
     <br>
     <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
