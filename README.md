@@ -14,8 +14,15 @@
 
 
 ## Quick start
+I run the code on Ubuntu 18.04 with ROS melodic.
+cd your preferred directory
+```
+mkdir -p YOUR_WS/src 
+cd YOUR_WS/src
+git clone 
 
-- Instruction 1
+```
+- Instruction
 - Instruction 2
 - Instruction 3
 
