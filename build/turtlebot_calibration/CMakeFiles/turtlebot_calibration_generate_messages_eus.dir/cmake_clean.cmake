@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_calibration_generate_messages_eus"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/turtlebot_calibration/msg/ScanAngle.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/turtlebot_calibration/manifest.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/turtlebot_calibration/msg/ScanAngle.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/turtlebot_calibration/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

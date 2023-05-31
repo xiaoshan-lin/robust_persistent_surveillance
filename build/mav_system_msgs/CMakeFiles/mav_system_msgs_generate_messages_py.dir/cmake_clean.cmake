@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_system_msgs_generate_messages_py"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/mav_system_msgs/msg/_ProcessInfo.py"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/mav_system_msgs/msg/_CpuInfo.py"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/mav_system_msgs/msg/__init__.py"
+  "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/mav_system_msgs/msg/_ProcessInfo.py"
+  "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/mav_system_msgs/msg/_CpuInfo.py"
+  "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/mav_system_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

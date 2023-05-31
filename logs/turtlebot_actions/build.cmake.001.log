@@ -13,16 +13,16 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compiler ABI info - done
 [36m--[0m Detecting CXX compile features
 [36m--[0m Detecting CXX compile features - done
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/xslin/Documents/xslin/research/rpg_ws/devel
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/xslin/Documents/xslin/research/rpg_ws/devel;/opt/ros/melodic
-[36m--[0m This workspace overlays: /home/xslin/Documents/xslin/research/rpg_ws/devel;/opt/ros/melodic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/xslin/Documents/rpg_ws/devel
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/xslin/Documents/rpg_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/xslin/Documents/rpg_ws/devel;/opt/ros/melodic
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
 [36m--[0m Using Debian Python package layout
 [36m--[0m Using empy: /usr/bin/empy
 [36m--[0m Using CATKIN_ENABLE_TESTING: ON
 [36m--[0m Call enable_testing()
-[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions/test_results
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/xslin/Documents/rpg_ws/build/turtlebot_actions/test_results
 [36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
 [36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
@@ -58,9 +58,9 @@ Not searching for unused variables given on the command line.
 
 [36m--[0m Found Eigen: /usr/include/eigen3
 [36m--[0m Eigen found (include: /usr/include/eigen3)
-[36m--[0m Found OpenCV: /usr (found version "3.2.0")
-[36m--[0m Generating .msg files for action turtlebot_actions/FindFiducial /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/action/FindFiducial.action
-[36m--[0m Generating .msg files for action turtlebot_actions/TurtlebotMove /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/action/TurtlebotMove.action
+[36m--[0m Found OpenCV: /usr/local/opencv4 (found version "4.5.4")
+[36m--[0m Generating .msg files for action turtlebot_actions/FindFiducial /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/action/FindFiducial.action
+[36m--[0m Generating .msg files for action turtlebot_actions/TurtlebotMove /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/action/TurtlebotMove.action
 [36m--[0m turtlebot_actions: 14 messages, 0 services
 [33m[1mCMake Warning[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
   catkin_package() DEPENDS on 'eigen' but neither 'eigen_INCLUDE_DIRS' nor
@@ -80,4 +80,4 @@ Not searching for unused variables given on the command line.
 
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions
+[36m--[0m Build files have been written to: /home/xslin/Documents/rpg_ws/build/turtlebot_actions

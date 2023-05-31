@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -50,7 +50,7 @@ struct PanoramaImg_
    typedef  ::std_msgs::Header_<ContainerAllocator>  _header_type;
   _header_type header;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _pano_id_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _pano_id_type;
   _pano_id_type pano_id;
 
    typedef double _latitude_type;
@@ -62,7 +62,7 @@ struct PanoramaImg_
    typedef double _heading_type;
   _heading_type heading;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _geo_tag_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _geo_tag_type;
   _geo_tag_type geo_tag;
 
    typedef  ::sensor_msgs::Image_<ContainerAllocator>  _image_type;
@@ -284,7 +284,7 @@ struct Printer< ::turtlebot_msgs::PanoramaImg_<ContainerAllocator> >
     s << std::endl;
     Printer< ::std_msgs::Header_<ContainerAllocator> >::stream(s, indent + "  ", v.header);
     s << indent << "pano_id: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.pano_id);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.pano_id);
     s << indent << "latitude: ";
     Printer<double>::stream(s, indent + "  ", v.latitude);
     s << indent << "longitude: ";
@@ -292,7 +292,7 @@ struct Printer< ::turtlebot_msgs::PanoramaImg_<ContainerAllocator> >
     s << indent << "heading: ";
     Printer<double>::stream(s, indent + "  ", v.heading);
     s << indent << "geo_tag: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.geo_tag);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.geo_tag);
     s << indent << "image: ";
     s << std::endl;
     Printer< ::sensor_msgs::Image_<ContainerAllocator> >::stream(s, indent + "  ", v.image);

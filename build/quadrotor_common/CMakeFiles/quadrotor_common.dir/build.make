@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/quadrotor_common
 
 # Include any dependencies generated for this target.
 include CMakeFiles/quadrotor_common.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/quadrotor_common.dir/progress.make
 include CMakeFiles/quadrotor_common.dir/flags.make
 
 CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp
+CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp
 
 CMakeFiles/quadrotor_common.dir/src/control_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/control_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp > CMakeFiles/quadrotor_common.dir/src/control_command.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp > CMakeFiles/quadrotor_common.dir/src/control_command.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/control_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/control_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp -o CMakeFiles/quadrotor_common.dir/src/control_command.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/control_command.cpp -o CMakeFiles/quadrotor_common.dir/src/control_command.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp
+CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp
 
 CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp > CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp > CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp -o CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/geometry_eigen_conversions.cpp -o CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o.provides.bu
 
 
 CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp
+CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp
 
 CMakeFiles/quadrotor_common.dir/src/math_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/math_common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp > CMakeFiles/quadrotor_common.dir/src/math_common.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp > CMakeFiles/quadrotor_common.dir/src/math_common.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/math_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/math_common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp -o CMakeFiles/quadrotor_common.dir/src/math_common.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/math_common.cpp -o CMakeFiles/quadrotor_common.dir/src/math_common.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp
+CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp
 
 CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp > CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp > CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp -o CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/parameter_helper.cpp -o CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o.provides.build: CMake
 
 
 CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp
+CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp
 
 CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp > CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp > CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp -o CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quad_state_estimate.cpp -o CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o.provides.build: CM
 
 
 CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp
+CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp
 
 CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp > CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp > CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp -o CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/quaternion_functions.cpp -o CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o.provides.build: C
 
 
 CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp
+CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp
 
 CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp > CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp > CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp -o CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory_point.cpp -o CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o.provides.build: CMake
 
 
 CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o: CMakeFiles/quadrotor_common.dir/flags.make
-CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp
+CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp
 
 CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp > CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp > CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.i
 
 CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp -o CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/src/trajectory.cpp -o CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.s
 
 CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o.requires:
 
@@ -263,39 +263,39 @@ quadrotor_common_OBJECTS = \
 # External object files for target quadrotor_common
 quadrotor_common_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so"
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/control_command.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/geometry_eigen_conversions.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/math_common.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/parameter_helper.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/quad_state_estimate.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so: CMakeFiles/quadrotor_common.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library /home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadrotor_common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/quadrotor_common.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so
+CMakeFiles/quadrotor_common.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so
 
 .PHONY : CMakeFiles/quadrotor_common.dir/build
 
@@ -315,6 +315,6 @@ CMakeFiles/quadrotor_common.dir/clean:
 .PHONY : CMakeFiles/quadrotor_common.dir/clean
 
 CMakeFiles/quadrotor_common.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles/quadrotor_common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/quadrotor_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/rpg_ws/build/quadrotor_common /home/xslin/Documents/rpg_ws/build/quadrotor_common /home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles/quadrotor_common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/quadrotor_common.dir/depend
 

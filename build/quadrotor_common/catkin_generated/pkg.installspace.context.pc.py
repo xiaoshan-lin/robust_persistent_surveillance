@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "eigen_catkin;geometry_msgs;nav_msgs;quadrotor_msgs;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lquadrotor_common".split(';') if "-lquadrotor_common" != "" else []
 PROJECT_NAME = "quadrotor_common"
-PROJECT_SPACE_DIR = "/home/xslin/Documents/xslin/research/rpg_ws/install"
+PROJECT_SPACE_DIR = "/home/xslin/Documents/rpg_ws/install"
 PROJECT_VERSION = "0.0.0"

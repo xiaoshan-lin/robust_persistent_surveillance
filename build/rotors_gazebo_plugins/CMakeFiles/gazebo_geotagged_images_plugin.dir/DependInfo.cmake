@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp" "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o"
+  "/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp" "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,14 +33,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/ignition/msgs1"
   "/usr/include/ignition/common1"
   "/usr/include/ignition/fuel_tools1"
-  "/usr/include/opencv"
+  "/usr/local/opencv4/include/opencv4"
   "."
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/include"
+  "/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include"
+  "/home/xslin/Documents/rpg_ws/devel/include"
+  "/home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs/include"
+  "/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/opencv"
   "/usr/include/eigen3"
   "/usr/include/gazebo-9/gazebo/msgs"
   "/opt/ros/melodic/include/mavlink/v2.0"
@@ -50,7 +51,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake"
+  "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

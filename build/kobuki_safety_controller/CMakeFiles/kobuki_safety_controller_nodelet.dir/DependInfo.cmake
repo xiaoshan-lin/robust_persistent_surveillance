@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_safety_controller/src/nodelet.cpp" "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_safety_controller/CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_safety_controller/src/nodelet.cpp" "/home/xslin/Documents/rpg_ws/build/kobuki_safety_controller/CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_safety_controller/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/yocs_controllers/include"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_safety_controller/include"
+  "/home/xslin/Documents/rpg_ws/devel/include"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/yocs_controllers/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

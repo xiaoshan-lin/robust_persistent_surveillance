@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff/include/hector_geotiff/geotiff_writer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff/include/hector_geotiff/geotiff_writer.h
 map_writer_interface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff/include/hector_geotiff/map_writer_interface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff/include/hector_geotiff/map_writer_interface.h
 Eigen/Geometry
 -
 nav_msgs/OccupancyGrid.h
@@ -24,15 +24,15 @@ QFont
 hector_map_tools/HectorMapTools.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff/include/hector_geotiff/map_writer_interface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff/include/hector_geotiff/map_writer_interface.h
 vector
 -
 Eigen/Core
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff/src/geotiff_writer/geotiff_writer.cpp
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff/src/geotiff_writer/geotiff_writer.cpp
 hector_geotiff/geotiff_writer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff/src/geotiff_writer/hector_geotiff/geotiff_writer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff/src/geotiff_writer/hector_geotiff/geotiff_writer.h
 ros/console.h
 -
 QFile
@@ -50,7 +50,7 @@ QFontDatabase
 ros/package.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_map_tools/include/hector_map_tools/HectorMapTools.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_map_tools/include/hector_map_tools/HectorMapTools.h
 nav_msgs/OccupancyGrid.h
 -
 nav_msgs/MapMetaData.h
@@ -63,7 +63,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -79,7 +79,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -99,7 +99,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -115,7 +115,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -133,7 +133,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -337,7 +337,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

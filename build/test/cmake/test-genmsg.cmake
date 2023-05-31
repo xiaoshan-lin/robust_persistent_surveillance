@@ -2,7 +2,7 @@
 
 message(STATUS "test: 0 messages, 1 services")
 
-set(MSG_I_FLAGS "-Itest:/home/xslin/Documents/xslin/research/rpg_ws/src/test/msg")
+set(MSG_I_FLAGS "-Itest:/home/xslin/Documents/rpg_ws/src/test/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(test_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" NAME_WE)
 add_custom_target(_test_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_test_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(test
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv"
+  "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test
@@ -49,7 +49,7 @@ add_custom_target(test_generate_messages_cpp
 add_dependencies(test_generate_messages test_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" NAME_WE)
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(test
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv"
+  "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test
@@ -82,7 +82,7 @@ add_custom_target(test_generate_messages_eus
 add_dependencies(test_generate_messages test_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" NAME_WE)
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(test
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv"
+  "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test
@@ -115,7 +115,7 @@ add_custom_target(test_generate_messages_lisp
 add_dependencies(test_generate_messages test_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" NAME_WE)
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_generate_messages_lisp)
 
 ### Generating Services
 _generate_srv_nodejs(test
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv"
+  "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test
@@ -148,7 +148,7 @@ add_custom_target(test_generate_messages_nodejs
 add_dependencies(test_generate_messages test_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" NAME_WE)
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_generate_messages_nodejs)
 
 ### Generating Services
 _generate_srv_py(test
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv"
+  "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test
@@ -181,7 +181,7 @@ add_custom_target(test_generate_messages_py
 add_dependencies(test_generate_messages test_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test/srv/age.srv" NAME_WE)
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

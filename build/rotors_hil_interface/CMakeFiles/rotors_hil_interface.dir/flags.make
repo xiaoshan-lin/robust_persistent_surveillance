@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -O3 -DNDEBUG -fPIC   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rotors_hil_interface\" -Drotors_hil_interface_EXPORTS
 
-CXX_INCLUDES = -I/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_hil_interface/include -I/home/xslin/Documents/xslin/research/rpg_ws/devel/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_hil_interface/include -I/home/xslin/Documents/rpg_ws/devel/include -I/home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 
 

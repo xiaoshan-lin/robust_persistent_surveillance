@@ -1,8 +1,8 @@
-# Install script for directory: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui
+# Install script for directory: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/xslin/research/rpg_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/rpg_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,119 +49,119 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/_setup_util.py")
+   "/home/xslin/Documents/rpg_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/env.sh")
+   "/home/xslin/Documents/rpg_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.bash;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.bash")
+   "/home/xslin/Documents/rpg_ws/install/setup.bash;/home/xslin/Documents/rpg_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/setup.bash"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/setup.bash"
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.sh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.sh")
+   "/home/xslin/Documents/rpg_ws/install/setup.sh;/home/xslin/Documents/rpg_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/setup.sh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/setup.sh"
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.zsh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.zsh")
+   "/home/xslin/Documents/rpg_ws/install/setup.zsh;/home/xslin/Documents/rpg_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/setup.zsh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/setup.zsh"
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/.rosinstall")
+   "/home/xslin/Documents/rpg_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/safe_execute_install.cmake")
+  include("/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/rqt_quad_gui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/rqt_quad_gui.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui/cmake" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/rqt_quad_guiConfig.cmake"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/rqt_quad_guiConfig-version.cmake"
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/rqt_quad_guiConfig.cmake"
+    "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/catkin_generated/installspace/rqt_quad_guiConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/plugin.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/resource")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_quad_gui" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/resource")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rqt_quad_gui" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/scripts/rqt_quad_gui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rqt_quad_gui" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui/scripts/rqt_quad_gui")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/gtest/cmake_install.cmake")
+  include("/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/gtest/cmake_install.cmake")
 
 endif()
 
@@ -173,5 +173,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

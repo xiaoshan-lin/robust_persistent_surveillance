@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/kobuki_msgs/SensorState.h
+/home/xslin/Documents/rpg_ws/devel/include/kobuki_msgs/SensorState.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -34,11 +34,11 @@ sensor_msgs/PointCloud2.h
 kobuki_msgs/SensorState.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp
 pluginlib/class_list_macros.h
 -
 kobuki_bumper2pc/kobuki_bumper2pc.hpp
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc/src/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc/src/kobuki_bumper2pc/kobuki_bumper2pc.hpp
 
 /opt/ros/melodic/include/class_loader/class_loader.hpp
 boost/bind.hpp
@@ -795,7 +795,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -815,7 +815,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -831,7 +831,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

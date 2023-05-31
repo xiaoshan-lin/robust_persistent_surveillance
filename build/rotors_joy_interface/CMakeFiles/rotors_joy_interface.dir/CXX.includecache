@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/mav_msgs/RollPitchYawrateThrust.h
+/home/xslin/Documents/rpg_ws/devel/include/mav_msgs/RollPitchYawrateThrust.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -26,9 +26,9 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_joy_interface/include/rotors_joy_interface/joy.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_joy_interface/include/rotors_joy_interface/joy.h
 geometry_msgs/PoseStamped.h
 -
 mav_msgs/RollPitchYawrateThrust.h
@@ -38,9 +38,9 @@ ros/ros.h
 sensor_msgs/Joy.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_joy_interface/src/joy.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_joy_interface/src/joy.cpp
 rotors_joy_interface/joy.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_joy_interface/src/rotors_joy_interface/joy.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_joy_interface/src/rotors_joy_interface/joy.h
 mav_msgs/default_topics.h
 -
 
@@ -49,7 +49,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -65,7 +65,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -85,7 +85,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -105,7 +105,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -121,7 +121,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -783,7 +783,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -801,7 +801,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

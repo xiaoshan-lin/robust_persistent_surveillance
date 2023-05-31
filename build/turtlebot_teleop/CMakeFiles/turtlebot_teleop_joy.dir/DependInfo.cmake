@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp" "/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop/CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp" "/home/xslin/Documents/rpg_ws/build/turtlebot_teleop/CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

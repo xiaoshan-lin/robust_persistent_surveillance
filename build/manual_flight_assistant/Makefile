@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/manual_flight_assistant
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant/CMakeFiles /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/manual_flight_assistant/CMakeFiles /home/xslin/Documents/rpg_ws/build/manual_flight_assistant/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/manual_flight_assistant/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

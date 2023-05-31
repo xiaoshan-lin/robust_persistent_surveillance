@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: rpg_quadrotor_integration_test
 Description: Description of rpg_quadrotor_integration_test
 Version: 0.0.0
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/include
+Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/include
 Libs: -L${prefix}/lib 
 Requires: autopilot eigen_catkin polynomial_trajectories quadrotor_common quadrotor_msgs roscpp rotors_description rotors_gazebo rpg_rotors_interface std_msgs trajectory_generation_helper

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/sbus_bridge
 
 # Utility rule file for _sbus_bridge_generate_messages_check_deps_SbusRosMessage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge
 include CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/progress.make
 
 CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/msg/SbusRosMessage.msg std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py sbus_bridge /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/msg/SbusRosMessage.msg std_msgs/Header
 
 _sbus_bridge_generate_messages_check_deps_SbusRosMessage: CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage
 _sbus_bridge_generate_messages_check_deps_SbusRosMessage: CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/clean:
 .PHONY : CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/clean
 
 CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/sbus_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/rpg_ws/build/sbus_bridge /home/xslin/Documents/rpg_ws/build/sbus_bridge /home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_sbus_bridge_generate_messages_check_deps_SbusRosMessage.dir/depend
 

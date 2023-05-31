@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 Eigen/Dense
 -
 gazebo/gazebo.hh
@@ -14,7 +14,7 @@ gazebo/gazebo.hh
 tinyxml.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_mavlink_interface.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_mavlink_interface.h
 atomic
 -
 boost/asio.hpp
@@ -86,33 +86,33 @@ ignition/math.hh
 sdf/sdf.hh
 -
 common.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 mavlink/v2.0/common/mavlink.h
 -
 msgbuffer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/msgbuffer.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/msgbuffer.h
 rotors_gazebo_plugins/geo_mag_declination.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/geo_mag_declination.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/geo_mag_declination.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/msgbuffer.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/msgbuffer.h
 cassert
 -
 mavlink/v2.0/common/mavlink.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/mavlink/v2.0/common/mavlink.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/mavlink/v2.0/common/mavlink.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_mavlink_interface.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_mavlink_interface.cpp
 rotors_gazebo_plugins/gazebo_mavlink_interface.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/geo_mag_declination.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/geo_mag_declination.cpp
 cstdint
 -
 cmath
 -
 rotors_gazebo_plugins/geo_mag_declination.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/geo_mag_declination.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/geo_mag_declination.h
 
 /opt/ros/melodic/include/mavlink/v2.0/common/mavlink.h
 version.h

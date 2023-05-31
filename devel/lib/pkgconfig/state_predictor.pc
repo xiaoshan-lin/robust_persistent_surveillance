@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: state_predictor
 Description: Description of state_predictor
 Version: 0.0.0
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/state_predictor/include
+Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/state_predictor/include
 Libs: -L${prefix}/lib -lstate_predictor
 Requires: eigen_catkin quadrotor_common roscpp

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;mav_msgs;nav_msgs;roscpp;sensor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-llee_position_controller;-lroll_pitch_yawrate_thrust_controller".split(';') if "-llee_position_controller;-lroll_pitch_yawrate_thrust_controller" != "" else []
 PROJECT_NAME = "rotors_control"
-PROJECT_SPACE_DIR = "/home/xslin/Documents/xslin/research/rpg_ws/install"
+PROJECT_SPACE_DIR = "/home/xslin/Documents/rpg_ws/install"
 PROJECT_VERSION = "2.2.3"

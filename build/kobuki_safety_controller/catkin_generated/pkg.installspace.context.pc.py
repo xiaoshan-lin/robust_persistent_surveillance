@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roscpp;nodelet;pluginlib;std_msgs;geometry_msgs;kobuki_msgs;yocs_controllers;ecl_threads".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lkobuki_safety_controller_nodelet".split(';') if "-lkobuki_safety_controller_nodelet" != "" else []
 PROJECT_NAME = "kobuki_safety_controller"
-PROJECT_SPACE_DIR = "/home/xslin/Documents/xslin/research/rpg_ws/install"
+PROJECT_SPACE_DIR = "/home/xslin/Documents/rpg_ws/install"
 PROJECT_VERSION = "0.7.6"

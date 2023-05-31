@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_calibration_generate_messages_nodejs"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/turtlebot_calibration/msg/ScanAngle.js"
+  "/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/turtlebot_calibration/msg/ScanAngle.js"
 )
 
 # Per-language clean rules from dependency scanning.

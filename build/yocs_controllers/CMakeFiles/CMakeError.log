@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76768/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76768.dir/build.make CMakeFiles/cmTC_76768.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76768.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_76768.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_76768
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76768.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_76768.dir/CheckSymbolExists.c.o  -o cmTC_76768 
-CMakeFiles/cmTC_76768.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_fd663/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd663.dir/build.make CMakeFiles/cmTC_fd663.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd663.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fd663.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fd663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd663.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fd663.dir/CheckSymbolExists.c.o  -o cmTC_fd663 
+CMakeFiles/cmTC_fd663.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_76768.dir/build.make:97: recipe for target 'cmTC_76768' failed
-make[1]: *** [cmTC_76768] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_76768/fast' failed
-make: *** [cmTC_76768/fast] Error 2
+CMakeFiles/cmTC_fd663.dir/build.make:97: recipe for target 'cmTC_fd663' failed
+make[1]: *** [cmTC_fd663] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fd663/fast' failed
+make: *** [cmTC_fd663/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02898/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02898.dir/build.make CMakeFiles/cmTC_02898.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_02898.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_02898.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_02898
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02898.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_02898.dir/CheckFunctionExists.c.o  -o cmTC_02898 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_abb03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abb03.dir/build.make CMakeFiles/cmTC_abb03.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abb03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_abb03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_abb03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abb03.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_abb03.dir/CheckFunctionExists.c.o  -o cmTC_abb03 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_02898.dir/build.make:97: recipe for target 'cmTC_02898' failed
-make[1]: *** [cmTC_02898] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_02898/fast' failed
-make: *** [cmTC_02898/fast] Error 2
+CMakeFiles/cmTC_abb03.dir/build.make:97: recipe for target 'cmTC_abb03' failed
+make[1]: *** [cmTC_abb03] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/yocs_controllers/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_abb03/fast' failed
+make: *** [cmTC_abb03/fast] Error 2
 
 

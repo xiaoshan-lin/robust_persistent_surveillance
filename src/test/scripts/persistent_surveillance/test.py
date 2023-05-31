@@ -1,21 +1,21 @@
+import os, sys, time
+import numpy as np
 from numpy import remainder as rem
 from math import floor, ceil, inf
 from numpy import zeros, ones
+import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from concorde.tsp import TSPSolver
-from itertools import product
-from christofides import tsp
 import math
-import matplotlib.pyplot as plt
+from itertools import product
 import random
 import csv
-import os, sys, time
-import numpy as np
-import json
-project_dir = os.path.abspath(__file__ + "/../../../resource")
 sys.path.append('./PathPlanning/Search_based_Planning/Search_2D')
 import env
 from Astar import AStar
+from christofides import tsp
+project_dir = os.path.abspath(__file__ + "/../../../resource")
+import json
 
 class PS:  
 
@@ -24,7 +24,7 @@ class PS:
         This function initializes class PS    
         *args:
             - prm parameters of the problem 
-                # obs          disabled, obstacles
+                # obs          obstacles
                 # r            number of UAVs
                 # m            dimension of the environment in y axis 
                 # n            dimension of the environment in x axis 
@@ -36,7 +36,7 @@ class PS:
                 # e            maximum energy
                 # a_best       best partition size in y axis 
                 # b_best       best partition size in x axis 
-                # robust       robustness
+                # robust       robustness size
         *return:
             None
         """
@@ -75,16 +75,15 @@ class PS:
 
     def global_path(self,m,n,a,b):
         """
-        This function calculate the coordinates of the center of the partitions
-        used for the approach proposed in the previous paper 
-        "Persistent  surveillancewith  energy-constrained  uavs  and  mobile  charging  stations"
+        This function calculate the coordinates of the center of the sub-partitions
+
         *args:
             - m   length of the enviroment in y axis, int
             - n   length of the environment in x axis, int
             - a   length of the partition in y axis, int
             - b   length of the partition in x axis, int
         *return:
-            centers of partitions, 2-by-n numpy array, where n is the number of partitions
+            centers of sub-partitions
         """
 
         y_num=floor(m/a)
@@ -110,15 +109,15 @@ class PS:
 
     def global_path_2(self,m,n,a,b):
         """
-        This function calculate the coordinates of the center of the partitions
-        used for the approach used in this paper (maximum partition)
+        This function calculate the coordinates of the center of the sub-partitions
+
         *args:
             - m   length of the enviroment in y axis, int
             - n   length of the environment in x axis, int
             - a   length of the partition in y axis, int
             - b   length of the partition in x axis, int
         *return:
-            centers of partitions, 2-by-n numpy array, where n is the number of partitions
+            centers of sub-partitions
         """
         y_num=floor(m/a)
         x_num=floor(n/b)  
@@ -143,16 +142,15 @@ class PS:
 
     def sub_partition(self,a,b,r,dispmt=None):
         """
-        This function computes the sub-partition
+        This function plots the path for UAVs
         *args:
             - a       length of the partition in y axis, int
             - b       length of the partition in x axis, int
-            - r       number of UAVs, int
-            -dispmt   disabled, will be removed in the future
-                      displacement of UAVs' release point from the center of sub-partition 
+            - r       number of UAVs
+            -dispmt   displacement of UAVs' release point from the center of sub-partition                         
         *return:
-            - max_dist   maximum travel distance among the UAVs, float
-            - solution   TSP tours for all the UAVs, python list                        
+            - max_dist   maximum travel distance among the UAVs 
+            - solution   TSP tours for all the UAVs
         """
         
         if dispmt==None:
@@ -297,7 +295,7 @@ class PS:
 
         return max_dist,solution,coord
 
-    '''def opt_partition(self):
+    def opt_partition(self):
         """
         This function calculates the optimal partition sizes
         *args:
@@ -324,9 +322,9 @@ class PS:
         self.solution_best=best_result[2]
         self.age=best_result[3]
 
-        return best_result'''
+        return best_result
         
-    '''def opt_mn(self,m,n):
+    def opt_mn(self,m,n):
         r=self.r
         v_max=self.v_max
         u_max=self.u_max
@@ -417,7 +415,7 @@ class PS:
                 self.b_best=b_best
                 self.solution_best=solution_best
                 self.age=obj
-        return [a_best,b_best,solution_best,inf]'''
+        return [a_best,b_best,solution_best,inf]
 
     def opt_partition_exhaustive(self):
         """
@@ -447,9 +445,6 @@ class PS:
 
         for a in range(2,self.m+1):
             for b in range(2,self.n+1):
-                #if a*b<3*r:
-                    #continue
-                #print([a,b])
                 if a*b/r>max_distance:
                     continue
                 
@@ -475,8 +470,6 @@ class PS:
                         sol=s.tour.tolist()
                 elif self.solver == "christofides":
                     points_c = [[points[0,i],points[1,i]] for i in range(points.shape[1])]
-                    '''length, sol, G, MSTree, odd_vertexes, \
-                            minimum_weight_matching, timing = tsp(points_c)'''
                     length, sol, G, MSTree, odd_vertexes, minimum_weight_matching, timing = tsp(dist_matrix)
                     self.ugv_time += timing[-1]-timing[0]
                     time_decomposition = np.array([timing[i+1]-timing[i] \
@@ -502,16 +495,6 @@ class PS:
         return [a_best,b_best,solution_best,obj]
 
     def maximum_partition(self):
-        """
-        This function calculate the age, for the exhaustive approach
-        *args:
-            None   
-        *return:
-            - a_best           best partition size in y axis 
-            - b_best           best partition size in x axis 
-            - solution_best    best TSP tours for UAVs with the best partition size 
-            - obj              optimal objective values of the partition size 
-        """
         deta=self.footprint*self.robust
         max_distance = self.v_max*self.e/self.beta-2*deta
         area = max_distance*self.r
@@ -543,15 +526,16 @@ class PS:
                     last = True
                     a = a + 1
                     b = b + 1
-
-        obj_new, max_dist, solution_best = self.calculate_age_2(a,b)
+        [max_dist,solution,coo]=self.sub_partition(a,b,self.r)
+        t_v=max_dist*self.footprint/self.v_max  
+        obj_new, max_dist, solution = self.calculate_age_2(a,b)
         self.a_best=a
         self.b_best=b
         self.solution_best=solution
         self.age=obj_new
         return [a,b,solution,obj_new]
 
-    '''def random_obstacles(self, density):
+    def random_obstacles(self, density):
         """
         This function generates random obstacles
         *args:
@@ -608,7 +592,7 @@ class PS:
         plt.ylim(0,self.m)
         plt.axis('equal')
         plt.show()
-        self.obs_dict=obs_dict''' 
+        self.obs_dict=obs_dict 
    
 
     def plot_uav_path(self,solution,position,a,b):
@@ -723,7 +707,7 @@ class PS:
 
     def plot_path_2(self, coord_list,position,data,length_list, points):
         """
-        This function plots the path for UGV and UAVs, for the maximum partition approach
+        This function plots the path for UGV and UAVs
         *args:
             None    
         *return:
@@ -772,16 +756,7 @@ class PS:
         return plt.cm.get_cmap(name, n)
 
     def calculate_age(self,a,b):
-        """
-        This function calculate the age, for the exhaustive approach
-        *args:
-            - a      dimension of the environment in the x axis
-            - b      dimension of the environment in the y axis   
-        *return:
-            - obj_new     age, float
-            - max_dist    maximum travel distance of all UAVs, this is used to check the feasibility, float
-            - solution    TSP tours for all the UAVs, python list   
-        """
+
         [max_dist,solution,coo]=self.sub_partition(a,b,self.r)
         deta=self.footprint*self.robust
         t_v=max_dist*self.footprint/self.v_max
@@ -815,16 +790,6 @@ class PS:
         return obj_new, max_dist, solution
 
     def calculate_age_2(self,a,b,data=None):
-        """
-        This function calculate the age, for the maximum partition approach
-        *args:
-            - a      dimension of the environment in the x axis
-            - b      dimension of the environment in the y axis   
-        *return:
-            - obj_new     age, float
-            - max_dist    maximum travel distance of all UAVs, this is used to check the feasibility, float
-            - solution    TSP tours for all the UAVs, python list   
-        """
         max_dist_1 = 0
         max_dist_2 = 0
         max_dist_3 = 0
@@ -905,7 +870,7 @@ class PS:
 
         return obj_new, max_dist, solution
 
-    '''def opt_partition_minimal_overlap(self):
+    def opt_partition_minimal_overlap(self):
         a_mini, b_mini = self.minimal_overlap()
         a_range = 5
         b_range = 5
@@ -927,9 +892,9 @@ class PS:
         self.solution_best=solution_best
         self.age=obj
 
-        return [a_best,b_best,solution_best,obj]'''      
+        return [a_best,b_best,solution_best,obj]      
    
-    '''def minimal_overlap(self):
+    def minimal_overlap(self):
         start = time.time()
         r=self.r
         m=self.m
@@ -989,22 +954,13 @@ class PS:
                     if t_v>e/beta-2*deta/v_max:
                         continue
                     else:
-                        return a,b'''                        
+                        return a,b                        
 
-    '''def factorization(self,n):
-      i = 2
-      ret = []
-      while i * i <= n:
-        while n % i == 0:
-            ret.append(i)
-            n //= i
-        i += 1
-      if n > 1:
-        ret.append(n)
-      return ret'''
+def debugging():
 
-def debugging():   
+    
     mn_list = [(13,16),(17,23),(26,31),(43,53),(67,47),(101,97)]
+
     prm={
     'obs':{},\
     'r':4,\
@@ -1065,18 +1021,6 @@ def debugging():
         max_ab[1][idx]=solution_max[1]
         time.sleep(0.1)
 
-        '''ps.solver = "concorde"
-        start = time.time()       
-        solution_max=ps.maximum_partition()
-        print("maximum:")
-        print(time.time()-start)
-        max_time_1.append(time.time()-start)
-        #print([solution_max[0],solution_max[1],solution_max[3]]) 
-        max_obj_1.append(solution_max[3])
-        max_ab[0][idx]=solution_max[0]
-        max_ab[1][idx]=solution_max[1]
-        time.sleep(0.1)'''
-
         ps.solver = "christofides"
         start = time.time()
         solution_exhaustive=ps.opt_partition_exhaustive()
@@ -1086,36 +1030,6 @@ def debugging():
         #print([solution_exhaustive[0],solution_exhaustive[1],solution_exhaustive[3]])
         exhaustive_obj.append(solution_exhaustive[3])
         time.sleep(1)
-
-        '''ps.solver = "concorde"
-        start = time.time()
-        solution_exhaustive=ps.opt_partition_exhaustive()
-        print("exhaustive:")        
-        print(time.time()-start)
-        exhaustive_time_1.append(time.time()-start)
-        print([solution_exhaustive[0],solution_exhaustive[1],solution_exhaustive[3]])
-        exhaustive_obj_1.append(solution_exhaustive[3])'''
-         
-        '''
-        start = time.time()
-        solution_heuristic=ps.opt_partition()
-        print("heuristic:")        
-        print(time.time()-start)
-        heuristic_time.append(time.time()-start)
-        print([solution_heuristic[0],solution_heuristic[1],solution_heuristic[3]])
-        heuristic_obj.append(solution_heuristic[3])
-        heuristic_ab[0][idx]=solution_heuristic[0]
-        heuristic_ab[1][idx]=solution_heuristic[1]'''
-        '''
-        start = time.time()
-        solution_mini=ps.opt_partition_minimal_overlap()
-        print("mini:")
-        print(time.time()-start)
-        mini_time.append(time.time()-start)
-        print([solution_mini[0],solution_mini[1],solution_mini[3]]) 
-        mini_obj.append(solution_mini[3])
-        mini_ab[0][idx]=solution_mini[0]
-        mini_ab[1][idx]=solution_mini[1]'''
 
         ugv_time.append(ps.ugv_time)
         uav_time.append(ps.uav_time)
@@ -1231,31 +1145,9 @@ def test():
     if ps.planner == "max":
         solution_max=ps.maximum_partition()
 
-    '''print("heuristic")
-    time_1 = time.time()
-    solution_heuristic=ps.opt_partition()
-    print(time.time()-time_1)
-    time.sleep(4)
-    
-    a,b = ps.minimal_overlap()
-    print('---')
-    print([a,b])
-    time.sleep(3)'''  
-
-    #ps.random_obstacles(0.4)
-    '''
-    print("heuristic")
-    time_1 = time.time()
-    solution_heuristic=ps.opt_partition()
-    print("exhaustive")
-    time_2 = time.time()
-    solution_exhaustive=ps.opt_partition_exhaustive()
-    time_3 = time.time()'''
-
     coord_list = []
     length_list = []
  
-    #ps.plot_path()
     for f in os.listdir(project_dir):
         os.remove(os.path.join(project_dir, f))
     

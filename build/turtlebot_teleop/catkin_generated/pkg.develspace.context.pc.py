@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;geometry_msgs;joy".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "turtlebot_teleop"
-PROJECT_SPACE_DIR = "/home/xslin/Documents/xslin/research/rpg_ws/devel"
+PROJECT_SPACE_DIR = "/home/xslin/Documents/rpg_ws/devel"
 PROJECT_VERSION = "2.4.2"

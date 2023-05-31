@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_ukf.dir/test/test_ukf.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/robot_localization/test_ukf.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/robot_localization/test_ukf"
+  "/home/xslin/Documents/rpg_ws/devel/lib/robot_localization/test_ukf.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/robot_localization/test_ukf"
 )
 
 # Per-language clean rules from dependency scanning.

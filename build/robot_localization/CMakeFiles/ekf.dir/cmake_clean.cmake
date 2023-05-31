@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ekf.dir/src/ekf.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libekf.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libekf.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libekf.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libekf.so"
 )
 
 # Per-language clean rules from dependency scanning.

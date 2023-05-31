@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d846e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d846e.dir/build.make CMakeFiles/cmTC_d846e.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d846e.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d846e.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d846e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d846e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d846e.dir/CheckSymbolExists.c.o  -o cmTC_d846e 
-CMakeFiles/cmTC_d846e.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_19b20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19b20.dir/build.make CMakeFiles/cmTC_19b20.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19b20.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_19b20.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_19b20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19b20.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19b20.dir/CheckSymbolExists.c.o  -o cmTC_19b20 
+CMakeFiles/cmTC_19b20.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d846e.dir/build.make:97: recipe for target 'cmTC_d846e' failed
-make[1]: *** [cmTC_d846e] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d846e/fast' failed
-make: *** [cmTC_d846e/fast] Error 2
+CMakeFiles/cmTC_19b20.dir/build.make:97: recipe for target 'cmTC_19b20' failed
+make[1]: *** [cmTC_19b20] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_19b20/fast' failed
+make: *** [cmTC_19b20/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d882b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d882b.dir/build.make CMakeFiles/cmTC_d882b.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d882b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d882b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d882b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d882b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d882b.dir/CheckFunctionExists.c.o  -o cmTC_d882b -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_d3e1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3e1b.dir/build.make CMakeFiles/cmTC_d3e1b.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3e1b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d3e1b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d3e1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3e1b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d3e1b.dir/CheckFunctionExists.c.o  -o cmTC_d3e1b -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d882b.dir/build.make:97: recipe for target 'cmTC_d882b' failed
-make[1]: *** [cmTC_d882b] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d882b/fast' failed
-make: *** [cmTC_d882b/fast] Error 2
+CMakeFiles/cmTC_d3e1b.dir/build.make:97: recipe for target 'cmTC_d3e1b' failed
+make[1]: *** [cmTC_d3e1b] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3e1b/fast' failed
+make: *** [cmTC_d3e1b/fast] Error 2
 
 

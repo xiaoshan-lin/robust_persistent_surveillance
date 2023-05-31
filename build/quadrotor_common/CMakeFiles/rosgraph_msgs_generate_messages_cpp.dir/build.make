@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/quadrotor_common
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_common/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/quadrotor_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common /home/xslin/Documents/rpg_ws/build/quadrotor_common /home/xslin/Documents/rpg_ws/build/quadrotor_common /home/xslin/Documents/rpg_ws/build/quadrotor_common/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

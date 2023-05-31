@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_comm_generate_messages_cpp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/rotors_comm/WindSpeed.h"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/rotors_comm/Octomap.h"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/rotors_comm/RecordRosbag.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/rotors_comm/WindSpeed.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/rotors_comm/Octomap.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/rotors_comm/RecordRosbag.h"
 )
 
 # Per-language clean rules from dependency scanning.

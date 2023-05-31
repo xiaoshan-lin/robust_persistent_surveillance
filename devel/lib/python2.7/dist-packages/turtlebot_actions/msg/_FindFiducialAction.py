@@ -285,7 +285,8 @@ MSG: turtlebot_actions/FindFiducialFeedback
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.action_goal is None:
         self.action_goal = turtlebot_actions.msg.FindFiducialActionGoal()
@@ -517,7 +518,8 @@ MSG: turtlebot_actions/FindFiducialFeedback
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.action_goal is None:
         self.action_goal = turtlebot_actions.msg.FindFiducialActionGoal()

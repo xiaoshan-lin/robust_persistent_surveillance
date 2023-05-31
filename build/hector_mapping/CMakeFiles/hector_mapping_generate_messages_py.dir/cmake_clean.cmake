@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_py"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
+  "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
+  "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
+  "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

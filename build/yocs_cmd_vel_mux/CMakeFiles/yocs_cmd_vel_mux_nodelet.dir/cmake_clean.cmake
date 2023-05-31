@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/yocs_cmd_vel_mux_nodelet.dir/src/cmd_vel_mux_nodelet.cpp.o"
   "CMakeFiles/yocs_cmd_vel_mux_nodelet.dir/src/cmd_vel_subscribers.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libyocs_cmd_vel_mux_nodelet.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libyocs_cmd_vel_mux_nodelet.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libyocs_cmd_vel_mux_nodelet.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libyocs_cmd_vel_mux_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

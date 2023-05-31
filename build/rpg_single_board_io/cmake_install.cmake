@@ -1,8 +1,8 @@
-# Install script for directory: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io
+# Install script for directory: /home/xslin/Documents/rpg_ws/src/rpg_single_board_io
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/xslin/research/rpg_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/rpg_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,83 +49,83 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/_setup_util.py")
+   "/home/xslin/Documents/rpg_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/env.sh")
+   "/home/xslin/Documents/rpg_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.bash;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.bash")
+   "/home/xslin/Documents/rpg_ws/install/setup.bash;/home/xslin/Documents/rpg_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/setup.bash"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/setup.bash"
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.sh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.sh")
+   "/home/xslin/Documents/rpg_ws/install/setup.sh;/home/xslin/Documents/rpg_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/setup.sh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/setup.sh"
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.zsh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.zsh")
+   "/home/xslin/Documents/rpg_ws/install/setup.zsh;/home/xslin/Documents/rpg_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/setup.zsh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/setup.zsh"
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/.rosinstall")
+   "/home/xslin/Documents/rpg_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -135,7 +135,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librpg_single_board_io.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librpg_single_board_io.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librpg_single_board_io.so")
     file(RPATH_CHANGE
@@ -155,7 +155,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io/gpio_interrupt_example"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io" TYPE EXECUTABLE FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_single_board_io/gpio_interrupt_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io" TYPE EXECUTABLE FILES "/home/xslin/Documents/rpg_ws/devel/lib/rpg_single_board_io/gpio_interrupt_example")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io/gpio_interrupt_example" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io/gpio_interrupt_example")
     file(RPATH_CHANGE
@@ -175,7 +175,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io/voltage_reader"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io" TYPE EXECUTABLE FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_single_board_io/voltage_reader")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io" TYPE EXECUTABLE FILES "/home/xslin/Documents/rpg_ws/devel/lib/rpg_single_board_io/voltage_reader")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io/voltage_reader" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rpg_single_board_io/voltage_reader")
     file(RPATH_CHANGE
@@ -189,31 +189,31 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/src/rpg_single_board_io/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rpg_single_board_io/launch" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rpg_single_board_io/launch" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/src/rpg_single_board_io/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/rpg_single_board_io.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/rpg_single_board_io.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rpg_single_board_io/cmake" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/rpg_single_board_ioConfig.cmake"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/rpg_single_board_ioConfig-version.cmake"
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/rpg_single_board_ioConfig.cmake"
+    "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/catkin_generated/installspace/rpg_single_board_ioConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rpg_single_board_io" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rpg_single_board_io" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/rpg_single_board_io/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/gtest/cmake_install.cmake")
+  include("/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/gtest/cmake_install.cmake")
 
 endif()
 
@@ -225,5 +225,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_cpp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_mapping/HectorDebugInfo.h"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_mapping/HectorIterData.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/hector_mapping/HectorDebugInfo.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/hector_mapping/HectorIterData.h"
 )
 
 # Per-language clean rules from dependency scanning.

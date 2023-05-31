@@ -1,4 +1,0 @@
-The dependencies of the message/service 'test/floatlist' have changed. Please rerun cmake.
-make[2]: *** [CMakeFiles/_test_generate_messages_check_deps_floatlist] Error 1
-make[1]: *** [CMakeFiles/_test_generate_messages_check_deps_floatlist.dir/all] Error 2
-make: *** [all] Error 2

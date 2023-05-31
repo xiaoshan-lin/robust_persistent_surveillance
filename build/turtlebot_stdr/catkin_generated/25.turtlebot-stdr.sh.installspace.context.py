@@ -2,7 +2,7 @@
 DEVELSPACE = False
 INSTALLSPACE = True
 
-CATKIN_DEVEL_PREFIX = '/home/xslin/Documents/xslin/research/rpg_ws/devel'
+CATKIN_DEVEL_PREFIX = '/home/xslin/Documents/rpg_ws/devel'
 
 CATKIN_GLOBAL_BIN_DESTINATION = 'bin'
 CATKIN_GLOBAL_ETC_DESTINATION = 'etc'
@@ -20,14 +20,14 @@ CATKIN_PACKAGE_LIBEXEC_DESTINATION = 'lib/turtlebot_stdr'
 CATKIN_PACKAGE_PYTHON_DESTINATION = 'lib/python2.7/dist-packages/turtlebot_stdr'
 CATKIN_PACKAGE_SHARE_DESTINATION = 'share/turtlebot_stdr'
 
-CMAKE_BINARY_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr'
-CMAKE_CURRENT_BINARY_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr'
-CMAKE_CURRENT_SOURCE_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr'
-CMAKE_INSTALL_PREFIX = '/home/xslin/Documents/xslin/research/rpg_ws/install'
-CMAKE_SOURCE_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr'
+CMAKE_BINARY_DIR = '/home/xslin/Documents/rpg_ws/build/turtlebot_stdr'
+CMAKE_CURRENT_BINARY_DIR = '/home/xslin/Documents/rpg_ws/build/turtlebot_stdr'
+CMAKE_CURRENT_SOURCE_DIR = '/home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr'
+CMAKE_INSTALL_PREFIX = '/home/xslin/Documents/rpg_ws/install'
+CMAKE_SOURCE_DIR = '/home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr'
 
 PROJECT_NAME = 'turtlebot_stdr'
-PROJECT_BINARY_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr'
-PROJECT_SOURCE_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr'
+PROJECT_BINARY_DIR = '/home/xslin/Documents/rpg_ws/build/turtlebot_stdr'
+PROJECT_SOURCE_DIR = '/home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr'
 
 PYTHON_EXECUTABLE = '/usr/bin/python2'

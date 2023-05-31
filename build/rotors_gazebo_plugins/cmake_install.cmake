@@ -1,8 +1,8 @@
-# Install script for directory: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins
+# Install script for directory: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/xslin/research/rpg_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/rpg_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/_setup_util.py")
+   "/home/xslin/Documents/rpg_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/env.sh")
+   "/home/xslin/Documents/rpg_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.bash;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.bash")
+   "/home/xslin/Documents/rpg_ws/install/setup.bash;/home/xslin/Documents/rpg_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.bash"
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.sh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.sh")
+   "/home/xslin/Documents/rpg_ws/install/setup.sh;/home/xslin/Documents/rpg_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.sh"
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.zsh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.zsh")
+   "/home/xslin/Documents/rpg_ws/install/setup.zsh;/home/xslin/Documents/rpg_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/setup.zsh"
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/.rosinstall")
+   "/home/xslin/Documents/rpg_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_plugins.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins/cmake" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig.cmake"
+    "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/catkin_generated/installspace/rotors_gazebo_pluginsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_gazebo_plugins" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,12 +150,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_bag_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_bag_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_bag_plugin.so")
@@ -170,12 +170,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_controller_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_controller_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_controller_interface.so")
@@ -190,12 +190,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libgazebo_geotagged_images_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/libgazebo_geotagged_images_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_geotagged_images_plugin.so")
@@ -210,12 +210,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_fw_dynamics_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_fw_dynamics_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_fw_dynamics_plugin.so")
@@ -230,12 +230,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_gps_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_gps_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_gps_plugin.so")
@@ -250,12 +250,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_imu_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_imu_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_imu_plugin.so")
@@ -270,12 +270,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_noisydepth_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_noisydepth_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_noisydepth_plugin.so")
@@ -290,12 +290,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_lidar_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_lidar_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_lidar_plugin.so")
@@ -310,12 +310,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_magnetometer_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_magnetometer_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_magnetometer_plugin.so")
@@ -330,12 +330,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_mavlink_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_mavlink_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_mavlink_interface.so")
@@ -350,12 +350,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_motor_model.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_motor_model.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_motor_model.so")
@@ -370,12 +370,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_multirotor_base_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_multirotor_base_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_multirotor_base_plugin.so")
@@ -390,12 +390,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_odometry_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_odometry_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:/usr/local/opencv4/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_odometry_plugin.so")
@@ -410,12 +410,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_pressure_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_pressure_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_pressure_plugin.so")
@@ -430,12 +430,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_ros_interface_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_ros_interface_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_ros_interface_plugin.so")
@@ -450,12 +450,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librotors_gazebo_wind_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/librotors_gazebo_wind_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librotors_gazebo_wind_plugin.so")
@@ -470,12 +470,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libLiftDragPlugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xslin/Documents/rpg_ws/devel/lib/libLiftDragPlugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins:/opt/ros/melodic/lib:/home/xslin/Documents/rpg_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libLiftDragPlugin.so")
@@ -485,7 +485,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
+  include("/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/gtest/cmake_install.cmake")
 
 endif()
 
@@ -497,5 +497,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import json
-project_dir = '/home/xslin/Documents/xslin/research/rpg_ws/src/test/resource/'
+project_dir = '../../resource/'
 traj = np.load(project_dir+'trajectory.npy', 'r')
 f=np.load(project_dir+'ugvwaypoint.npz', 'rb')
 old_points=f['pos']

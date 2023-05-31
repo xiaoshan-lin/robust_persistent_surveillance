@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_geotiff
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_geotiff
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_geotiff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_geotiff /home/xslin/Documents/xslin/research/rpg_ws/build/hector_geotiff /home/xslin/Documents/xslin/research/rpg_ws/build/hector_geotiff /home/xslin/Documents/xslin/research/rpg_ws/build/hector_geotiff/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_geotiff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff /home/xslin/Documents/rpg_ws/src/hector_slam/hector_geotiff /home/xslin/Documents/rpg_ws/build/hector_geotiff /home/xslin/Documents/rpg_ws/build/hector_geotiff /home/xslin/Documents/rpg_ws/build/hector_geotiff/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

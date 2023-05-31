@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3507b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3507b.dir/build.make CMakeFiles/cmTC_3507b.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3507b.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3507b.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3507b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3507b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3507b.dir/CheckSymbolExists.c.o  -o cmTC_3507b 
-CMakeFiles/cmTC_3507b.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_7d42f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d42f.dir/build.make CMakeFiles/cmTC_7d42f.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d42f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d42f.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7d42f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d42f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7d42f.dir/CheckSymbolExists.c.o  -o cmTC_7d42f 
+CMakeFiles/cmTC_7d42f.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3507b.dir/build.make:97: recipe for target 'cmTC_3507b' failed
-make[1]: *** [cmTC_3507b] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3507b/fast' failed
-make: *** [cmTC_3507b/fast] Error 2
+CMakeFiles/cmTC_7d42f.dir/build.make:97: recipe for target 'cmTC_7d42f' failed
+make[1]: *** [cmTC_7d42f] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d42f/fast' failed
+make: *** [cmTC_7d42f/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8b908/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8b908.dir/build.make CMakeFiles/cmTC_8b908.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8b908.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8b908.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8b908
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b908.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8b908.dir/CheckFunctionExists.c.o  -o cmTC_8b908 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_9e91c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e91c.dir/build.make CMakeFiles/cmTC_9e91c.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e91c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9e91c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9e91c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e91c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9e91c.dir/CheckFunctionExists.c.o  -o cmTC_9e91c -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8b908.dir/build.make:97: recipe for target 'cmTC_8b908' failed
-make[1]: *** [cmTC_8b908] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8b908/fast' failed
-make: *** [cmTC_8b908/fast] Error 2
+CMakeFiles/cmTC_9e91c.dir/build.make:97: recipe for target 'cmTC_9e91c' failed
+make[1]: *** [cmTC_9e91c] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9e91c/fast' failed
+make: *** [cmTC_9e91c/fast] Error 2
 
 

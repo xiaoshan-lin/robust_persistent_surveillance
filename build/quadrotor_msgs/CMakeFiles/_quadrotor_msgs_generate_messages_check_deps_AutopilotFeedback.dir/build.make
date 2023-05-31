@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/quadrotor_msgs
 
 # Utility rule file for _quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_m
 include CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/progress.make
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg quadrotor_msgs/LowLevelFeedback:nav_msgs/Odometry:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:quadrotor_msgs/TrajectoryPoint:std_msgs/Header:geometry_msgs/TwistWithCovariance:geometry_msgs/PoseWithCovariance:geometry_msgs/Quaternion:geometry_msgs/Point
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg quadrotor_msgs/TrajectoryPoint:nav_msgs/Odometry:quadrotor_msgs/LowLevelFeedback:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/PoseWithCovariance:std_msgs/Header:geometry_msgs/TwistWithCovariance:geometry_msgs/Quaternion:geometry_msgs/Point
 
 _quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback
 _quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/cl
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/clean
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/rpg_ws/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_AutopilotFeedback.dir/depend
 

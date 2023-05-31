@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: hector_nav_msgs
 Description: Description of hector_nav_msgs
 Version: 0.5.1
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/devel/include
+Cflags: -I/home/xslin/Documents/rpg_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: nav_msgs geometry_msgs message_runtime std_msgs

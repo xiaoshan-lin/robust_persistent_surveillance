@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/state_predictor
-# Build directory: /home/xslin/Documents/xslin/research/rpg_ws/build/state_predictor
+# Source directory: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/state_predictor
+# Build directory: /home/xslin/Documents/rpg_ws/build/state_predictor
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

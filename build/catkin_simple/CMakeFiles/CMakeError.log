@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01f37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01f37.dir/build.make CMakeFiles/cmTC_01f37.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_01f37.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_01f37.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_01f37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f37.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_01f37.dir/CheckSymbolExists.c.o  -o cmTC_01f37 
-CMakeFiles/cmTC_01f37.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_fda72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fda72.dir/build.make CMakeFiles/cmTC_fda72.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fda72.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fda72.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fda72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda72.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fda72.dir/CheckSymbolExists.c.o  -o cmTC_fda72 
+CMakeFiles/cmTC_fda72.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_01f37.dir/build.make:97: recipe for target 'cmTC_01f37' failed
-make[1]: *** [cmTC_01f37] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_01f37/fast' failed
-make: *** [cmTC_01f37/fast] Error 2
+CMakeFiles/cmTC_fda72.dir/build.make:97: recipe for target 'cmTC_fda72' failed
+make[1]: *** [cmTC_fda72] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fda72/fast' failed
+make: *** [cmTC_fda72/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9eb16/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9eb16.dir/build.make CMakeFiles/cmTC_9eb16.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9eb16.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9eb16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9eb16
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb16.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9eb16.dir/CheckFunctionExists.c.o  -o cmTC_9eb16 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_52835/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52835.dir/build.make CMakeFiles/cmTC_52835.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52835.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_52835.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52835.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_52835.dir/CheckFunctionExists.c.o  -o cmTC_52835 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9eb16.dir/build.make:97: recipe for target 'cmTC_9eb16' failed
-make[1]: *** [cmTC_9eb16] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9eb16/fast' failed
-make: *** [cmTC_9eb16/fast] Error 2
+CMakeFiles/cmTC_52835.dir/build.make:97: recipe for target 'cmTC_52835' failed
+make[1]: *** [cmTC_52835] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_52835/fast' failed
+make: *** [cmTC_52835/fast] Error 2
 
 

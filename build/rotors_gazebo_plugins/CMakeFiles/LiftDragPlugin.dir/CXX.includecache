@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/liftdrag_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/liftdrag_plugin.h
 string
 -
 vector
 -
 gazebo/common/Plugin.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/gazebo/common/Plugin.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/gazebo/common/Plugin.hh
 gazebo/physics/physics.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/gazebo/physics/physics.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/gazebo/physics/physics.hh
 gazebo/transport/TransportTypes.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/gazebo/transport/TransportTypes.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/liftdrag_plugin/gazebo/transport/TransportTypes.hh
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/liftdrag_plugin.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/liftdrag_plugin.cpp
 algorithm
 -
 string
 -
 gazebo/common/Assert.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/common/Assert.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/common/Assert.hh
 gazebo/physics/physics.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/physics/physics.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/physics/physics.hh
 gazebo/sensors/SensorManager.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/sensors/SensorManager.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/sensors/SensorManager.hh
 gazebo/transport/transport.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/transport/transport.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/transport/transport.hh
 gazebo/msgs/msgs.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/msgs/msgs.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/gazebo/msgs/msgs.hh
 liftdrag_plugin/liftdrag_plugin.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/liftdrag_plugin/liftdrag_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/liftdrag_plugin/liftdrag_plugin/liftdrag_plugin.h
 
 /usr/include/gazebo-9/gazebo/common/Animation.hh
 string

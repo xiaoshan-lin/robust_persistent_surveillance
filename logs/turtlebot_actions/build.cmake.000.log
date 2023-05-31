@@ -58,7 +58,7 @@ Not searching for unused variables given on the command line.
 
 [36m--[0m Found Eigen: /usr/include/eigen3
 [36m--[0m Eigen found (include: /usr/include/eigen3)
-[36m--[0m Found OpenCV: /usr (found version "3.2.0")
+[36m--[0m Found OpenCV: /usr/local/opencv4 (found version "4.5.4")
 [36m--[0m Generating .msg files for action turtlebot_actions/FindFiducial /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/action/FindFiducial.action
 Generating for action FindFiducial
 [36m--[0m Generating .msg files for action turtlebot_actions/TurtlebotMove /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/action/TurtlebotMove.action

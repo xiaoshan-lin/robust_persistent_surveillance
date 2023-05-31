@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_lisp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/hector_mapping/msg/HectorDebugInfo.lisp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/hector_mapping/msg/HectorIterData.lisp"
+  "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/hector_mapping/msg/HectorDebugInfo.lisp"
+  "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/hector_mapping/msg/HectorIterData.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

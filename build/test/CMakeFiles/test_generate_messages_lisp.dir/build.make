@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/test
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/test
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/test
 
 # Utility rule file for test_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include CMakeFiles/test_generate_messages_lisp.dir/progress.make
 
-CMakeFiles/test_generate_messages_lisp: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp
+CMakeFiles/test_generate_messages_lisp: /home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp
 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp: /home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from test/age.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/xslin/Documents/xslin/research/rpg_ws/src/test/srv/age.srv -Itest:/home/xslin/Documents/xslin/research/rpg_ws/src/test/msg -p test -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/test/srv
+/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp: /home/xslin/Documents/rpg_ws/src/test/srv/age.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from test/age.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/xslin/Documents/rpg_ws/src/test/srv/age.srv -Itest:/home/xslin/Documents/rpg_ws/src/test/msg -p test -o /home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/test/srv
 
 test_generate_messages_lisp: CMakeFiles/test_generate_messages_lisp
-test_generate_messages_lisp: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp
+test_generate_messages_lisp: /home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/test/srv/age.lisp
 test_generate_messages_lisp: CMakeFiles/test_generate_messages_lisp.dir/build.make
 
 .PHONY : test_generate_messages_lisp
@@ -77,6 +77,6 @@ CMakeFiles/test_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/test_generate_messages_lisp.dir/clean
 
 CMakeFiles/test_generate_messages_lisp.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/test /home/xslin/Documents/xslin/research/rpg_ws/src/test /home/xslin/Documents/xslin/research/rpg_ws/build/test /home/xslin/Documents/xslin/research/rpg_ws/build/test /home/xslin/Documents/xslin/research/rpg_ws/build/test/CMakeFiles/test_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/test /home/xslin/Documents/rpg_ws/src/test /home/xslin/Documents/rpg_ws/build/test /home/xslin/Documents/rpg_ws/build/test /home/xslin/Documents/rpg_ws/build/test/CMakeFiles/test_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_generate_messages_lisp.dir/depend
 

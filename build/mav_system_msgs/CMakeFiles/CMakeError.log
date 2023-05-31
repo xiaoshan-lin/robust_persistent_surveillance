@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d878/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d878.dir/build.make CMakeFiles/cmTC_8d878.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d878.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8d878.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8d878
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d878.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8d878.dir/CheckSymbolExists.c.o  -o cmTC_8d878 
-CMakeFiles/cmTC_8d878.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_b4f39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4f39.dir/build.make CMakeFiles/cmTC_b4f39.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4f39.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b4f39.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b4f39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f39.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b4f39.dir/CheckSymbolExists.c.o  -o cmTC_b4f39 
+CMakeFiles/cmTC_b4f39.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8d878.dir/build.make:97: recipe for target 'cmTC_8d878' failed
-make[1]: *** [cmTC_8d878] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8d878/fast' failed
-make: *** [cmTC_8d878/fast] Error 2
+CMakeFiles/cmTC_b4f39.dir/build.make:97: recipe for target 'cmTC_b4f39' failed
+make[1]: *** [cmTC_b4f39] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b4f39/fast' failed
+make: *** [cmTC_b4f39/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b8b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b8b8.dir/build.make CMakeFiles/cmTC_1b8b8.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b8b8.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1b8b8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1b8b8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b8b8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1b8b8.dir/CheckFunctionExists.c.o  -o cmTC_1b8b8 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_cd7a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd7a0.dir/build.make CMakeFiles/cmTC_cd7a0.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd7a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cd7a0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd7a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd7a0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cd7a0.dir/CheckFunctionExists.c.o  -o cmTC_cd7a0 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1b8b8.dir/build.make:97: recipe for target 'cmTC_1b8b8' failed
-make[1]: *** [cmTC_1b8b8] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1b8b8/fast' failed
-make: *** [cmTC_1b8b8/fast] Error 2
+CMakeFiles/cmTC_cd7a0.dir/build.make:97: recipe for target 'cmTC_cd7a0' failed
+make[1]: *** [cmTC_cd7a0] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/mav_system_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cd7a0/fast' failed
+make: *** [cmTC_cd7a0/fast] Error 2
 
 

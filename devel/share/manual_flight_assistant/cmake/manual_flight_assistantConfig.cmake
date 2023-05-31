@@ -67,14 +67,14 @@ set(manual_flight_assistant_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(manual_flight_assistant_SOURCE_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant)
-  set(manual_flight_assistant_DEVEL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/devel)
+  set(manual_flight_assistant_SOURCE_PREFIX /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant)
+  set(manual_flight_assistant_DEVEL_PREFIX /home/xslin/Documents/rpg_ws/devel)
   set(manual_flight_assistant_INSTALL_PREFIX "")
   set(manual_flight_assistant_PREFIX ${manual_flight_assistant_DEVEL_PREFIX})
 else()
   set(manual_flight_assistant_SOURCE_PREFIX "")
   set(manual_flight_assistant_DEVEL_PREFIX "")
-  set(manual_flight_assistant_INSTALL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/install)
+  set(manual_flight_assistant_INSTALL_PREFIX /home/xslin/Documents/rpg_ws/install)
   set(manual_flight_assistant_PREFIX ${manual_flight_assistant_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(manual_flight_assistant_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/include " STREQUAL " ")
+if(NOT "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/include " STREQUAL " ")
   set(manual_flight_assistant_INCLUDE_DIRS "")
-  set(_include_dirs "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/include")
+  set(_include_dirs "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/ut
         message(FATAL_ERROR "Project 'manual_flight_assistant' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'manual_flight_assistant' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'manual_flight_assistant' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/${idir}'.  ${_report}")
     endif()
     _list_append_unique(manual_flight_assistant_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xslin/Documents/rpg_ws/devel/lib;/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

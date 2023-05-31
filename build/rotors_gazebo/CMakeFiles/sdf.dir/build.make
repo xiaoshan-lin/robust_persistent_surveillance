@@ -43,30 +43,30 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rotors_gazebo
 
 # Utility rule file for sdf.
 
 # Include the progress variables for this target.
 include CMakeFiles/sdf.dir/progress.make
 
-CMakeFiles/sdf: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+CMakeFiles/sdf: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
 
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris.xacro
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/component_snippets.xacro
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo && /usr/bin/python /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/scripts/xacro.py -o /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro enable_mavlink_interface:=true enable_ground_truth:=false enable_wind:=false enable_logging:=false rotors_description_dir:=/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo && gz sdf -p /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf >> /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris.xacro
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/component_snippets.xacro
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf"
+	cd /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+	cd /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo && /usr/bin/python /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/scripts/xacro.py -o /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.xacro enable_mavlink_interface:=true enable_ground_truth:=false enable_wind:=false enable_logging:=false rotors_description_dir:=/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description
+	cd /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo && gz sdf -p /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf >> /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+	cd /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo && rm -f /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/rotors_description/urdf/iris_base.urdf
 
 sdf: CMakeFiles/sdf
-sdf: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
+sdf: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/models/iris/iris.sdf
 sdf: CMakeFiles/sdf.dir/build.make
 
 .PHONY : sdf
@@ -81,6 +81,6 @@ CMakeFiles/sdf.dir/clean:
 .PHONY : CMakeFiles/sdf.dir/clean
 
 CMakeFiles/sdf.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo/CMakeFiles/sdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/rpg_ws/build/rotors_gazebo /home/xslin/Documents/rpg_ws/build/rotors_gazebo /home/xslin/Documents/rpg_ws/build/rotors_gazebo/CMakeFiles/sdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sdf.dir/depend
 

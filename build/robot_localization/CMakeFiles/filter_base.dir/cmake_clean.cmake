@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/filter_base.dir/src/filter_base.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libfilter_base.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libfilter_base.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libfilter_base.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libfilter_base.so"
 )
 
 # Per-language clean rules from dependency scanning.

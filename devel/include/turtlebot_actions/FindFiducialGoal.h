@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -41,7 +41,7 @@ struct FindFiducialGoal_
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _camera_name_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _camera_name_type;
   _camera_name_type camera_name;
 
    typedef uint8_t _pattern_width_type;
@@ -245,7 +245,7 @@ struct Printer< ::turtlebot_actions::FindFiducialGoal_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::turtlebot_actions::FindFiducialGoal_<ContainerAllocator>& v)
   {
     s << indent << "camera_name: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.camera_name);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.camera_name);
     s << indent << "pattern_width: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.pattern_width);
     s << indent << "pattern_height: ";

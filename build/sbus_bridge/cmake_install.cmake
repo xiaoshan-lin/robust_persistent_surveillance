@@ -1,8 +1,8 @@
-# Install script for directory: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge
+# Install script for directory: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/xslin/research/rpg_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/rpg_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,115 +49,115 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/_setup_util.py")
+   "/home/xslin/Documents/rpg_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/env.sh")
+   "/home/xslin/Documents/rpg_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.bash;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.bash")
+   "/home/xslin/Documents/rpg_ws/install/setup.bash;/home/xslin/Documents/rpg_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/setup.bash"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/setup.bash"
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.sh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.sh")
+   "/home/xslin/Documents/rpg_ws/install/setup.sh;/home/xslin/Documents/rpg_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/setup.sh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/setup.sh"
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.zsh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.zsh")
+   "/home/xslin/Documents/rpg_ws/install/setup.zsh;/home/xslin/Documents/rpg_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/setup.zsh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/setup.zsh"
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/.rosinstall")
+   "/home/xslin/Documents/rpg_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/msg" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/msg/SbusRosMessage.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/msg" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/msg/SbusRosMessage.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/cmake" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridge-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/cmake" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridge-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/sbus_bridge")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/include/sbus_bridge")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/sbus_bridge")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/sbus_bridge")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/sbus_bridge")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/sbus_bridge")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/sbus_bridge")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/sbus_bridge")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/sbus_bridge")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/sbus_bridge")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/sbus_bridge")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/sbus_bridge")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -167,12 +167,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge/sbus_bridge"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge" TYPE EXECUTABLE FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge" TYPE EXECUTABLE FILES "/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge/sbus_bridge" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge/sbus_bridge")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge/sbus_bridge"
-         OLD_RPATH "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/xslin/Documents/rpg_ws/devel/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sbus_bridge/sbus_bridge")
@@ -181,35 +181,35 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/launch" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/launch" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridge.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridge.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/cmake" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridge-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/cmake" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridge-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge/cmake" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridgeConfig.cmake"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridgeConfig-version.cmake"
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridgeConfig.cmake"
+    "/home/xslin/Documents/rpg_ws/build/sbus_bridge/catkin_generated/installspace/sbus_bridgeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbus_bridge" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/gtest/cmake_install.cmake")
+  include("/home/xslin/Documents/rpg_ws/build/sbus_bridge/gtest/cmake_install.cmake")
 
 endif()
 
@@ -221,5 +221,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xslin/Documents/rpg_ws/build/sbus_bridge/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

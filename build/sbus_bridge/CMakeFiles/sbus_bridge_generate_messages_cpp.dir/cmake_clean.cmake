@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sbus_bridge_generate_messages_cpp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/sbus_bridge/SbusRosMessage.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/sbus_bridge/SbusRosMessage.h"
 )
 
 # Per-language clean rules from dependency scanning.

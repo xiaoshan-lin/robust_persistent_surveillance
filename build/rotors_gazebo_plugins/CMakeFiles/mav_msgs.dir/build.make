@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mav_msgs.dir/depend.make
@@ -57,258 +57,258 @@ include CMakeFiles/mav_msgs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mav_msgs.dir/flags.make
 
-Actuators.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
+Actuators.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
 Actuators.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
 
 Actuators.pb.h: Actuators.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Actuators.pb.h
 
-CommandMotorSpeed.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
+CommandMotorSpeed.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
 CommandMotorSpeed.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
 
 CommandMotorSpeed.pb.h: CommandMotorSpeed.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate CommandMotorSpeed.pb.h
 
-ConnectGazeboToRosTopic.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
+ConnectGazeboToRosTopic.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
 ConnectGazeboToRosTopic.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
 
 ConnectGazeboToRosTopic.pb.h: ConnectGazeboToRosTopic.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate ConnectGazeboToRosTopic.pb.h
 
-ConnectRosToGazeboTopic.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
+ConnectRosToGazeboTopic.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
 ConnectRosToGazeboTopic.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
 
 ConnectRosToGazeboTopic.pb.h: ConnectRosToGazeboTopic.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate ConnectRosToGazeboTopic.pb.h
 
-Float32.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
+Float32.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
 Float32.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
 
 Float32.pb.h: Float32.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Float32.pb.h
 
-FluidPressure.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
+FluidPressure.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
 FluidPressure.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
 
 FluidPressure.pb.h: FluidPressure.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate FluidPressure.pb.h
 
-Header.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
+Header.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
 Header.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
 
 Header.pb.h: Header.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Header.pb.h
 
-Imu.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
+Imu.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
 Imu.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
 
 Imu.pb.h: Imu.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Imu.pb.h
 
-JointState.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
+JointState.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
 JointState.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
 
 JointState.pb.h: JointState.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate JointState.pb.h
 
-Lidar.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
+Lidar.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
 Lidar.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
 
 Lidar.pb.h: Lidar.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Lidar.pb.h
 
-MagneticField.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
+MagneticField.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
 MagneticField.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
 
 MagneticField.pb.h: MagneticField.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate MagneticField.pb.h
 
-NavSatFix.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
+NavSatFix.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
 NavSatFix.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
 
 NavSatFix.pb.h: NavSatFix.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate NavSatFix.pb.h
 
-Odometry.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
+Odometry.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
 Odometry.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
 
 Odometry.pb.h: Odometry.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Odometry.pb.h
 
-OpticalFlow.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
+OpticalFlow.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
 OpticalFlow.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
 
 OpticalFlow.pb.h: OpticalFlow.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate OpticalFlow.pb.h
 
-Point.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
+Point.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
 Point.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
 
 Point.pb.h: Point.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Point.pb.h
 
-PointStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
+PointStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
 PointStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
 
 PointStamped.pb.h: PointStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate PointStamped.pb.h
 
-PoseStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
+PoseStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
 PoseStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
 
 PoseStamped.pb.h: PoseStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate PoseStamped.pb.h
 
-PoseWithCovariance.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
+PoseWithCovariance.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
 PoseWithCovariance.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
 
 PoseWithCovariance.pb.h: PoseWithCovariance.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate PoseWithCovariance.pb.h
 
-PoseWithCovarianceStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
+PoseWithCovarianceStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
 PoseWithCovarianceStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
 
 PoseWithCovarianceStamped.pb.h: PoseWithCovarianceStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate PoseWithCovarianceStamped.pb.h
 
-RollPitchYawrateThrust.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
+RollPitchYawrateThrust.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
 RollPitchYawrateThrust.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
 
 RollPitchYawrateThrust.pb.h: RollPitchYawrateThrust.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate RollPitchYawrateThrust.pb.h
 
-Transform.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
+Transform.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
 Transform.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
 
 Transform.pb.h: Transform.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Transform.pb.h
 
-TransformStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
+TransformStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
 TransformStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
 
 TransformStamped.pb.h: TransformStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate TransformStamped.pb.h
 
-TransformStampedWithFrameIds.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
+TransformStampedWithFrameIds.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
 TransformStampedWithFrameIds.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
 
 TransformStampedWithFrameIds.pb.h: TransformStampedWithFrameIds.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate TransformStampedWithFrameIds.pb.h
 
-Twist.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
+Twist.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
 Twist.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
 
 Twist.pb.h: Twist.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Twist.pb.h
 
-TwistStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
+TwistStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
 TwistStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
 
 TwistStamped.pb.h: TwistStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate TwistStamped.pb.h
 
-TwistWithCovariance.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
+TwistWithCovariance.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
 TwistWithCovariance.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
 
 TwistWithCovariance.pb.h: TwistWithCovariance.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate TwistWithCovariance.pb.h
 
-Vector3dStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
+Vector3dStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
 Vector3dStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
 
 Vector3dStamped.pb.h: Vector3dStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Vector3dStamped.pb.h
 
-WindSpeed.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
+WindSpeed.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
 WindSpeed.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
 
 WindSpeed.pb.h: WindSpeed.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate WindSpeed.pb.h
 
-Wrench.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
+Wrench.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
 Wrench.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
 
 Wrench.pb.h: Wrench.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate Wrench.pb.h
 
-WrenchStamped.pb.cc: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
+WrenchStamped.pb.cc: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
 WrenchStamped.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Running C++ protocol buffer compiler on /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto"
-	/usr/bin/protoc --cpp_out=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Running C++ protocol buffer compiler on /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto"
+	/usr/bin/protoc --cpp_out=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins -I /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-9/gazebo/msgs/proto /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
 
 WrenchStamped.pb.h: WrenchStamped.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate WrenchStamped.pb.h
 
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: Actuators.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Actuators.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Actuators.pb.cc
 
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Actuators.pb.cc > CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Actuators.pb.cc > CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Actuators.pb.cc -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Actuators.pb.cc -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o.provides.build: CMakeFiles/mav_msgs.di
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: CommandMotorSpeed.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc > CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc > CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o.provides.build: CMakeFiles/mav
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: ConnectGazeboToRosTopic.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o.provides.build: CMakeFil
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: ConnectRosToGazeboTopic.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o.provides.build: CMakeFil
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: Float32.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/mav_msgs.dir/Float32.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Float32.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/mav_msgs.dir/Float32.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Float32.pb.cc
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Float32.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Float32.pb.cc > CMakeFiles/mav_msgs.dir/Float32.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Float32.pb.cc > CMakeFiles/mav_msgs.dir/Float32.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Float32.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Float32.pb.cc -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Float32.pb.cc -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Float32.pb.cc.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/mav_msgs.dir/Float32.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: FluidPressure.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/FluidPressure.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/FluidPressure.pb.cc
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/FluidPressure.pb.cc > CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/FluidPressure.pb.cc > CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/FluidPressure.pb.cc -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/FluidPressure.pb.cc -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o.provides.build: CMakeFiles/mav_msg
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Header.pb.cc.o: Header.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/mav_msgs.dir/Header.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Header.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Header.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/mav_msgs.dir/Header.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Header.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Header.pb.cc
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Header.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Header.pb.cc > CMakeFiles/mav_msgs.dir/Header.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Header.pb.cc > CMakeFiles/mav_msgs.dir/Header.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Header.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Header.pb.cc -o CMakeFiles/mav_msgs.dir/Header.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Header.pb.cc -o CMakeFiles/mav_msgs.dir/Header.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Header.pb.cc.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/mav_msgs.dir/Header.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/H
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: Imu.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/mav_msgs.dir/Imu.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Imu.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/mav_msgs.dir/Imu.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Imu.pb.cc
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Imu.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Imu.pb.cc > CMakeFiles/mav_msgs.dir/Imu.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Imu.pb.cc > CMakeFiles/mav_msgs.dir/Imu.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Imu.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Imu.pb.cc -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Imu.pb.cc -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Imu.pb.cc.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/mav_msgs.dir/Imu.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/Imu.
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: JointState.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/mav_msgs.dir/JointState.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/JointState.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/mav_msgs.dir/JointState.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/JointState.pb.cc
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/JointState.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/JointState.pb.cc > CMakeFiles/mav_msgs.dir/JointState.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/JointState.pb.cc > CMakeFiles/mav_msgs.dir/JointState.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/JointState.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/JointState.pb.cc -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/JointState.pb.cc -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/JointState.pb.cc.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/mav_msgs.dir/JointState.pb.cc.o.provides.build: CMakeFiles/mav_msgs.d
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: Lidar.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Lidar.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Lidar.pb.cc
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Lidar.pb.cc > CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Lidar.pb.cc > CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Lidar.pb.cc -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Lidar.pb.cc -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/Li
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: MagneticField.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/MagneticField.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/MagneticField.pb.cc
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/MagneticField.pb.cc > CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/MagneticField.pb.cc > CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/MagneticField.pb.cc -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/MagneticField.pb.cc -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o.provides.build: CMakeFiles/mav_msg
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: NavSatFix.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/NavSatFix.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/NavSatFix.pb.cc
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/NavSatFix.pb.cc > CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/NavSatFix.pb.cc > CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/NavSatFix.pb.cc -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/NavSatFix.pb.cc -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o.provides.build: CMakeFiles/mav_msgs.di
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: Odometry.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Odometry.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Odometry.pb.cc
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Odometry.pb.cc > CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Odometry.pb.cc > CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Odometry.pb.cc -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Odometry.pb.cc -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: OpticalFlow.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/OpticalFlow.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/OpticalFlow.pb.cc
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/OpticalFlow.pb.cc > CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/OpticalFlow.pb.cc > CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/OpticalFlow.pb.cc -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/OpticalFlow.pb.cc -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o.provides.build: CMakeFiles/mav_msgs.
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Point.pb.cc.o: Point.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/mav_msgs.dir/Point.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Point.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Point.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/mav_msgs.dir/Point.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Point.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Point.pb.cc
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Point.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Point.pb.cc > CMakeFiles/mav_msgs.dir/Point.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Point.pb.cc > CMakeFiles/mav_msgs.dir/Point.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Point.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Point.pb.cc -o CMakeFiles/mav_msgs.dir/Point.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Point.pb.cc -o CMakeFiles/mav_msgs.dir/Point.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Point.pb.cc.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/mav_msgs.dir/Point.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/Po
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: PointStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PointStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PointStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PointStamped.pb.cc > CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PointStamped.pb.cc > CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PointStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PointStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o.provides.build: CMakeFiles/mav_msgs
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: PoseStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o.provides.build: CMakeFiles/mav_msgs.
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: PoseWithCovariance.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o.provides.build: CMakeFiles/ma
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: PoseWithCovarianceStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o.provides.build: CMakeF
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: RollPitchYawrateThrust.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc > CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc > CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o.provides.build: CMakeFile
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: Transform.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/mav_msgs.dir/Transform.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Transform.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/mav_msgs.dir/Transform.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Transform.pb.cc
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Transform.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Transform.pb.cc > CMakeFiles/mav_msgs.dir/Transform.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Transform.pb.cc > CMakeFiles/mav_msgs.dir/Transform.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Transform.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Transform.pb.cc -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Transform.pb.cc -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Transform.pb.cc.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/mav_msgs.dir/Transform.pb.cc.o.provides.build: CMakeFiles/mav_msgs.di
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: TransformStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TransformStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TransformStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TransformStamped.pb.cc > CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TransformStamped.pb.cc > CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TransformStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TransformStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o.provides.build: CMakeFiles/mav_
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: TransformStampedWithFrameIds.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc > CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc > CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o.provides.build: CMa
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: Twist.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/mav_msgs.dir/Twist.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Twist.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/mav_msgs.dir/Twist.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Twist.pb.cc
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Twist.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Twist.pb.cc > CMakeFiles/mav_msgs.dir/Twist.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Twist.pb.cc > CMakeFiles/mav_msgs.dir/Twist.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Twist.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Twist.pb.cc -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Twist.pb.cc -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Twist.pb.cc.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/mav_msgs.dir/Twist.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/Tw
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: TwistStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TwistStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TwistStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TwistStamped.pb.cc > CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TwistStamped.pb.cc > CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TwistStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TwistStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o.provides.build: CMakeFiles/mav_msgs
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: TwistWithCovariance.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/TwistWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o.provides.build: CMakeFiles/m
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: Vector3dStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc > CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc > CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Vector3dStamped.pb.cc -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o.provides.build: CMakeFiles/mav_m
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: WindSpeed.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/WindSpeed.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/WindSpeed.pb.cc
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/WindSpeed.pb.cc > CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/WindSpeed.pb.cc > CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/WindSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/WindSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o.provides.build: CMakeFiles/mav_msgs.di
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: Wrench.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Wrench.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Wrench.pb.cc
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Wrench.pb.cc > CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Wrench.pb.cc > CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/Wrench.pb.cc -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/Wrench.pb.cc -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o.provides.build: CMakeFiles/mav_msgs.dir/W
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: CMakeFiles/mav_msgs.dir/flags.make
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: WrenchStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/WrenchStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -c /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/WrenchStamped.pb.cc
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/WrenchStamped.pb.cc > CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/WrenchStamped.pb.cc > CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/WrenchStamped.pb.cc -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/WrenchStamped.pb.cc -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s
 
 CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o.requires:
 
@@ -1086,7 +1086,7 @@ libmav_msgs.so: CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o
 libmav_msgs.so: CMakeFiles/mav_msgs.dir/build.make
 libmav_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 libmav_msgs.so: CMakeFiles/mav_msgs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX shared library libmav_msgs.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX shared library libmav_msgs.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mav_msgs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1191,6 +1191,6 @@ CMakeFiles/mav_msgs.dir/depend: Wrench.pb.cc
 CMakeFiles/mav_msgs.dir/depend: Wrench.pb.h
 CMakeFiles/mav_msgs.dir/depend: WrenchStamped.pb.cc
 CMakeFiles/mav_msgs.dir/depend: WrenchStamped.pb.h
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins /home/xslin/Documents/rpg_ws/build/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mav_msgs.dir/depend
 

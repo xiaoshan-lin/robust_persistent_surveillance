@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/usr/include/eigen3".split(';') if "/usr/incl
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "eigen_catkin"
-PROJECT_SPACE_DIR = "/home/xslin/Documents/xslin/research/rpg_ws/install"
+PROJECT_SPACE_DIR = "/home/xslin/Documents/rpg_ws/install"
 PROJECT_VERSION = "3.2.12"

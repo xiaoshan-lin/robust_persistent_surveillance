@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/husky/husky_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/husky_base
 
 # Include any dependencies generated for this target.
 include CMakeFiles/husky_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/husky_node.dir/progress.make
 include CMakeFiles/husky_node.dir/flags.make
 
 CMakeFiles/husky_node.dir/src/husky_base.cpp.o: CMakeFiles/husky_node.dir/flags.make
-CMakeFiles/husky_node.dir/src/husky_base.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/husky_node.dir/src/husky_base.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_base.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_base.cpp
+CMakeFiles/husky_node.dir/src/husky_base.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/husky_node.dir/src/husky_base.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_base.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_base.cpp
 
 CMakeFiles/husky_node.dir/src/husky_base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/husky_base.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_base.cpp > CMakeFiles/husky_node.dir/src/husky_base.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_base.cpp > CMakeFiles/husky_node.dir/src/husky_base.cpp.i
 
 CMakeFiles/husky_node.dir/src/husky_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/husky_base.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_base.cpp -o CMakeFiles/husky_node.dir/src/husky_base.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_base.cpp -o CMakeFiles/husky_node.dir/src/husky_base.cpp.s
 
 CMakeFiles/husky_node.dir/src/husky_base.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/husky_node.dir/src/husky_base.cpp.o.provides.build: CMakeFiles/husky_
 
 
 CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o: CMakeFiles/husky_node.dir/flags.make
-CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp
+CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp
 
 CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp > CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp > CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i
 
 CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_hardware.cpp -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s
 
 CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o.provides.build: CMakeFiles/hu
 
 
 CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o: CMakeFiles/husky_node.dir/flags.make
-CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp
+CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp
 
 CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp > CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp > CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i
 
 CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/husky_diagnostics.cpp -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s
 
 CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o: CMakeFiles/husky_node.dir/flags.make
-CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp
+CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp
 
 CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp > CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp > CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i
 
 CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy_wrapper.cpp -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s
 
 CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o.requires:
 
@@ -163,53 +163,53 @@ husky_node_OBJECTS = \
 # External object files for target husky_node
 husky_node_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/husky_base.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libcontroller_manager.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libclass_loader.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/libPocoFoundation.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libroslib.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librospack.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libdiagnostic_updater.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node"
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/husky_base.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libcontroller_manager.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libclass_loader.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/libPocoFoundation.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libroslib.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librospack.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libdiagnostic_updater.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node: CMakeFiles/husky_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/husky_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/husky_node.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/husky_base/husky_node
+CMakeFiles/husky_node.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/husky_base/husky_node
 
 .PHONY : CMakeFiles/husky_node.dir/build
 
@@ -225,6 +225,6 @@ CMakeFiles/husky_node.dir/clean:
 .PHONY : CMakeFiles/husky_node.dir/clean
 
 CMakeFiles/husky_node.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles/husky_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/husky_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/husky/husky_base /home/xslin/Documents/rpg_ws/src/husky/husky_base /home/xslin/Documents/rpg_ws/build/husky_base /home/xslin/Documents/rpg_ws/build/husky_base /home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles/husky_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/husky_node.dir/depend
 

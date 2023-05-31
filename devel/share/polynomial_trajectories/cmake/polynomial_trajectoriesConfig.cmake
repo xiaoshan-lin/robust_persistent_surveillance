@@ -67,14 +67,14 @@ set(polynomial_trajectories_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(polynomial_trajectories_SOURCE_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories)
-  set(polynomial_trajectories_DEVEL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/devel)
+  set(polynomial_trajectories_SOURCE_PREFIX /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories)
+  set(polynomial_trajectories_DEVEL_PREFIX /home/xslin/Documents/rpg_ws/devel)
   set(polynomial_trajectories_INSTALL_PREFIX "")
   set(polynomial_trajectories_PREFIX ${polynomial_trajectories_DEVEL_PREFIX})
 else()
   set(polynomial_trajectories_SOURCE_PREFIX "")
   set(polynomial_trajectories_DEVEL_PREFIX "")
-  set(polynomial_trajectories_INSTALL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/install)
+  set(polynomial_trajectories_INSTALL_PREFIX /home/xslin/Documents/rpg_ws/install)
   set(polynomial_trajectories_PREFIX ${polynomial_trajectories_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(polynomial_trajectories_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include " STREQUAL " ")
+if(NOT "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include " STREQUAL " ")
   set(polynomial_trajectories_INCLUDE_DIRS "")
-  set(_include_dirs "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include")
+  set(_include_dirs "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/tr
         message(FATAL_ERROR "Project 'polynomial_trajectories' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'polynomial_trajectories' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'polynomial_trajectories' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/${idir}'.  ${_report}")
     endif()
     _list_append_unique(polynomial_trajectories_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xslin/Documents/rpg_ws/devel/lib;/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

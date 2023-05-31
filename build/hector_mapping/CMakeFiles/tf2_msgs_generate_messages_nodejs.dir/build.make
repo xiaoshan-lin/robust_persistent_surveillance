@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_mapping
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_mapping
 
 # Utility rule file for tf2_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping /home/xslin/Documents/xslin/research/rpg_ws/build/hector_mapping /home/xslin/Documents/xslin/research/rpg_ws/build/hector_mapping /home/xslin/Documents/xslin/research/rpg_ws/build/hector_mapping/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping /home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping /home/xslin/Documents/rpg_ws/build/hector_mapping /home/xslin/Documents/rpg_ws/build/hector_mapping /home/xslin/Documents/rpg_ws/build/hector_mapping/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 

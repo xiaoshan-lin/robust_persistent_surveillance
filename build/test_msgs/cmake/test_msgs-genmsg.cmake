@@ -2,7 +2,7 @@
 
 message(STATUS "test_msgs: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Itest_msgs:/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg")
+set(MSG_I_FLAGS "-Itest_msgs:/home/xslin/Documents/rpg_ws/src/test_msgs/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(test_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
 add_custom_target(_test_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test_msgs" "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" ""
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
 add_custom_target(_test_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test_msgs" "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" ""
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
 add_custom_target(_test_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test_msgs" "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" ""
 )
 
 #
@@ -39,19 +39,19 @@ add_custom_target(_test_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test_msgs
 )
 _generate_msg_cpp(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test_msgs
 )
 _generate_msg_cpp(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test_msgs
@@ -71,11 +71,11 @@ add_custom_target(test_msgs_generate_messages_cpp
 add_dependencies(test_msgs_generate_messages test_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_cpp _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_cpp _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_cpp _test_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,19 +88,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test_msgs
 )
 _generate_msg_eus(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test_msgs
 )
 _generate_msg_eus(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test_msgs
@@ -120,11 +120,11 @@ add_custom_target(test_msgs_generate_messages_eus
 add_dependencies(test_msgs_generate_messages test_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_eus _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_eus _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_eus _test_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,19 +137,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test_msgs
 )
 _generate_msg_lisp(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test_msgs
 )
 _generate_msg_lisp(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test_msgs
@@ -169,11 +169,11 @@ add_custom_target(test_msgs_generate_messages_lisp
 add_dependencies(test_msgs_generate_messages test_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_lisp _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_lisp _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_lisp _test_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,19 +186,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_msgs_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test_msgs
 )
 _generate_msg_nodejs(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test_msgs
 )
 _generate_msg_nodejs(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test_msgs
@@ -218,11 +218,11 @@ add_custom_target(test_msgs_generate_messages_nodejs
 add_dependencies(test_msgs_generate_messages test_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_nodejs _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_nodejs _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_nodejs _test_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,19 +235,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS test_msgs_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test_msgs
 )
 _generate_msg_py(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test_msgs
 )
 _generate_msg_py(test_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg"
+  "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test_msgs
@@ -267,11 +267,11 @@ add_custom_target(test_msgs_generate_messages_py
 add_dependencies(test_msgs_generate_messages test_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_py _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/floatlist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_py _test_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs/msg/floatlist_1.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/test_msgs/msg/timelist.msg" NAME_WE)
 add_dependencies(test_msgs_generate_messages_py _test_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

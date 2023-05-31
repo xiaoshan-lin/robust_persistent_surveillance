@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PATH="/home/xslin/Documents/xslin/research/rpg_ws/devel/bin:$PATH"
-export PWD='/home/xslin/Documents/xslin/research/rpg_ws/build/test_msgs'
+export PWD='/home/xslin/Documents/rpg_ws/build/test_msgs'

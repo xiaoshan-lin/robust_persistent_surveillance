@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_state_machine_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/mav_comm/mav_state_machine_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/mav_state_machine_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/mav_state_machine_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/mav_state_machine_msgs/CMakeFiles /home/xslin/Documents/xslin/research/rpg_ws/build/mav_state_machine_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/mav_state_machine_msgs/CMakeFiles /home/xslin/Documents/rpg_ws/build/mav_state_machine_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/mav_state_machine_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/mav_state_machine_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,19 +166,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named mav_state_machine_msgs_gennodejs
-
-# Build rule for target.
-mav_state_machine_msgs_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_gennodejs
-.PHONY : mav_state_machine_msgs_gennodejs
-
-# fast build rule for target.
-mav_state_machine_msgs_gennodejs/fast:
-	$(MAKE) -f CMakeFiles/mav_state_machine_msgs_gennodejs.dir/build.make CMakeFiles/mav_state_machine_msgs_gennodejs.dir/build
-.PHONY : mav_state_machine_msgs_gennodejs/fast
 
 #=============================================================================
 # Target rules for targets named mav_state_machine_msgs_generate_messages
@@ -363,6 +350,19 @@ mav_state_machine_msgs_generate_messages_eus/fast:
 .PHONY : mav_state_machine_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named mav_state_machine_msgs_gennodejs
+
+# Build rule for target.
+mav_state_machine_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_gennodejs
+.PHONY : mav_state_machine_msgs_gennodejs
+
+# fast build rule for target.
+mav_state_machine_msgs_gennodejs/fast:
+	$(MAKE) -f CMakeFiles/mav_state_machine_msgs_gennodejs.dir/build.make CMakeFiles/mav_state_machine_msgs_gennodejs.dir/build
+.PHONY : mav_state_machine_msgs_gennodejs/fast
+
+#=============================================================================
 # Target rules for targets named mav_state_machine_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -539,7 +539,6 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... mav_state_machine_msgs_gennodejs"
 	@echo "... mav_state_machine_msgs_generate_messages"
 	@echo "... mav_state_machine_msgs_gencpp"
 	@echo "... mav_state_machine_msgs_genlisp"
@@ -556,6 +555,7 @@ help:
 	@echo "... clean_test_results"
 	@echo "... tests"
 	@echo "... mav_state_machine_msgs_generate_messages_eus"
+	@echo "... mav_state_machine_msgs_gennodejs"
 	@echo "... mav_state_machine_msgs_generate_messages_cpp"
 	@echo "... _mav_state_machine_msgs_generate_messages_check_deps_StartStopTask"
 	@echo "... mav_state_machine_msgs_geneus"

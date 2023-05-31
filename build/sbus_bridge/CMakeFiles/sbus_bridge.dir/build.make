@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/sbus_bridge
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sbus_bridge.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/sbus_bridge.dir/progress.make
 include CMakeFiles/sbus_bridge.dir/flags.make
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o: CMakeFiles/sbus_bridge.dir/flags.make
-CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp
+CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.i
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge_node.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.s
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o: CMakeFiles/sbus_bridge.dir/flags.make
-CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp
+CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.i
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_bridge.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.s
 
 CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o.provides.build: CMakeFiles/sbus
 
 
 CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o: CMakeFiles/sbus_bridge.dir/flags.make
-CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp
+CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp
 
 CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.i
 
 CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_serial_port.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.s
 
 CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o: CMakeFiles/sbus_bridge.dir/flags.make
-CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp
+CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp
 
 CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp > CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.i
 
 CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/sbus_msg.cpp -o CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.s
 
 CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o.provides.build: CMakeFiles/sbus_br
 
 
 CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o: CMakeFiles/sbus_bridge.dir/flags.make
-CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp
+CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp
 
 CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp > CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp > CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.i
 
 CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp -o CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/src/thrust_mapping.cpp -o CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.s
 
 CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o.requires:
 
@@ -188,37 +188,37 @@ sbus_bridge_OBJECTS = \
 # External object files for target sbus_bridge
 sbus_bridge_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge"
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_bridge_node.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_bridge.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_serial_port.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/sbus_msg.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/src/thrust_mapping.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge: CMakeFiles/sbus_bridge.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbus_bridge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sbus_bridge.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/sbus_bridge/sbus_bridge
+CMakeFiles/sbus_bridge.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/sbus_bridge/sbus_bridge
 
 .PHONY : CMakeFiles/sbus_bridge.dir/build
 
@@ -235,6 +235,6 @@ CMakeFiles/sbus_bridge.dir/clean:
 .PHONY : CMakeFiles/sbus_bridge.dir/clean
 
 CMakeFiles/sbus_bridge.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge /home/xslin/Documents/xslin/research/rpg_ws/build/sbus_bridge/CMakeFiles/sbus_bridge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/sbus_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge /home/xslin/Documents/rpg_ws/build/sbus_bridge /home/xslin/Documents/rpg_ws/build/sbus_bridge /home/xslin/Documents/rpg_ws/build/sbus_bridge/CMakeFiles/sbus_bridge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sbus_bridge.dir/depend
 

@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_follower
 
 # Utility rule file for turtlebot_follower_gencfg.
 
 # Include the progress variables for this target.
 include CMakeFiles/turtlebot_follower_gencfg.dir/progress.make
 
-CMakeFiles/turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
-CMakeFiles/turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py
+CMakeFiles/turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
+CMakeFiles/turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py
 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower/cfg/Follower.cfg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Follower.cfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py"
-	catkin_generated/env_cached.sh /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower/setup_custom_pythonpath.sh /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower/cfg/Follower.cfg /opt/ros/melodic/share/dynamic_reconfigure/cmake/.. /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower
+/home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h: /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower/cfg/Follower.cfg
+/home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h: /opt/ros/melodic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Follower.cfg: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h /home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py"
+	catkin_generated/env_cached.sh /home/xslin/Documents/rpg_ws/build/turtlebot_follower/setup_custom_pythonpath.sh /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower/cfg/Follower.cfg /opt/ros/melodic/share/dynamic_reconfigure/cmake/.. /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower /home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.dox: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.dox
+/home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.dox: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.dox
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig-usage.dox: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig-usage.dox
+/home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig-usage.dox: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig-usage.dox
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py
+/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.wikidoc: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.wikidoc
+/home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.wikidoc: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.wikidoc
 
 turtlebot_follower_gencfg: CMakeFiles/turtlebot_follower_gencfg
-turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
-turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.dox
-turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig-usage.dox
-turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py
-turtlebot_follower_gencfg: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.wikidoc
+turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/include/turtlebot_follower/FollowerConfig.h
+turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.dox
+turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig-usage.dox
+turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/turtlebot_follower/cfg/FollowerConfig.py
+turtlebot_follower_gencfg: /home/xslin/Documents/rpg_ws/devel/share/turtlebot_follower/docs/FollowerConfig.wikidoc
 turtlebot_follower_gencfg: CMakeFiles/turtlebot_follower_gencfg.dir/build.make
 
 .PHONY : turtlebot_follower_gencfg
@@ -95,6 +95,6 @@ CMakeFiles/turtlebot_follower_gencfg.dir/clean:
 .PHONY : CMakeFiles/turtlebot_follower_gencfg.dir/clean
 
 CMakeFiles/turtlebot_follower_gencfg.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/turtlebot_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower /home/xslin/Documents/rpg_ws/build/turtlebot_follower /home/xslin/Documents/rpg_ws/build/turtlebot_follower /home/xslin/Documents/rpg_ws/build/turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot_follower_gencfg.dir/depend
 

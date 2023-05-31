@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_viz
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/husky/husky_viz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_viz
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/husky_viz
 
 # Utility rule file for run_tests_husky_viz_roslaunch-check.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/clean:
 .PHONY : CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/clean
 
 CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/husky_viz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_viz /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_viz /home/xslin/Documents/xslin/research/rpg_ws/build/husky_viz /home/xslin/Documents/xslin/research/rpg_ws/build/husky_viz /home/xslin/Documents/xslin/research/rpg_ws/build/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/husky_viz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/husky/husky_viz /home/xslin/Documents/rpg_ws/src/husky/husky_viz /home/xslin/Documents/rpg_ws/build/husky_viz /home/xslin/Documents/rpg_ws/build/husky_viz /home/xslin/Documents/rpg_ws/build/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/depend
 

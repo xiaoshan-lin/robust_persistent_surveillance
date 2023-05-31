@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/message_to_tf.dir/src/message_to_tf.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/message_to_tf/message_to_tf.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/message_to_tf/message_to_tf"
+  "/home/xslin/Documents/rpg_ws/devel/lib/message_to_tf/message_to_tf.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/message_to_tf/message_to_tf"
 )
 
 # Per-language clean rules from dependency scanning.

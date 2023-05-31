@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_mapping/HectorDebugInfo.h
+/home/xslin/Documents/rpg_ws/devel/include/hector_mapping/HectorDebugInfo.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -24,12 +24,12 @@ ros/message_operations.h
 hector_mapping/HectorIterData.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_mapping/HectorIterData.h
+/home/xslin/Documents/rpg_ws/devel/include/hector_mapping/HectorIterData.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -40,201 +40,201 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 OccGridMapBase.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
 GridMapLogOdds.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
 GridMapReflectanceCount.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
 GridMapSimpleCount.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
 Eigen/Geometry
 -
 Eigen/LU
 -
 MapDimensionProperties.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
 Eigen/Core
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapLogOdds.h
 cmath
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapReflectanceCount.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapSimpleCount.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/MapDimensionProperties.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapBase.h
 GridMapBase.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapBase.h
 ../scan/DataPointContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 Eigen/Geometry
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
 cmath
 -
 ../scan/DataPointContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 OccGridMapUtil.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtil.h
 GridMapCacheHash.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheHash.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheHash.h
 GridMapCacheArray.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMapCacheArray.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 Eigen/Geometry
 -
 ../scan/DataPointContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 ../util/DrawInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 ../util/HectorDebugInfoInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 vector
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/HectorSlamProcessor.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/HectorSlamProcessor.h
 ../map/GridMap.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 ../map/OccGridMapUtilConfig.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 ../matcher/ScanMatcher.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 ../scan/DataPointContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/scan/DataPointContainer.h
 ../util/UtilFunctions.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 ../util/DrawInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 ../util/HectorDebugInfoInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 ../util/MapLockerInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
 MapRepresentationInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
 MapRepMultiMap.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
 float.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
 ../map/GridMap.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 ../map/OccGridMapUtilConfig.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 ../matcher/ScanMatcher.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 ../util/MapLockerInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepMultiMap.h
 MapRepresentationInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
 MapProcContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapProcContainer.h
 ../map/GridMap.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/GridMap.h
 ../map/OccGridMapUtilConfig.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/map/OccGridMapUtilConfig.h
 ../matcher/ScanMatcher.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/matcher/ScanMatcher.h
 ../util/DrawInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 ../util/HectorDebugInfoInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/slam_main/MapRepresentationInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/DrawInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/HectorDebugInfoInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/MapLockerInterface.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/include/hector_slam_lib/util/UtilFunctions.h
 cmath
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
 util/HectorDebugInfoInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/util/HectorDebugInfoInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/util/HectorDebugInfoInterface.h
 util/UtilFunctions.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
 ros/ros.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/ros/ros.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/ros/ros.h
 hector_mapping/HectorDebugInfo.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/hector_mapping/HectorDebugInfo.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/hector_mapping/HectorDebugInfo.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
 util/DrawInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/util/DrawInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/util/DrawInterface.h
 util/UtilFunctions.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/util/UtilFunctions.h
 ros/ros.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/ros/ros.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/ros/ros.h
 visualization_msgs/MarkerArray.h
 -
 Eigen/Dense
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
 util/MapLockerInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
 boost/thread/mutex.hpp
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.cpp
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.cpp
 HectorMappingRos.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
 map/GridMap.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/map/GridMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/map/GridMap.h
 geometry_msgs/PoseWithCovarianceStamped.h
 -
 nav_msgs/Odometry.h
 -
 sensor_msgs/PointCloud2.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/sensor_msgs/PointCloud2.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/sensor_msgs/PointCloud2.h
 HectorDrawings.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorDrawings.h
 HectorDebugInfoProvider.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorDebugInfoProvider.h
 HectorMapMutex.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorMapMutex.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
 ros/ros.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/ros/ros.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/ros/ros.h
 tf/transform_listener.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/tf/transform_listener.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/tf/transform_listener.h
 tf/transform_broadcaster.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/tf/transform_broadcaster.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/tf/transform_broadcaster.h
 tf/message_filter.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/tf/message_filter.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/tf/message_filter.h
 message_filters/subscriber.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/message_filters/subscriber.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/message_filters/subscriber.h
 sensor_msgs/LaserScan.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/sensor_msgs/LaserScan.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/sensor_msgs/LaserScan.h
 std_msgs/String.h
 -
 std_srvs/SetBool.h
@@ -242,25 +242,25 @@ std_srvs/SetBool.h
 std_srvs/Trigger.h
 -
 laser_geometry/laser_geometry.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/laser_geometry/laser_geometry.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/laser_geometry/laser_geometry.h
 nav_msgs/GetMap.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/nav_msgs/GetMap.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/nav_msgs/GetMap.h
 slam_main/HectorSlamProcessor.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/slam_main/HectorSlamProcessor.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/slam_main/HectorSlamProcessor.h
 scan/DataPointContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/scan/DataPointContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/scan/DataPointContainer.h
 util/MapLockerInterface.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/util/MapLockerInterface.h
 boost/thread.hpp
 -
 PoseInfoContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.cpp
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.cpp
 PoseInfoContainer.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/PoseInfoContainer.h
 tf/transform_datatypes.h
 -
 geometry_msgs/PoseStamped.h
@@ -270,18 +270,18 @@ geometry_msgs/PoseWithCovarianceStamped.h
 Eigen/Core
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/main.cpp
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/main.cpp
 ros/ros.h
 -
 HectorMappingRos.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
+/home/xslin/Documents/rpg_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -297,7 +297,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -313,7 +313,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -333,7 +333,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -353,7 +353,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -373,7 +373,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -391,7 +391,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -411,7 +411,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -427,7 +427,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -447,7 +447,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -467,7 +467,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -487,7 +487,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -507,7 +507,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -527,7 +527,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -545,7 +545,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -561,7 +561,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -669,7 +669,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -685,7 +685,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -703,7 +703,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -721,7 +721,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -741,7 +741,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1443,7 +1443,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1459,7 +1459,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1477,7 +1477,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1499,7 +1499,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1519,7 +1519,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1535,7 +1535,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1551,7 +1551,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1567,7 +1567,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1583,7 +1583,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1607,7 +1607,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1623,7 +1623,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1647,7 +1647,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1663,7 +1663,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1687,7 +1687,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1703,7 +1703,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1845,7 +1845,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2035,7 +2035,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2051,7 +2051,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2067,7 +2067,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2131,7 +2131,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2159,7 +2159,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

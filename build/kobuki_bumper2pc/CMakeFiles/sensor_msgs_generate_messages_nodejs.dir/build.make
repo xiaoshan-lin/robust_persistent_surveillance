@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_bumper2pc
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/kobuki_bumper2pc
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_bumper2pc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_bumper2pc /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_bumper2pc /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_bumper2pc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_bumper2pc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc /home/xslin/Documents/rpg_ws/build/kobuki_bumper2pc /home/xslin/Documents/rpg_ws/build/kobuki_bumper2pc /home/xslin/Documents/rpg_ws/build/kobuki_bumper2pc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

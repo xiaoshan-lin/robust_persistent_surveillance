@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_imu_attitude_to_tf
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_imu_attitude_to_tf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_attitude_to_tf
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_imu_attitude_to_tf
 
 # Utility rule file for tf_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_eus.dir/clean
 
 CMakeFiles/tf_generate_messages_eus.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_attitude_to_tf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_imu_attitude_to_tf /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_imu_attitude_to_tf /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_attitude_to_tf /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_attitude_to_tf /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_attitude_to_tf/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_imu_attitude_to_tf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_imu_attitude_to_tf /home/xslin/Documents/rpg_ws/src/hector_slam/hector_imu_attitude_to_tf /home/xslin/Documents/rpg_ws/build/hector_imu_attitude_to_tf /home/xslin/Documents/rpg_ws/build/hector_imu_attitude_to_tf /home/xslin/Documents/rpg_ws/build/hector_imu_attitude_to_tf/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_eus.dir/depend
 

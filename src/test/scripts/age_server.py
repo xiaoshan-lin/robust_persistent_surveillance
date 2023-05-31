@@ -1,11 +1,10 @@
 #!/usr/bin/env python2.7
-
+import os
 import rospy
 from test.srv import age, ageResponse
 import numpy as np
-
-project_dir = '/home/xslin/Documents/xslin/research/rpg_ws/src/test/resource/'
-f=np.load(project_dir+'ugvwaypoint.npz', 'rb')
+project_dir = os.path.abspath(__file__ + "/../../resource") 
+f=np.load(os.path.join(project_dir,'ugvwaypoint.npz'), 'rb')
 husky_pose_=f['pos']
 num = husky_pose_.shape[1]
 

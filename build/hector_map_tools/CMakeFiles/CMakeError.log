@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d081f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d081f.dir/build.make CMakeFiles/cmTC_d081f.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d081f.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d081f.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d081f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d081f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d081f.dir/CheckSymbolExists.c.o  -o cmTC_d081f 
-CMakeFiles/cmTC_d081f.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_6a3b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a3b5.dir/build.make CMakeFiles/cmTC_6a3b5.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a3b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6a3b5.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6a3b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a3b5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6a3b5.dir/CheckSymbolExists.c.o  -o cmTC_6a3b5 
+CMakeFiles/cmTC_6a3b5.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d081f.dir/build.make:97: recipe for target 'cmTC_d081f' failed
-make[1]: *** [cmTC_d081f] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d081f/fast' failed
-make: *** [cmTC_d081f/fast] Error 2
+CMakeFiles/cmTC_6a3b5.dir/build.make:97: recipe for target 'cmTC_6a3b5' failed
+make[1]: *** [cmTC_6a3b5] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6a3b5/fast' failed
+make: *** [cmTC_6a3b5/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60ead/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60ead.dir/build.make CMakeFiles/cmTC_60ead.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60ead.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_60ead.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_60ead
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ead.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_60ead.dir/CheckFunctionExists.c.o  -o cmTC_60ead -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_670a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_670a1.dir/build.make CMakeFiles/cmTC_670a1.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_670a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_670a1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_670a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_670a1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_670a1.dir/CheckFunctionExists.c.o  -o cmTC_670a1 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_60ead.dir/build.make:97: recipe for target 'cmTC_60ead' failed
-make[1]: *** [cmTC_60ead] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_60ead/fast' failed
-make: *** [cmTC_60ead/fast] Error 2
+CMakeFiles/cmTC_670a1.dir/build.make:97: recipe for target 'cmTC_670a1' failed
+make[1]: *** [cmTC_670a1] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/hector_map_tools/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_670a1/fast' failed
+make: *** [cmTC_670a1/fast] Error 2
 
 

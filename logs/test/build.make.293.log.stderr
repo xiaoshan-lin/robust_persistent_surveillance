@@ -1,4 +1,0 @@
-In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center.cpp:21:0[m[K:
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/include/uav_control_center.h:112:8:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K-Wendif-labels[m[K]
- #endif [01;35m[KUAV_CONTROL_CENTER_H[m[K
-        [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K

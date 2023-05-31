@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pose_estimation.dir/src/main.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_pose_estimation/pose_estimation.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_pose_estimation/pose_estimation"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_pose_estimation/pose_estimation.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_pose_estimation/pose_estimation"
 )
 
 # Per-language clean rules from dependency scanning.

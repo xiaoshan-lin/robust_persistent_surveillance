@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib")
+set(ORDERED_PATHS "/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib")

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_calibration_generate_messages_lisp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/turtlebot_calibration/msg/ScanAngle.lisp"
+  "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/turtlebot_calibration/msg/ScanAngle.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

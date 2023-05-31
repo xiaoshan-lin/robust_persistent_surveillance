@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/husky/husky_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/husky_base
 
 # Include any dependencies generated for this target.
 include CMakeFiles/horizon_legacy.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/horizon_legacy.dir/progress.make
 include CMakeFiles/horizon_legacy.dir/flags.make
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/crc.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o.provides.build: CMake
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Logger.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o.provides.build: CM
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o.provides.build: C
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_data.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o.provides.bui
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_request.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o.provides.
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Message_cmd.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o.provides.buil
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Transport.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o.provides.build:
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/Number.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o.provides.build: CM
 
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o: CMakeFiles/horizon_legacy.dir/flags.make
-CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp
+CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o: /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o -c /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/husky/husky_base/src/horizon_legacy/linux_serial.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s
 
 CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o.requires:
 
@@ -288,22 +288,22 @@ horizon_legacy_OBJECTS = \
 # External object files for target horizon_legacy
 horizon_legacy_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so"
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so: CMakeFiles/horizon_legacy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/horizon_legacy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/horizon_legacy.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhorizon_legacy.so
+CMakeFiles/horizon_legacy.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/libhorizon_legacy.so
 
 .PHONY : CMakeFiles/horizon_legacy.dir/build
 
@@ -324,6 +324,6 @@ CMakeFiles/horizon_legacy.dir/clean:
 .PHONY : CMakeFiles/horizon_legacy.dir/clean
 
 CMakeFiles/horizon_legacy.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base /home/xslin/Documents/xslin/research/rpg_ws/build/husky_base/CMakeFiles/horizon_legacy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/husky_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/husky/husky_base /home/xslin/Documents/rpg_ws/src/husky/husky_base /home/xslin/Documents/rpg_ws/build/husky_base /home/xslin/Documents/rpg_ws/build/husky_base /home/xslin/Documents/rpg_ws/build/husky_base/CMakeFiles/horizon_legacy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/horizon_legacy.dir/depend
 

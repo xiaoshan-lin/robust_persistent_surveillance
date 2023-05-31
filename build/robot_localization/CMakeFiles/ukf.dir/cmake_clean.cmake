@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ukf.dir/src/ukf.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libukf.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libukf.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libukf.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libukf.so"
 )
 
 # Per-language clean rules from dependency scanning.

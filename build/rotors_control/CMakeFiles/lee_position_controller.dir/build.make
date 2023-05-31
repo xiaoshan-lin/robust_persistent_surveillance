@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rotors_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lee_position_controller.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/lee_position_controller.dir/progress.make
 include CMakeFiles/lee_position_controller.dir/flags.make
 
 CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o: CMakeFiles/lee_position_controller.dir/flags.make
-CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp
+CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o -c /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp
 
 CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp > CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp > CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.i
 
 CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp -o CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control/src/library/lee_position_controller.cpp -o CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.s
 
 CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o.requires:
 
@@ -88,32 +88,32 @@ lee_position_controller_OBJECTS = \
 # External object files for target lee_position_controller
 lee_position_controller_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: CMakeFiles/lee_position_controller.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so: CMakeFiles/lee_position_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so"
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: CMakeFiles/lee_position_controller.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so: CMakeFiles/lee_position_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lee_position_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/lee_position_controller.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so
+CMakeFiles/lee_position_controller.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so
 
 .PHONY : CMakeFiles/lee_position_controller.dir/build
 
@@ -126,6 +126,6 @@ CMakeFiles/lee_position_controller.dir/clean:
 .PHONY : CMakeFiles/lee_position_controller.dir/clean
 
 CMakeFiles/lee_position_controller.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/lee_position_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/rpg_ws/build/rotors_control /home/xslin/Documents/rpg_ws/build/rotors_control /home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/lee_position_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lee_position_controller.dir/depend
 

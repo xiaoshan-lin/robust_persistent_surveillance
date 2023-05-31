@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/kobuki_msgs/BumperEvent.h
+/home/xslin/Documents/rpg_ws/devel/include/kobuki_msgs/BumperEvent.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -22,12 +22,12 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/kobuki_msgs/CliffEvent.h
+/home/xslin/Documents/rpg_ws/devel/include/kobuki_msgs/CliffEvent.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -38,12 +38,12 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/kobuki_msgs/WheelDropEvent.h
+/home/xslin/Documents/rpg_ws/devel/include/kobuki_msgs/WheelDropEvent.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -54,7 +54,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
 string
 -
 ros/ros.h
@@ -72,7 +72,7 @@ kobuki_msgs/CliffEvent.h
 kobuki_msgs/WheelDropEvent.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_safety_controller/src/nodelet.cpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_safety_controller/src/nodelet.cpp
 nodelet/nodelet.h
 -
 pluginlib/class_list_macros.h
@@ -80,9 +80,9 @@ pluginlib/class_list_macros.h
 ecl/threads/thread.hpp
 -
 kobuki_safety_controller/safety_controller.hpp
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_safety_controller/src/kobuki_safety_controller/safety_controller.hpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_safety_controller/src/kobuki_safety_controller/safety_controller.hpp
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/yocs_controllers/include/yocs_controllers/default_controller.hpp
+/home/xslin/Documents/rpg_ws/src/turtlebot/yocs_controllers/include/yocs_controllers/default_controller.hpp
 
 /opt/ros/melodic/include/class_loader/class_loader.hpp
 boost/bind.hpp
@@ -365,7 +365,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -385,7 +385,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1073,7 +1073,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

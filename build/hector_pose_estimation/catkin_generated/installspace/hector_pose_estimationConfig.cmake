@@ -67,14 +67,14 @@ set(hector_pose_estimation_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hector_pose_estimation_SOURCE_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/src/hector_localization/hector_pose_estimation)
-  set(hector_pose_estimation_DEVEL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/devel)
+  set(hector_pose_estimation_SOURCE_PREFIX /home/xslin/Documents/rpg_ws/src/hector_localization/hector_pose_estimation)
+  set(hector_pose_estimation_DEVEL_PREFIX /home/xslin/Documents/rpg_ws/devel)
   set(hector_pose_estimation_INSTALL_PREFIX "")
   set(hector_pose_estimation_PREFIX ${hector_pose_estimation_DEVEL_PREFIX})
 else()
   set(hector_pose_estimation_SOURCE_PREFIX "")
   set(hector_pose_estimation_DEVEL_PREFIX "")
-  set(hector_pose_estimation_INSTALL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/install)
+  set(hector_pose_estimation_INSTALL_PREFIX /home/xslin/Documents/rpg_ws/install)
   set(hector_pose_estimation_PREFIX ${hector_pose_estimation_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xslin/Documents/xslin/research/rpg_ws/install/lib;/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xslin/Documents/rpg_ws/install/lib;/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

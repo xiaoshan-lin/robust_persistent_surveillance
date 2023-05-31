@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center.cpp" "/home/xslin/Documents/xslin/research/rpg_ws/build/test/CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o"
+  "/home/xslin/Documents/rpg_ws/src/test/src/uav_control_center.cpp" "/home/xslin/Documents/rpg_ws/build/test/CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/test/include"
+  "/home/xslin/Documents/rpg_ws/devel/include"
+  "/home/xslin/Documents/rpg_ws/src/test/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_control
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/husky/husky_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_control
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/husky_control
 
 # Utility rule file for clean_test_results_husky_control.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_contr
 include CMakeFiles/clean_test_results_husky_control.dir/progress.make
 
 CMakeFiles/clean_test_results_husky_control:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/xslin/research/rpg_ws/build/husky_control/test_results/husky_control
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/rpg_ws/build/husky_control/test_results/husky_control
 
 clean_test_results_husky_control: CMakeFiles/clean_test_results_husky_control
 clean_test_results_husky_control: CMakeFiles/clean_test_results_husky_control.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_husky_control.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_husky_control.dir/clean
 
 CMakeFiles/clean_test_results_husky_control.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/husky_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_control /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_control /home/xslin/Documents/xslin/research/rpg_ws/build/husky_control /home/xslin/Documents/xslin/research/rpg_ws/build/husky_control /home/xslin/Documents/xslin/research/rpg_ws/build/husky_control/CMakeFiles/clean_test_results_husky_control.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/husky_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/husky/husky_control /home/xslin/Documents/rpg_ws/src/husky/husky_control /home/xslin/Documents/rpg_ws/build/husky_control /home/xslin/Documents/rpg_ws/build/husky_control /home/xslin/Documents/rpg_ws/build/husky_control/CMakeFiles/clean_test_results_husky_control.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_husky_control.dir/depend
 

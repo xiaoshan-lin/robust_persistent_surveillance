@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_stdr
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_stdr/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/turtlebot_stdr && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_simulator/turtlebot_stdr /home/xslin/Documents/rpg_ws/build/turtlebot_stdr /home/xslin/Documents/rpg_ws/build/turtlebot_stdr /home/xslin/Documents/rpg_ws/build/turtlebot_stdr/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

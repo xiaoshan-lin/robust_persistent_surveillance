@@ -1,4 +1,4 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/install
+prefix=/home/xslin/Documents/rpg_ws/install
 
 Name: rqt_rotors
 Description: Description of rqt_rotors

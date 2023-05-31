@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rotors_control
 
 # Utility rule file for actionlib_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_control /home/xslin/Documents/rpg_ws/build/rotors_control /home/xslin/Documents/rpg_ws/build/rotors_control /home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 

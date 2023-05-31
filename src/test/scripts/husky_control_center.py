@@ -15,7 +15,7 @@ from math import floor, ceil
 import json
 from test.srv import *
 
-project_dir = os.path.abspath(__file__ + "/../../../resource")) 
+project_dir = os.path.abspath(__file__ + "/../../resource") 
 PI = 3.1415926 
 
 class Husky:

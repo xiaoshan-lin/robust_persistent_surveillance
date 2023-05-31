@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_msgs_generate_messages_eus"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/msg/PanoramaImg.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/srv/TakePanorama.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/srv/SetFollowState.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/manifest.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/msg/PanoramaImg.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/srv/SetFollowState.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/srv/TakePanorama.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/turtlebot_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

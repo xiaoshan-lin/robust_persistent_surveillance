@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rqt_quad_gui
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui /home/xslin/Documents/xslin/research/rpg_ws/build/rqt_quad_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rqt_quad_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/gui/rqt_quad_gui /home/xslin/Documents/rpg_ws/build/rqt_quad_gui /home/xslin/Documents/rpg_ws/build/rqt_quad_gui /home/xslin/Documents/rpg_ws/build/rqt_quad_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

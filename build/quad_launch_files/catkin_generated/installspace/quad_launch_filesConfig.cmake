@@ -67,14 +67,14 @@ set(quad_launch_files_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(quad_launch_files_SOURCE_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/quad_launch_files)
-  set(quad_launch_files_DEVEL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/devel)
+  set(quad_launch_files_SOURCE_PREFIX /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/quad_launch_files)
+  set(quad_launch_files_DEVEL_PREFIX /home/xslin/Documents/rpg_ws/devel)
   set(quad_launch_files_INSTALL_PREFIX "")
   set(quad_launch_files_PREFIX ${quad_launch_files_DEVEL_PREFIX})
 else()
   set(quad_launch_files_SOURCE_PREFIX "")
   set(quad_launch_files_DEVEL_PREFIX "")
-  set(quad_launch_files_INSTALL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/install)
+  set(quad_launch_files_INSTALL_PREFIX /home/xslin/Documents/rpg_ws/install)
   set(quad_launch_files_PREFIX ${quad_launch_files_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xslin/Documents/xslin/research/rpg_ws/install/lib;/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xslin/Documents/rpg_ws/install/lib;/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

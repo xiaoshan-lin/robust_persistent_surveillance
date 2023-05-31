@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82688/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82688.dir/build.make CMakeFiles/cmTC_82688.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_82688.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_82688.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_82688
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82688.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_82688.dir/CheckSymbolExists.c.o  -o cmTC_82688 
-CMakeFiles/cmTC_82688.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_f40dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f40dc.dir/build.make CMakeFiles/cmTC_f40dc.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f40dc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f40dc.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f40dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f40dc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f40dc.dir/CheckSymbolExists.c.o  -o cmTC_f40dc 
+CMakeFiles/cmTC_f40dc.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_82688.dir/build.make:97: recipe for target 'cmTC_82688' failed
-make[1]: *** [cmTC_82688] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_82688/fast' failed
-make: *** [cmTC_82688/fast] Error 2
+CMakeFiles/cmTC_f40dc.dir/build.make:97: recipe for target 'cmTC_f40dc' failed
+make[1]: *** [cmTC_f40dc] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f40dc/fast' failed
+make: *** [cmTC_f40dc/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8849b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8849b.dir/build.make CMakeFiles/cmTC_8849b.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8849b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8849b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8849b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8849b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8849b.dir/CheckFunctionExists.c.o  -o cmTC_8849b -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_16bf7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16bf7.dir/build.make CMakeFiles/cmTC_16bf7.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16bf7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_16bf7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16bf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bf7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_16bf7.dir/CheckFunctionExists.c.o  -o cmTC_16bf7 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8849b.dir/build.make:97: recipe for target 'cmTC_8849b' failed
-make[1]: *** [cmTC_8849b] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8849b/fast' failed
-make: *** [cmTC_8849b/fast] Error 2
+CMakeFiles/cmTC_16bf7.dir/build.make:97: recipe for target 'cmTC_16bf7' failed
+make[1]: *** [cmTC_16bf7] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_16bf7/fast' failed
+make: *** [cmTC_16bf7/fast] Error 2
 
 

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -56,10 +56,10 @@ struct LowLevelFeedback_
    typedef uint8_t _control_mode_type;
   _control_mode_type control_mode;
 
-   typedef std::vector<int16_t, typename ContainerAllocator::template rebind<int16_t>::other >  _motor_speeds_type;
+   typedef std::vector<int16_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int16_t>> _motor_speeds_type;
   _motor_speeds_type motor_speeds;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _thrust_mapping_coeffs_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _thrust_mapping_coeffs_type;
   _thrust_mapping_coeffs_type thrust_mapping_coeffs;
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_imu_tools
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_imu_tools
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_tools
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_imu_tools
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_imu_tools /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_imu_tools /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_tools /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_tools /home/xslin/Documents/xslin/research/rpg_ws/build/hector_imu_tools/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_imu_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_imu_tools /home/xslin/Documents/rpg_ws/src/hector_slam/hector_imu_tools /home/xslin/Documents/rpg_ws/build/hector_imu_tools /home/xslin/Documents/rpg_ws/build/hector_imu_tools /home/xslin/Documents/rpg_ws/build/hector_imu_tools/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

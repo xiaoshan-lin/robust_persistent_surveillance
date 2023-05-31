@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -45,7 +45,7 @@ struct Trajectory_
    typedef uint8_t _type_type;
   _type_type type;
 
-   typedef std::vector< ::quadrotor_msgs::TrajectoryPoint_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::quadrotor_msgs::TrajectoryPoint_<ContainerAllocator> >::other >  _points_type;
+   typedef std::vector< ::quadrotor_msgs::TrajectoryPoint_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::quadrotor_msgs::TrajectoryPoint_<ContainerAllocator> >> _points_type;
   _points_type points;
 
 

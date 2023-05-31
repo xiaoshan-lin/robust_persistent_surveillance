@@ -20,8 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hector_pose_estimation.dir/src/measurements/gps.cpp.o"
   "CMakeFiles/hector_pose_estimation.dir/src/measurements/poseupdate.cpp.o"
   "CMakeFiles/hector_pose_estimation.dir/src/measurements/rate.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhector_pose_estimation.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhector_pose_estimation.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libhector_pose_estimation.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libhector_pose_estimation.so"
 )
 
 # Per-language clean rules from dependency scanning.

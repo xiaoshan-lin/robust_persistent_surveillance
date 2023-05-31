@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -34,7 +34,7 @@ struct HectorDebugInfo_
 
 
 
-   typedef std::vector< ::hector_mapping::HectorIterData_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::hector_mapping::HectorIterData_<ContainerAllocator> >::other >  _iterData_type;
+   typedef std::vector< ::hector_mapping::HectorIterData_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::hector_mapping::HectorIterData_<ContainerAllocator> >> _iterData_type;
   _iterData_type iterData;
 
 

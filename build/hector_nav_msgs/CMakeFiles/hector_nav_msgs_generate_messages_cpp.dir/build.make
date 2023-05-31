@@ -43,88 +43,88 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_nav_msgs
 
 # Utility rule file for hector_nav_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/progress.make
 
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h
-CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h
+CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h
 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetRobotTrajectory.srv"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
+	cd /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hector_nav_msgs/GetSearchPosition.srv"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hector_nav_msgs/GetSearchPosition.srv"
+	cd /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hector_nav_msgs/GetRecoveryInfo.srv"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hector_nav_msgs/GetRecoveryInfo.srv"
+	cd /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hector_nav_msgs/GetNormal.srv"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hector_nav_msgs/GetNormal.srv"
+	cd /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetRobotTrajectory.srv"
+	cd /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs && /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 hector_nav_msgs_generate_messages_cpp: CMakeFiles/hector_nav_msgs_generate_messages_cpp
-hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h
-hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h
-hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h
-hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h
-hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/xslin/research/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetSearchPosition.h
+hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h
+hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetNormal.h
+hector_nav_msgs_generate_messages_cpp: /home/xslin/Documents/rpg_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h
 hector_nav_msgs_generate_messages_cpp: CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : hector_nav_msgs_generate_messages_cpp
@@ -139,6 +139,6 @@ CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/depend
 

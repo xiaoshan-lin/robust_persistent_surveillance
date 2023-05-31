@@ -1,14 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_msgs_generate_messages_eus"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/Actuators.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/RateThrust.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/GpsWaypoint.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/Status.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/FilteredSensorData.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrust.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/AttitudeThrust.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/TorqueThrust.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_msgs/manifest.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/Status.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/GpsWaypoint.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/RateThrust.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/AttitudeThrust.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/Actuators.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrust.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/FilteredSensorData.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/msg/TorqueThrust.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

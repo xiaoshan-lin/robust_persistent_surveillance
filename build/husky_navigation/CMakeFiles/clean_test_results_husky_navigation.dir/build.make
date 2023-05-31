@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_navigation
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/husky/husky_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navigation
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/husky_navigation
 
 # Utility rule file for clean_test_results_husky_navigation.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navig
 include CMakeFiles/clean_test_results_husky_navigation.dir/progress.make
 
 CMakeFiles/clean_test_results_husky_navigation:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navigation/test_results/husky_navigation
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/rpg_ws/build/husky_navigation/test_results/husky_navigation
 
 clean_test_results_husky_navigation: CMakeFiles/clean_test_results_husky_navigation
 clean_test_results_husky_navigation: CMakeFiles/clean_test_results_husky_navigation.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_husky_navigation.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_husky_navigation.dir/clean
 
 CMakeFiles/clean_test_results_husky_navigation.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_navigation /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_navigation /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navigation /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navigation /home/xslin/Documents/xslin/research/rpg_ws/build/husky_navigation/CMakeFiles/clean_test_results_husky_navigation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/husky_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/husky/husky_navigation /home/xslin/Documents/rpg_ws/src/husky/husky_navigation /home/xslin/Documents/rpg_ws/build/husky_navigation /home/xslin/Documents/rpg_ws/build/husky_navigation /home/xslin/Documents/rpg_ws/build/husky_navigation/CMakeFiles/clean_test_results_husky_navigation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_husky_navigation.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_nav_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,6 +100,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -123,23 +135,11 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -246,17 +246,17 @@ hector_nav_msgs_generate_messages_eus/fast:
 .PHONY : hector_nav_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
+# Target rules for targets named _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory
 
 # Build rule for target.
-_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
-.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
+_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory
+.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory
 
 # fast build rule for target.
-_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle/fast:
-	$(MAKE) -f CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle.dir/build.make CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle.dir/build
-.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle/fast
+_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory/fast:
+	$(MAKE) -f CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory.dir/build.make CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory.dir/build
+.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory/fast
 
 #=============================================================================
 # Target rules for targets named _hector_nav_msgs_generate_messages_check_deps_GetRecoveryInfo
@@ -688,17 +688,17 @@ hector_nav_msgs_generate_messages/fast:
 .PHONY : hector_nav_msgs_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory
+# Target rules for targets named _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
 
 # Build rule for target.
-_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory
-.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory
+_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
+.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
 
 # fast build rule for target.
-_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory/fast:
-	$(MAKE) -f CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory.dir/build.make CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory.dir/build
-.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory/fast
+_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle/fast:
+	$(MAKE) -f CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle.dir/build.make CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle.dir/build
+.PHONY : _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle/fast
 
 #=============================================================================
 # Target rules for targets named _hector_nav_msgs_generate_messages_check_deps_GetSearchPosition
@@ -781,7 +781,8 @@ help:
 	@echo "... hector_nav_msgs_geneus"
 	@echo "... hector_nav_msgs_generate_messages_nodejs"
 	@echo "... hector_nav_msgs_generate_messages_eus"
-	@echo "... _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle"
+	@echo "... install/strip"
+	@echo "... _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory"
 	@echo "... _hector_nav_msgs_generate_messages_check_deps_GetRecoveryInfo"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
@@ -817,8 +818,7 @@ help:
 	@echo "... _catkin_empty_exported_target"
 	@echo "... rebuild_cache"
 	@echo "... hector_nav_msgs_generate_messages"
-	@echo "... install/strip"
-	@echo "... _hector_nav_msgs_generate_messages_check_deps_GetRobotTrajectory"
+	@echo "... _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle"
 	@echo "... _hector_nav_msgs_generate_messages_check_deps_GetSearchPosition"
 	@echo "... gmock_main"
 	@echo "... gmock"

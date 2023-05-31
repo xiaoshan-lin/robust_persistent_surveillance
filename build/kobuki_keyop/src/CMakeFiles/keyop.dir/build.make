@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/kobuki_keyop
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/keyop.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/keyop.dir/progress.make
 include src/CMakeFiles/keyop.dir/flags.make
 
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: src/CMakeFiles/keyop.dir/flags.make
-src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/keyop.dir/keyop_core.cpp.o"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyop.dir/keyop_core.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp
+src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/kobuki_keyop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/keyop.dir/keyop_core.cpp.o"
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyop.dir/keyop_core.cpp.o -c /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp
 
 src/CMakeFiles/keyop.dir/keyop_core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyop.dir/keyop_core.cpp.i"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp > CMakeFiles/keyop.dir/keyop_core.cpp.i
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp > CMakeFiles/keyop.dir/keyop_core.cpp.i
 
 src/CMakeFiles/keyop.dir/keyop_core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyop.dir/keyop_core.cpp.s"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp -o CMakeFiles/keyop.dir/keyop_core.cpp.s
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/keyop_core.cpp -o CMakeFiles/keyop.dir/keyop_core.cpp.s
 
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/keyop.dir/keyop_core.cpp.o.provides.build: src/CMakeFiles/keyop.d
 
 
 src/CMakeFiles/keyop.dir/main.cpp.o: src/CMakeFiles/keyop.dir/flags.make
-src/CMakeFiles/keyop.dir/main.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/keyop.dir/main.cpp.o"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyop.dir/main.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp
+src/CMakeFiles/keyop.dir/main.cpp.o: /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/kobuki_keyop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/keyop.dir/main.cpp.o"
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/keyop.dir/main.cpp.o -c /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp
 
 src/CMakeFiles/keyop.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyop.dir/main.cpp.i"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp > CMakeFiles/keyop.dir/main.cpp.i
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp > CMakeFiles/keyop.dir/main.cpp.i
 
 src/CMakeFiles/keyop.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyop.dir/main.cpp.s"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp -o CMakeFiles/keyop.dir/main.cpp.s
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src/main.cpp -o CMakeFiles/keyop.dir/main.cpp.s
 
 src/CMakeFiles/keyop.dir/main.cpp.o.requires:
 
@@ -113,40 +113,40 @@ keyop_OBJECTS = \
 # External object files for target keyop
 keyop_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/keyop_core.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/main.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_threads.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_type_traits.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_exceptions.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_errors.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_time_lite.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/librt.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop"
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyop.dir/link.txt --verbose=$(VERBOSE)
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/keyop_core.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/main.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_threads.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_type_traits.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_exceptions.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_errors.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libecl_time_lite.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/librt.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop: src/CMakeFiles/keyop.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/kobuki_keyop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop"
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/keyop.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/kobuki_keyop/keyop
+src/CMakeFiles/keyop.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/kobuki_keyop/keyop
 
 .PHONY : src/CMakeFiles/keyop.dir/build
 
@@ -156,10 +156,10 @@ src/CMakeFiles/keyop.dir/requires: src/CMakeFiles/keyop.dir/main.cpp.o.requires
 .PHONY : src/CMakeFiles/keyop.dir/requires
 
 src/CMakeFiles/keyop.dir/clean:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src && $(CMAKE_COMMAND) -P CMakeFiles/keyop.dir/cmake_clean.cmake
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src && $(CMAKE_COMMAND) -P CMakeFiles/keyop.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/keyop.dir/clean
 
 src/CMakeFiles/keyop.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_keyop/src /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src /home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_keyop/src/CMakeFiles/keyop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/kobuki_keyop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_keyop/src /home/xslin/Documents/rpg_ws/build/kobuki_keyop /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src /home/xslin/Documents/rpg_ws/build/kobuki_keyop/src/CMakeFiles/keyop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/keyop.dir/depend
 

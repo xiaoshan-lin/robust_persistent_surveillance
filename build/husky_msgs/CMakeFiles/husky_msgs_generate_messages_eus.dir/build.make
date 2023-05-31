@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/husky/husky_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/husky_msgs
 
 # Utility rule file for husky_msgs_generate_messages_eus.
 
 # Include the progress variables for this target.
 include CMakeFiles/husky_msgs_generate_messages_eus.dir/progress.make
 
-CMakeFiles/husky_msgs_generate_messages_eus: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l
-CMakeFiles/husky_msgs_generate_messages_eus: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/manifest.l
+CMakeFiles/husky_msgs_generate_messages_eus: /home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l
+CMakeFiles/husky_msgs_generate_messages_eus: /home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/manifest.l
 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l: /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_msgs/msg/HuskyStatus.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from husky_msgs/HuskyStatus.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_msgs/msg/HuskyStatus.msg -Ihusky_msgs:/home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p husky_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/msg
+/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l: /home/xslin/Documents/rpg_ws/src/husky/husky_msgs/msg/HuskyStatus.msg
+/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from husky_msgs/HuskyStatus.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/xslin/Documents/rpg_ws/src/husky/husky_msgs/msg/HuskyStatus.msg -Ihusky_msgs:/home/xslin/Documents/rpg_ws/src/husky/husky_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p husky_msgs -o /home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/msg
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for husky_msgs"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs husky_msgs std_msgs
+/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/husky_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for husky_msgs"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs husky_msgs std_msgs
 
 husky_msgs_generate_messages_eus: CMakeFiles/husky_msgs_generate_messages_eus
-husky_msgs_generate_messages_eus: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l
-husky_msgs_generate_messages_eus: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/husky_msgs/manifest.l
+husky_msgs_generate_messages_eus: /home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/msg/HuskyStatus.l
+husky_msgs_generate_messages_eus: /home/xslin/Documents/rpg_ws/devel/share/roseus/ros/husky_msgs/manifest.l
 husky_msgs_generate_messages_eus: CMakeFiles/husky_msgs_generate_messages_eus.dir/build.make
 
 .PHONY : husky_msgs_generate_messages_eus
@@ -84,6 +84,6 @@ CMakeFiles/husky_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/husky_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/husky_msgs_generate_messages_eus.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/husky_msgs/CMakeFiles/husky_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/husky_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/husky/husky_msgs /home/xslin/Documents/rpg_ws/src/husky/husky_msgs /home/xslin/Documents/rpg_ws/build/husky_msgs /home/xslin/Documents/rpg_ws/build/husky_msgs /home/xslin/Documents/rpg_ws/build/husky_msgs/CMakeFiles/husky_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/husky_msgs_generate_messages_eus.dir/depend
 

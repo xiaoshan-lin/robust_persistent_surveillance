@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/test_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/test_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/test_msgs
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/test_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/test_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/test_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/test_msgs/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/test_msgs /home/xslin/Documents/rpg_ws/src/test_msgs /home/xslin/Documents/rpg_ws/build/test_msgs /home/xslin/Documents/rpg_ws/build/test_msgs /home/xslin/Documents/rpg_ws/build/test_msgs/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

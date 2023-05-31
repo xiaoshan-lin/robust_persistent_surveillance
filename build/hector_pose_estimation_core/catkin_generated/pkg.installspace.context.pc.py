@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3".split(
 PROJECT_CATKIN_DEPENDS = "rostime;rosconsole;roscpp;sensor_msgs;geometry_msgs;nav_msgs;geographic_msgs;tf".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lhector_pose_estimation".split(';') if "-lhector_pose_estimation" != "" else []
 PROJECT_NAME = "hector_pose_estimation_core"
-PROJECT_SPACE_DIR = "/home/xslin/Documents/xslin/research/rpg_ws/install"
+PROJECT_SPACE_DIR = "/home/xslin/Documents/rpg_ws/install"
 PROJECT_VERSION = "0.4.0"

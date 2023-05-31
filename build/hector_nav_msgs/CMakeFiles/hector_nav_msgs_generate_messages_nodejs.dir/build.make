@@ -43,78 +43,78 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_nav_msgs
 
 # Utility rule file for hector_nav_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
-CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
+CMakeFiles/hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hector_nav_msgs/GetRobotTrajectory.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hector_nav_msgs/GetDistanceToObstacle.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hector_nav_msgs/GetSearchPosition.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hector_nav_msgs/GetSearchPosition.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hector_nav_msgs/GetRecoveryInfo.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hector_nav_msgs/GetRecoveryInfo.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hector_nav_msgs/GetNormal.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hector_nav_msgs/GetNormal.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hector_nav_msgs/GetDistanceToObstacle.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hector_nav_msgs/GetRobotTrajectory.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv
 
 hector_nav_msgs_generate_messages_nodejs: CMakeFiles/hector_nav_msgs_generate_messages_nodejs
-hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
-hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
-hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
-hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
-hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
+hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
+hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
+hector_nav_msgs_generate_messages_nodejs: /home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
 hector_nav_msgs_generate_messages_nodejs: CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : hector_nav_msgs_generate_messages_nodejs
@@ -129,6 +129,6 @@ CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs /home/xslin/Documents/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/rpg_ws/build/hector_nav_msgs /home/xslin/Documents/rpg_ws/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_nav_msgs_generate_messages_nodejs.dir/depend
 

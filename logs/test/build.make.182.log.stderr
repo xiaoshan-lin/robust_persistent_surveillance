@@ -1,9 +1,0 @@
-In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/include/uav_control_center.h:8:0[m[K,
-                 from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center.cpp:21[m[K:
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/include/waypointstruct.h:5:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
- #include [01;31m[K<Eigen/Core>[m[K
-          [01;31m[K^~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
-make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
-make: *** [all] Error 2

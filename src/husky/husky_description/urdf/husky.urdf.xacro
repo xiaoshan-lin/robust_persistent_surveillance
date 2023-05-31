@@ -64,7 +64,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <xacro:property name="wheel_length" value="0.1143" />
   <xacro:property name="wheel_radius" value="0.1651" />
 
-  <link name="solarPanel_link">
+  <!--link name="solarPanel_link">
    <inertial>
      <origin xyz="0 0 0" rpy="0 0 0"/>
      <mass value="0.2"/>
@@ -84,7 +84,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
    <collision>
      <origin xyz="0 0 0" rpy="0 0 0"/>
      <geometry>
-       <box size="1.0 1.6 0.05" />
+       <box size="1.5 1.5 0.05" />
      </geometry>
    </collision>
    <surface>
@@ -99,16 +99,16 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
         <ode/>
        </contact>
    </surface>
-  </link>
-  <gazebo reference="solarPanel_link">
+  </link-->
+  <!--gazebo reference="solarPanel_link">
     <mu1 value="10"/>
     <mu2 value="10"/>
-  </gazebo>
-  <joint name="base_to_panel_joint" type="fixed">
+  </gazebo-->
+  <!--joint name="base_to_panel_joint" type="fixed">
     <origin xyz="0 0 0.2" rpy="0 0 0" />
     <parent link="base_link"/>
     <child link="solarPanel_link"/>
-  </joint>
+  </joint-->
 
   <!-- Base link is the center of the robot's bottom plate -->
   <link name="base_link">

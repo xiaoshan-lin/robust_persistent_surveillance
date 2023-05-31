@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_rotors_interface'
+export PWD='/home/xslin/Documents/rpg_ws/build/rpg_rotors_interface'

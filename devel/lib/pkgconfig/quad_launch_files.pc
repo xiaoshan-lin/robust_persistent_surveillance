@@ -1,4 +1,4 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: quad_launch_files
 Description: Description of quad_launch_files

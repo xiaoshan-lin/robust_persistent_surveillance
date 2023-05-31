@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/xslin/Documents/xslin/research/rpg_ws/build/rqt_rotors")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/xslin/Documents/rpg_ws/build/rqt_rotors")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

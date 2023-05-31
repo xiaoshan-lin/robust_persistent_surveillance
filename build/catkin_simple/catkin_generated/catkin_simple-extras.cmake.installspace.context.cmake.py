@@ -2,7 +2,7 @@
 DEVELSPACE = 'FALSE' == 'TRUE'
 INSTALLSPACE = 'TRUE' == 'TRUE'
 
-CATKIN_DEVEL_PREFIX = '/home/xslin/Documents/xslin/research/rpg_ws/devel'
+CATKIN_DEVEL_PREFIX = '/home/xslin/Documents/rpg_ws/devel'
 
 CATKIN_GLOBAL_BIN_DESTINATION = 'bin'
 CATKIN_GLOBAL_ETC_DESTINATION = 'etc'
@@ -20,14 +20,14 @@ CATKIN_PACKAGE_LIBEXEC_DESTINATION = 'lib/catkin_simple'
 CATKIN_PACKAGE_PYTHON_DESTINATION = 'lib/python2.7/dist-packages/catkin_simple'
 CATKIN_PACKAGE_SHARE_DESTINATION = 'share/catkin_simple'
 
-CMAKE_BINARY_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple'
-CMAKE_CURRENT_BINARY_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple'
-CMAKE_CURRENT_SOURCE_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/src/catkin_simple'
-CMAKE_INSTALL_PREFIX = '/home/xslin/Documents/xslin/research/rpg_ws/install'
-CMAKE_SOURCE_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/src/catkin_simple'
+CMAKE_BINARY_DIR = '/home/xslin/Documents/rpg_ws/build/catkin_simple'
+CMAKE_CURRENT_BINARY_DIR = '/home/xslin/Documents/rpg_ws/build/catkin_simple'
+CMAKE_CURRENT_SOURCE_DIR = '/home/xslin/Documents/rpg_ws/src/catkin_simple'
+CMAKE_INSTALL_PREFIX = '/home/xslin/Documents/rpg_ws/install'
+CMAKE_SOURCE_DIR = '/home/xslin/Documents/rpg_ws/src/catkin_simple'
 
 PKG_CMAKE_DIR = '${catkin_simple_DIR}'
 
 PROJECT_NAME = 'catkin_simple'
-PROJECT_BINARY_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/build/catkin_simple'
-PROJECT_SOURCE_DIR = '/home/xslin/Documents/xslin/research/rpg_ws/src/catkin_simple'
+PROJECT_BINARY_DIR = '/home/xslin/Documents/rpg_ws/build/catkin_simple'
+PROJECT_SOURCE_DIR = '/home/xslin/Documents/rpg_ws/src/catkin_simple'

@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: autopilot
 Description: Description of autopilot
 Version: 0.0.0
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include
+Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include
 Libs: -L${prefix}/lib -lautopilot_helper
 Requires: eigen_catkin geometry_msgs nav_msgs position_controller quadrotor_common quadrotor_msgs roscpp state_predictor std_msgs trajectory_generation_helper

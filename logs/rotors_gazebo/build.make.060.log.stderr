@@ -1,7 +1,0 @@
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In constructor ‘[01m[Krotors_gazebo::UAV_CONTROL_CENTER::UAV_CONTROL_CENTER(const ros::NodeHandle&, const ros::NodeHandle&)[m[K’:
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
-     [01;31m[Kros[m[K::Publisher cmd2UGV_pub = nh_.advertise<std_msgs::Bool>(
-     [01;31m[K^~~[m[K
-make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
-make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
-make: *** [all] Error 2

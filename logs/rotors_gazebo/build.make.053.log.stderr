@@ -1,7 +1,0 @@
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:142:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::__cxx11::string {aka class std::__cxx11::basic_string<char>}[m[K’ has no member named ‘[01m[Kstr[m[K’
-   msg.data = ss.[01;31m[Kstr[m[K();
-                 [01;31m[K^~~[m[K
-make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
-make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
-make: *** [all] Error 2

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 Eigen/Dense
 -
 gazebo/gazebo.hh
@@ -16,13 +16,13 @@ gazebo/gazebo.hh
 tinyxml.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/fw_parameters.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/fw_parameters.h
 Eigen/Dense
 -
 yaml-cpp/yaml.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_fw_dynamics_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_fw_dynamics_plugin.h
 gazebo/common/Plugin.hh
 -
 gazebo/common/common.hh
@@ -34,21 +34,21 @@ gazebo/physics/physics.hh
 mav_msgs/default_topics.h
 -
 Actuators.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Actuators.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Actuators.pb.h
 RollPitchYawrateThrust.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h
 WindSpeed.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/WindSpeed.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/WindSpeed.pb.h
 rotors_gazebo_plugins/common.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/common.h
 rotors_gazebo_plugins/fw_parameters.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/fw_parameters.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/fw_parameters.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_fw_dynamics_plugin.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_fw_dynamics_plugin.cpp
 rotors_gazebo_plugins/gazebo_fw_dynamics_plugin.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/gazebo_fw_dynamics_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/gazebo_fw_dynamics_plugin.h
 ConnectRosToGazeboTopic.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/ConnectRosToGazeboTopic.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/ConnectRosToGazeboTopic.pb.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

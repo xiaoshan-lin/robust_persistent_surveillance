@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/Trajectory.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/Trajectory.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -26,12 +26,12 @@ std_msgs/Header.h
 quadrotor_msgs/TrajectoryPoint.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/TrajectoryPoint.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/TrajectoryPoint.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -52,13 +52,13 @@ geometry_msgs/Twist.h
 geometry_msgs/Twist.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/math_common.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/math_common.h
 Eigen/Dense
 -
 quadrotor_common/trajectory_point.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory.h
 list
 -
 quadrotor_msgs/Trajectory.h
@@ -68,9 +68,9 @@ nav_msgs/Path.h
 ros/time.h
 -
 quadrotor_common/trajectory_point.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory_point.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory_point.h
 Eigen/Dense
 -
 quadrotor_msgs/TrajectoryPoint.h
@@ -78,15 +78,15 @@ quadrotor_msgs/TrajectoryPoint.h
 ros/duration.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/constrained_polynomial_trajectories.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/constrained_polynomial_trajectories.h
 quadrotor_common/trajectory_point.h
 -
 Eigen/Dense
 -
 polynomial_trajectories/polynomial_trajectory.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/minimum_snap_trajectories.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/minimum_snap_trajectories.h
 vector
 -
 quadrotor_common/trajectory_point.h
@@ -94,11 +94,11 @@ quadrotor_common/trajectory_point.h
 Eigen/Dense
 -
 polynomial_trajectories/polynomial_trajectory.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory.h
 polynomial_trajectories/polynomial_trajectory_settings.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory_settings.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory_settings.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories_common.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories_common.h
 quadrotor_common/trajectory_point.h
 -
 ros/duration.h
@@ -106,9 +106,9 @@ ros/duration.h
 Eigen/Dense
 -
 polynomial_trajectories/polynomial_trajectory.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectories/polynomial_trajectory.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectory.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectory.h
 vector
 -
 quadrotor_common/trajectory_point.h
@@ -118,23 +118,23 @@ ros/duration.h
 Eigen/Dense
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectory_settings.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/polynomial_trajectory_settings.h
 polynomial_trajectories/polynomial_trajectory.h
 -
 Eigen/Dense
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/Eigen/Dense
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/include/polynomial_trajectories/Eigen/Dense
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include/trajectory_generation_helper/circle_trajectory_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include/trajectory_generation_helper/circle_trajectory_helper.h
 quadrotor_common/trajectory.h
 -
 Eigen/Dense
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include/trajectory_generation_helper/heading_trajectory_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include/trajectory_generation_helper/heading_trajectory_helper.h
 quadrotor_common/trajectory.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include/trajectory_generation_helper/polynomial_trajectory_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include/trajectory_generation_helper/polynomial_trajectory_helper.h
 polynomial_trajectories/polynomial_trajectory.h
 -
 polynomial_trajectories/polynomial_trajectory_settings.h
@@ -146,23 +146,23 @@ quadrotor_common/trajectory_point.h
 Eigen/Dense
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/circle_trajectory_helper.cpp
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/circle_trajectory_helper.cpp
 trajectory_generation_helper/circle_trajectory_helper.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/trajectory_generation_helper/circle_trajectory_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/trajectory_generation_helper/circle_trajectory_helper.h
 quadrotor_common/math_common.h
 -
 quadrotor_common/trajectory_point.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/heading_trajectory_helper.cpp
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/heading_trajectory_helper.cpp
 trajectory_generation_helper/heading_trajectory_helper.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/trajectory_generation_helper/heading_trajectory_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/trajectory_generation_helper/heading_trajectory_helper.h
 quadrotor_common/math_common.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/polynomial_trajectory_helper.cpp
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/polynomial_trajectory_helper.cpp
 trajectory_generation_helper/polynomial_trajectory_helper.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/trajectory_generation_helper/polynomial_trajectory_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/src/trajectory_generation_helper/polynomial_trajectory_helper.h
 polynomial_trajectories/constrained_polynomial_trajectories.h
 -
 polynomial_trajectories/minimum_snap_trajectories.h
@@ -175,7 +175,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -191,7 +191,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -211,7 +211,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -231,7 +231,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -247,7 +247,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -267,7 +267,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -283,7 +283,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -449,7 +449,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

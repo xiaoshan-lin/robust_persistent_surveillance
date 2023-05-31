@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/AutopilotFeedback.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/AutopilotFeedback.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -30,12 +30,12 @@ quadrotor_msgs/TrajectoryPoint.h
 nav_msgs/Odometry.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/ControlCommand.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/ControlCommand.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -54,12 +54,12 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/LowLevelFeedback.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/LowLevelFeedback.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -72,12 +72,12 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/Trajectory.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/Trajectory.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -92,12 +92,12 @@ std_msgs/Header.h
 quadrotor_msgs/TrajectoryPoint.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/quadrotor_msgs/TrajectoryPoint.h
+/home/xslin/Documents/rpg_ws/devel/include/quadrotor_msgs/TrajectoryPoint.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -118,13 +118,13 @@ geometry_msgs/Twist.h
 geometry_msgs/Twist.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/control_command.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/control_command.h
 Eigen/Dense
 -
 quadrotor_msgs/ControlCommand.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/geometry_eigen_conversions.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/geometry_eigen_conversions.h
 Eigen/Dense
 -
 geometry_msgs/Point.h
@@ -136,13 +136,13 @@ geometry_msgs/Quaternion.h
 geometry_msgs/Vector3.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/math_common.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/math_common.h
 Eigen/Dense
 -
 quadrotor_common/trajectory_point.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quad_state_estimate.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quad_state_estimate.h
 Eigen/Dense
 -
 nav_msgs/Odometry.h
@@ -150,7 +150,7 @@ nav_msgs/Odometry.h
 ros/time.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory.h
 list
 -
 quadrotor_msgs/Trajectory.h
@@ -160,9 +160,9 @@ nav_msgs/Path.h
 ros/time.h
 -
 quadrotor_common/trajectory_point.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/quadrotor_common/trajectory_point.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory_point.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_common/include/quadrotor_common/trajectory_point.h
 Eigen/Dense
 -
 quadrotor_msgs/TrajectoryPoint.h
@@ -170,7 +170,7 @@ quadrotor_msgs/TrajectoryPoint.h
 ros/duration.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot_helper.h
 quadrotor_common/control_command.h
 -
 quadrotor_common/quad_state_estimate.h
@@ -186,13 +186,13 @@ ros/ros.h
 Eigen/Dense
 -
 autopilot/autopilot_states.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot/autopilot_states.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot/autopilot_states.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot_states.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot_states.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_helper.cpp
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot_helper.cpp
 autopilot/autopilot_helper.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot/autopilot_helper.h
+/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/autopilot/src/autopilot/autopilot_helper.h
 geometry_msgs/PoseStamped.h
 -
 geometry_msgs/TwistStamped.h
@@ -215,7 +215,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -231,7 +231,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -251,7 +251,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -271,7 +271,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -289,7 +289,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -305,7 +305,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -325,7 +325,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -345,7 +345,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -363,7 +363,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -379,7 +379,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -401,7 +401,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1067,7 +1067,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1083,7 +1083,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

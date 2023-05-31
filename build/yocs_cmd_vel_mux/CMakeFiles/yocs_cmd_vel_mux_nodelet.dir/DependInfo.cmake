@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/yocs_cmd_vel_mux/src/cmd_vel_mux_nodelet.cpp" "/home/xslin/Documents/xslin/research/rpg_ws/build/yocs_cmd_vel_mux/CMakeFiles/yocs_cmd_vel_mux_nodelet.dir/src/cmd_vel_mux_nodelet.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/yocs_cmd_vel_mux/src/cmd_vel_subscribers.cpp" "/home/xslin/Documents/xslin/research/rpg_ws/build/yocs_cmd_vel_mux/CMakeFiles/yocs_cmd_vel_mux_nodelet.dir/src/cmd_vel_subscribers.cpp.o"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/yocs_cmd_vel_mux/src/cmd_vel_mux_nodelet.cpp" "/home/xslin/Documents/rpg_ws/build/yocs_cmd_vel_mux/CMakeFiles/yocs_cmd_vel_mux_nodelet.dir/src/cmd_vel_mux_nodelet.cpp.o"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/yocs_cmd_vel_mux/src/cmd_vel_subscribers.cpp" "/home/xslin/Documents/rpg_ws/build/yocs_cmd_vel_mux/CMakeFiles/yocs_cmd_vel_mux_nodelet.dir/src/cmd_vel_subscribers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/yocs_cmd_vel_mux/include"
+  "/home/xslin/Documents/rpg_ws/devel/include"
+  "/home/xslin/Documents/rpg_ws/src/turtlebot/yocs_cmd_vel_mux/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

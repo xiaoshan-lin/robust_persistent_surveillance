@@ -67,14 +67,14 @@ set(trajectory_generation_helper_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(trajectory_generation_helper_SOURCE_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper)
-  set(trajectory_generation_helper_DEVEL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/devel)
+  set(trajectory_generation_helper_SOURCE_PREFIX /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper)
+  set(trajectory_generation_helper_DEVEL_PREFIX /home/xslin/Documents/rpg_ws/devel)
   set(trajectory_generation_helper_INSTALL_PREFIX "")
   set(trajectory_generation_helper_PREFIX ${trajectory_generation_helper_DEVEL_PREFIX})
 else()
   set(trajectory_generation_helper_SOURCE_PREFIX "")
   set(trajectory_generation_helper_DEVEL_PREFIX "")
-  set(trajectory_generation_helper_INSTALL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/install)
+  set(trajectory_generation_helper_INSTALL_PREFIX /home/xslin/Documents/rpg_ws/install)
   set(trajectory_generation_helper_PREFIX ${trajectory_generation_helper_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(trajectory_generation_helper_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include " STREQUAL " ")
+if(NOT "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include " STREQUAL " ")
   set(trajectory_generation_helper_INCLUDE_DIRS "")
-  set(_include_dirs "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include")
+  set(_include_dirs "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/tr
         message(FATAL_ERROR "Project 'trajectory_generation_helper' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'trajectory_generation_helper' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'trajectory_generation_helper' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper/${idir}'.  ${_report}")
     endif()
     _list_append_unique(trajectory_generation_helper_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xslin/Documents/rpg_ws/devel/lib;/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

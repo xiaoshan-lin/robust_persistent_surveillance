@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_teleop
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot_teleop_joy.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/turtlebot_teleop_joy.dir/progress.make
 include CMakeFiles/turtlebot_teleop_joy.dir/flags.make
 
 CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o: CMakeFiles/turtlebot_teleop_joy.dir/flags.make
-CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp
+CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o: /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o -c /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp
 
 CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp > CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp > CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.i
 
 CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp -o CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop/src/turtlebot_joy.cpp -o CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.s
 
 CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o.requires:
 
@@ -88,32 +88,32 @@ turtlebot_teleop_joy_OBJECTS = \
 # External object files for target turtlebot_teleop_joy
 turtlebot_teleop_joy_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: CMakeFiles/turtlebot_teleop_joy.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: CMakeFiles/turtlebot_teleop_joy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy"
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: CMakeFiles/turtlebot_teleop_joy.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy: CMakeFiles/turtlebot_teleop_joy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot_teleop_joy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/turtlebot_teleop_joy.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy
+CMakeFiles/turtlebot_teleop_joy.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy
 
 .PHONY : CMakeFiles/turtlebot_teleop_joy.dir/build
 
@@ -126,6 +126,6 @@ CMakeFiles/turtlebot_teleop_joy.dir/clean:
 .PHONY : CMakeFiles/turtlebot_teleop_joy.dir/clean
 
 CMakeFiles/turtlebot_teleop_joy.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_teleop/CMakeFiles/turtlebot_teleop_joy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/turtlebot_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_teleop /home/xslin/Documents/rpg_ws/build/turtlebot_teleop /home/xslin/Documents/rpg_ws/build/turtlebot_teleop /home/xslin/Documents/rpg_ws/build/turtlebot_teleop/CMakeFiles/turtlebot_teleop_joy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot_teleop_joy.dir/depend
 

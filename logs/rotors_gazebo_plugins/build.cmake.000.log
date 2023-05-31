@@ -150,7 +150,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 [36m--[0m   Found libzip, version 1.1.2
 [36m--[0m Found ZIP: TRUE
 [36m--[0m Gazebo version: 9.0
-[36m--[0m Found OpenCV: /usr (found version "3.2.0")
+[36m--[0m Found OpenCV: /usr/local/opencv4 (found version "4.5.4")
 [36m--[0m Found Glog: /usr/include
 [36m--[0m No yaml_cpp_catkin, using yaml-cpp system library instead.
 [36m--[0m Checking for module 'yaml-cpp>=0.5'

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"turtlebot_follower\" -Dturtlebot_follower_EXPORTS
 
-CXX_INCLUDES = -I/home/xslin/Documents/xslin/research/rpg_ws/devel/include -I/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/xslin/Documents/rpg_ws/devel/include -I/home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_follower/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

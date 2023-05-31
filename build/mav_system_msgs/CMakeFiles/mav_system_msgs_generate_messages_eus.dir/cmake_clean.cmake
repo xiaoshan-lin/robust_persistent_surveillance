@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_system_msgs_generate_messages_eus"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_system_msgs/msg/ProcessInfo.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_system_msgs/msg/CpuInfo.l"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/mav_system_msgs/manifest.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_system_msgs/msg/ProcessInfo.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_system_msgs/msg/CpuInfo.l"
+  "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/mav_system_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

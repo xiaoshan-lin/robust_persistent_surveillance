@@ -1,7 +1,0 @@
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center.cpp:[m[K In member function ‘[01m[Kvoid rotors_gazebo::UAV_CONTROL_CENTER::uav_trajectory_publisher(std::vector<waypointstruct>&, double, double)[m[K’:
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/test/src/uav_control_center.cpp:93:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
-             [01;31m[K}[m[Kelse{
-             [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
-make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
-make: *** [all] Error 2

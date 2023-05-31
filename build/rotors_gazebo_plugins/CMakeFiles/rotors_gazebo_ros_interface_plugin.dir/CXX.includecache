@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/mav_msgs/Actuators.h
+/home/xslin/Documents/rpg_ws/devel/include/mav_msgs/Actuators.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -24,32 +24,12 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/mav_msgs/RollPitchYawrateThrust.h
+/home/xslin/Documents/rpg_ws/devel/include/mav_msgs/RollPitchYawrateThrust.h
 string
 -
 vector
 -
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-geometry_msgs/Vector3.h
--
-
-/home/xslin/Documents/xslin/research/rpg_ws/devel/include/rotors_comm/WindSpeed.h
-string
--
-vector
--
-map
+memory
 -
 ros/types.h
 -
@@ -64,9 +44,29 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/xslin/Documents/rpg_ws/devel/include/rotors_comm/WindSpeed.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+geometry_msgs/Vector3.h
+-
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 Eigen/Dense
 -
 gazebo/gazebo.hh
@@ -74,7 +74,7 @@ gazebo/gazebo.hh
 tinyxml.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_ros_interface_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_ros_interface_plugin.h
 random
 -
 Eigen/Core
@@ -88,7 +88,7 @@ gazebo/gazebo.hh
 gazebo/physics/physics.hh
 -
 gazebo/msgs/msgs.hh
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo/msgs/msgs.hh
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo/msgs/msgs.hh
 mav_msgs/default_topics.h
 -
 ros/callback_queue.h
@@ -98,43 +98,43 @@ ros/ros.h
 tf/transform_broadcaster.h
 -
 ConnectGazeboToRosTopic.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.h
 ConnectRosToGazeboTopic.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.h
 Actuators.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Actuators.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Actuators.pb.h
 CommandMotorSpeed.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/CommandMotorSpeed.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/CommandMotorSpeed.pb.h
 Float32.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Float32.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Float32.pb.h
 FluidPressure.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/FluidPressure.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/FluidPressure.pb.h
 Imu.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Imu.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Imu.pb.h
 JointState.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/JointState.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/JointState.pb.h
 MagneticField.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/MagneticField.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/MagneticField.pb.h
 NavSatFix.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/NavSatFix.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/NavSatFix.pb.h
 Odometry.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Odometry.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Odometry.pb.h
 PoseWithCovarianceStamped.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.h
 RollPitchYawrateThrust.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h
 TransformStamped.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/TransformStamped.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/TransformStamped.pb.h
 TransformStampedWithFrameIds.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.h
 TwistStamped.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/TwistStamped.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/TwistStamped.pb.h
 Vector3dStamped.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Vector3dStamped.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Vector3dStamped.pb.h
 WindSpeed.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/WindSpeed.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/WindSpeed.pb.h
 WrenchStamped.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/WrenchStamped.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/WrenchStamped.pb.h
 geometry_msgs/Point.h
 -
 geometry_msgs/PointStamped.h
@@ -170,9 +170,9 @@ sensor_msgs/NavSatFix.h
 std_msgs/Float32.h
 -
 rotors_gazebo_plugins/common.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/common.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_ros_interface_plugin.cpp
 rotors_gazebo_plugins/gazebo_ros_interface_plugin.h
 -
 stdio.h
@@ -193,7 +193,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -209,7 +209,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -229,7 +229,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -249,7 +249,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -269,7 +269,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -287,7 +287,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -307,7 +307,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -323,7 +323,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -343,7 +343,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -363,7 +363,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -383,7 +383,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -403,7 +403,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -423,7 +423,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -441,7 +441,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -457,7 +457,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -477,7 +477,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -497,7 +497,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -517,7 +517,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1219,7 +1219,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1237,7 +1237,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1261,7 +1261,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1279,7 +1279,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1299,7 +1299,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1319,7 +1319,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1335,7 +1335,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1351,7 +1351,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1461,7 +1461,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1597,7 +1597,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1613,7 +1613,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

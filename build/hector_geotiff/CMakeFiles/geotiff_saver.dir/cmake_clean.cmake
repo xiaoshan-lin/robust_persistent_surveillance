@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_geotiff/geotiff_saver.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_geotiff/geotiff_saver"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_geotiff/geotiff_saver.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_geotiff/geotiff_saver"
 )
 
 # Per-language clean rules from dependency scanning.

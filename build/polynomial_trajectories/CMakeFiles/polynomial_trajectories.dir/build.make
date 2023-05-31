@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/polynomial_trajectories
 
 # Include any dependencies generated for this target.
 include CMakeFiles/polynomial_trajectories.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/polynomial_trajectories.dir/progress.make
 include CMakeFiles/polynomial_trajectories.dir/flags.make
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o: CMakeFiles/polynomial_trajectories.dir/flags.make
-CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp
+CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp > CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp > CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.i
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectory.cpp -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.s
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o.provides.
 
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o: CMakeFiles/polynomial_trajectories.dir/flags.make
-CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp
+CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp > CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp > CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.i
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/polynomial_trajectories_common.cpp -o CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.s
 
 CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o.
 
 
 CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o: CMakeFiles/polynomial_trajectories.dir/flags.make
-CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp
+CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp
 
 CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp > CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp > CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.i
 
 CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp -o CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/minimum_snap_trajectories.cpp -o CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.s
 
 CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o.provi
 
 
 CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o: CMakeFiles/polynomial_trajectories.dir/flags.make
-CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp
+CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp
 
 CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp > CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp > CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.i
 
 CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp -o CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories/src/constrained_polynomial_trajectories.cpp -o CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.s
 
 CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o.requires:
 
@@ -163,36 +163,36 @@ polynomial_trajectories_OBJECTS = \
 # External object files for target polynomial_trajectories
 polynomial_trajectories_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so"
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectory.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/polynomial_trajectories_common.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/minimum_snap_trajectories.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/src/constrained_polynomial_trajectories.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so: CMakeFiles/polynomial_trajectories.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/polynomial_trajectories/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polynomial_trajectories.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/polynomial_trajectories.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so
+CMakeFiles/polynomial_trajectories.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so
 
 .PHONY : CMakeFiles/polynomial_trajectories.dir/build
 
@@ -208,6 +208,6 @@ CMakeFiles/polynomial_trajectories.dir/clean:
 .PHONY : CMakeFiles/polynomial_trajectories.dir/clean
 
 CMakeFiles/polynomial_trajectories.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories /home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories /home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories /home/xslin/Documents/xslin/research/rpg_ws/build/polynomial_trajectories/CMakeFiles/polynomial_trajectories.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/polynomial_trajectories && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/polynomial_trajectories /home/xslin/Documents/rpg_ws/build/polynomial_trajectories /home/xslin/Documents/rpg_ws/build/polynomial_trajectories /home/xslin/Documents/rpg_ws/build/polynomial_trajectories/CMakeFiles/polynomial_trajectories.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/polynomial_trajectories.dir/depend
 

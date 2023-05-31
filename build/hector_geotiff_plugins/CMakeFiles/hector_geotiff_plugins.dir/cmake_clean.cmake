@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhector_geotiff_plugins.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libhector_geotiff_plugins.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libhector_geotiff_plugins.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libhector_geotiff_plugins.so"
 )
 
 # Per-language clean rules from dependency scanning.

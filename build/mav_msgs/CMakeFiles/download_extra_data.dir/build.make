@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/mav_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/mav_msgs
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/mav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/mav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/mav_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/mav_msgs/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/mav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs /home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs /home/xslin/Documents/rpg_ws/build/mav_msgs /home/xslin/Documents/rpg_ws/build/mav_msgs /home/xslin/Documents/rpg_ws/build/mav_msgs/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

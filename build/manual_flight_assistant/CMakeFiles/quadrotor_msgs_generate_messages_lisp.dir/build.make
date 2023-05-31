@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/manual_flight_assistant
 
 # Utility rule file for quadrotor_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/quadrotor_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/quadrotor_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/quadrotor_msgs_generate_messages_lisp.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant /home/xslin/Documents/xslin/research/rpg_ws/build/manual_flight_assistant/CMakeFiles/quadrotor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/manual_flight_assistant && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant /home/xslin/Documents/rpg_ws/build/manual_flight_assistant /home/xslin/Documents/rpg_ws/build/manual_flight_assistant /home/xslin/Documents/rpg_ws/build/manual_flight_assistant/CMakeFiles/quadrotor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/quadrotor_msgs_generate_messages_lisp.dir/depend
 

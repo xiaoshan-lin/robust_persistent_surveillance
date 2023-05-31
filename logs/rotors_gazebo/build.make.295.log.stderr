@@ -1,9 +1,0 @@
-In file included from [01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/uav_control_center.cpp:21:0[m[K:
-[01m[K/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/include/uav_control_center.h:14:10:[m[K [01;31m[Kfatal error: [m[Ktest/floatlist.h: No such file or directory
- #include [01;31m[K<test/floatlist.h>[m[K
-          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/uav_control_center.dir/src/uav_control_center.cpp.o] Error 1
-make[1]: *** [CMakeFiles/uav_control_center.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [all] Error 2

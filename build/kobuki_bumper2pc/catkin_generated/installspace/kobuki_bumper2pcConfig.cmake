@@ -67,14 +67,14 @@ set(kobuki_bumper2pc_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_bumper2pc_SOURCE_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_bumper2pc)
-  set(kobuki_bumper2pc_DEVEL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/devel)
+  set(kobuki_bumper2pc_SOURCE_PREFIX /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_bumper2pc)
+  set(kobuki_bumper2pc_DEVEL_PREFIX /home/xslin/Documents/rpg_ws/devel)
   set(kobuki_bumper2pc_INSTALL_PREFIX "")
   set(kobuki_bumper2pc_PREFIX ${kobuki_bumper2pc_DEVEL_PREFIX})
 else()
   set(kobuki_bumper2pc_SOURCE_PREFIX "")
   set(kobuki_bumper2pc_DEVEL_PREFIX "")
-  set(kobuki_bumper2pc_INSTALL_PREFIX /home/xslin/Documents/xslin/research/rpg_ws/install)
+  set(kobuki_bumper2pc_INSTALL_PREFIX /home/xslin/Documents/rpg_ws/install)
   set(kobuki_bumper2pc_PREFIX ${kobuki_bumper2pc_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xslin/Documents/xslin/research/rpg_ws/install/lib;/home/xslin/Documents/xslin/research/rpg_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xslin/Documents/rpg_ws/install/lib;/home/xslin/Documents/rpg_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

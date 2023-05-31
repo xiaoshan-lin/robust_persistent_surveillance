@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_msgs/CMakeFiles /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/turtlebot_msgs/CMakeFiles /home/xslin/Documents/rpg_ws/build/turtlebot_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xslin/Documents/rpg_ws/build/turtlebot_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -597,32 +597,6 @@ turtlebot_msgs_generate_messages/fast:
 .PHONY : turtlebot_msgs_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named turtlebot_msgs_gennodejs
-
-# Build rule for target.
-turtlebot_msgs_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot_msgs_gennodejs
-.PHONY : turtlebot_msgs_gennodejs
-
-# fast build rule for target.
-turtlebot_msgs_gennodejs/fast:
-	$(MAKE) -f CMakeFiles/turtlebot_msgs_gennodejs.dir/build.make CMakeFiles/turtlebot_msgs_gennodejs.dir/build
-.PHONY : turtlebot_msgs_gennodejs/fast
-
-#=============================================================================
-# Target rules for targets named _turtlebot_msgs_generate_messages_check_deps_TakePanorama
-
-# Build rule for target.
-_turtlebot_msgs_generate_messages_check_deps_TakePanorama: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _turtlebot_msgs_generate_messages_check_deps_TakePanorama
-.PHONY : _turtlebot_msgs_generate_messages_check_deps_TakePanorama
-
-# fast build rule for target.
-_turtlebot_msgs_generate_messages_check_deps_TakePanorama/fast:
-	$(MAKE) -f CMakeFiles/_turtlebot_msgs_generate_messages_check_deps_TakePanorama.dir/build.make CMakeFiles/_turtlebot_msgs_generate_messages_check_deps_TakePanorama.dir/build
-.PHONY : _turtlebot_msgs_generate_messages_check_deps_TakePanorama/fast
-
-#=============================================================================
 # Target rules for targets named turtlebot_msgs_genlisp
 
 # Build rule for target.
@@ -647,6 +621,32 @@ _turtlebot_msgs_generate_messages_check_deps_PanoramaImg: cmake_check_build_syst
 _turtlebot_msgs_generate_messages_check_deps_PanoramaImg/fast:
 	$(MAKE) -f CMakeFiles/_turtlebot_msgs_generate_messages_check_deps_PanoramaImg.dir/build.make CMakeFiles/_turtlebot_msgs_generate_messages_check_deps_PanoramaImg.dir/build
 .PHONY : _turtlebot_msgs_generate_messages_check_deps_PanoramaImg/fast
+
+#=============================================================================
+# Target rules for targets named turtlebot_msgs_gennodejs
+
+# Build rule for target.
+turtlebot_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot_msgs_gennodejs
+.PHONY : turtlebot_msgs_gennodejs
+
+# fast build rule for target.
+turtlebot_msgs_gennodejs/fast:
+	$(MAKE) -f CMakeFiles/turtlebot_msgs_gennodejs.dir/build.make CMakeFiles/turtlebot_msgs_gennodejs.dir/build
+.PHONY : turtlebot_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named _turtlebot_msgs_generate_messages_check_deps_TakePanorama
+
+# Build rule for target.
+_turtlebot_msgs_generate_messages_check_deps_TakePanorama: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _turtlebot_msgs_generate_messages_check_deps_TakePanorama
+.PHONY : _turtlebot_msgs_generate_messages_check_deps_TakePanorama
+
+# fast build rule for target.
+_turtlebot_msgs_generate_messages_check_deps_TakePanorama/fast:
+	$(MAKE) -f CMakeFiles/_turtlebot_msgs_generate_messages_check_deps_TakePanorama.dir/build.make CMakeFiles/_turtlebot_msgs_generate_messages_check_deps_TakePanorama.dir/build
+.PHONY : _turtlebot_msgs_generate_messages_check_deps_TakePanorama/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_lisp
@@ -771,11 +771,11 @@ help:
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... download_extra_data"
 	@echo "... turtlebot_msgs_generate_messages"
-	@echo "... turtlebot_msgs_gennodejs"
-	@echo "... _turtlebot_msgs_generate_messages_check_deps_TakePanorama"
 	@echo "... rebuild_cache"
 	@echo "... turtlebot_msgs_genlisp"
 	@echo "... _turtlebot_msgs_generate_messages_check_deps_PanoramaImg"
+	@echo "... turtlebot_msgs_gennodejs"
+	@echo "... _turtlebot_msgs_generate_messages_check_deps_TakePanorama"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... _turtlebot_msgs_generate_messages_check_deps_SetFollowState"
 	@echo "... gmock_main"

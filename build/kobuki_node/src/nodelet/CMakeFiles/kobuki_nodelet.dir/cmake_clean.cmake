@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libkobuki_nodelet.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libkobuki_nodelet.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libkobuki_nodelet.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libkobuki_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

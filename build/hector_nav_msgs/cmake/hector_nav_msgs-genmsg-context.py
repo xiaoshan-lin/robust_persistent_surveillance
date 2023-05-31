@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+services_str = "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv;/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv;/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv;/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv;/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
 pkg_name = "hector_nav_msgs"
 dependencies_str = "geometry_msgs;nav_msgs;std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

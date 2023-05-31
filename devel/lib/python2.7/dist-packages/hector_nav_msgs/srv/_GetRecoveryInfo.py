@@ -69,7 +69,8 @@ float64 request_radius
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.request_time is None:
         self.request_time = genpy.Time()
@@ -102,7 +103,8 @@ float64 request_radius
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.request_time is None:
         self.request_time = genpy.Time()
@@ -297,7 +299,8 @@ float64 w
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.trajectory_radius_entry_pose_to_req_pose is None:
         self.trajectory_radius_entry_pose_to_req_pose = nav_msgs.msg.Path()
@@ -454,7 +457,8 @@ float64 w
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.trajectory_radius_entry_pose_to_req_pose is None:
         self.trajectory_radius_entry_pose_to_req_pose = nav_msgs.msg.Path()

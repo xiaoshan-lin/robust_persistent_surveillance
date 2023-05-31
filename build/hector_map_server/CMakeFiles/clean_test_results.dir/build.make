@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_map_server
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/hector_slam/hector_map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_server
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/hector_map_server
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_server/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xslin/Documents/rpg_ws/build/hector_map_server/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_map_server /home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_map_server /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_server /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_server /home/xslin/Documents/xslin/research/rpg_ws/build/hector_map_server/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/hector_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/hector_slam/hector_map_server /home/xslin/Documents/rpg_ws/src/hector_slam/hector_map_server /home/xslin/Documents/rpg_ws/build/hector_map_server /home/xslin/Documents/rpg_ws/build/hector_map_server /home/xslin/Documents/rpg_ws/build/hector_map_server/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

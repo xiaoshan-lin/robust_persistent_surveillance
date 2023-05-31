@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -38,7 +38,7 @@ struct GetStateRequest_
    typedef ros::Time _time_stamp_type;
   _time_stamp_type time_stamp;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _frame_id_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _frame_id_type;
   _frame_id_type frame_id;
 
 
@@ -195,7 +195,7 @@ struct Printer< ::robot_localization::GetStateRequest_<ContainerAllocator> >
     s << indent << "time_stamp: ";
     Printer<ros::Time>::stream(s, indent + "  ", v.time_stamp);
     s << indent << "frame_id: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.frame_id);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.frame_id);
   }
 };
 

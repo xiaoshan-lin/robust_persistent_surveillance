@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_planning_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/mav_comm/mav_planning_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/mav_planning_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/mav_planning_msgs
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_planning_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_planning_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/mav_planning_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/mav_planning_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/mav_planning_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/mav_comm/mav_planning_msgs /home/xslin/Documents/rpg_ws/src/mav_comm/mav_planning_msgs /home/xslin/Documents/rpg_ws/build/mav_planning_msgs /home/xslin/Documents/rpg_ws/build/mav_planning_msgs /home/xslin/Documents/rpg_ws/build/mav_planning_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

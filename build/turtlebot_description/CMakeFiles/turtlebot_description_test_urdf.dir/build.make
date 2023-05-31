@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_description
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot_description_test_urdf.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/turtlebot_description_test_urdf.dir/progress.make
 include CMakeFiles/turtlebot_description_test_urdf.dir/flags.make
 
 CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o: CMakeFiles/turtlebot_description_test_urdf.dir/flags.make
-CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp
+CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o: /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_description/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o -c /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp
 
 CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp > CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp > CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.i
 
 CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp -o CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description/test/test_urdf.cpp -o CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.s
 
 CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o.requires:
 
@@ -88,15 +88,15 @@ turtlebot_description_test_urdf_OBJECTS = \
 # External object files for target turtlebot_description_test_urdf
 turtlebot_description_test_urdf_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: CMakeFiles/turtlebot_description_test_urdf.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: gtest/googlemock/gtest/libgtest.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: CMakeFiles/turtlebot_description_test_urdf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf"
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: CMakeFiles/turtlebot_description_test_urdf.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: gtest/googlemock/gtest/libgtest.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf: CMakeFiles/turtlebot_description_test_urdf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_description/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot_description_test_urdf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/turtlebot_description_test_urdf.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf
+CMakeFiles/turtlebot_description_test_urdf.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf
 
 .PHONY : CMakeFiles/turtlebot_description_test_urdf.dir/build
 
@@ -109,6 +109,6 @@ CMakeFiles/turtlebot_description_test_urdf.dir/clean:
 .PHONY : CMakeFiles/turtlebot_description_test_urdf.dir/clean
 
 CMakeFiles/turtlebot_description_test_urdf.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description/CMakeFiles/turtlebot_description_test_urdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/turtlebot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/rpg_ws/build/turtlebot_description /home/xslin/Documents/rpg_ws/build/turtlebot_description /home/xslin/Documents/rpg_ws/build/turtlebot_description/CMakeFiles/turtlebot_description_test_urdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot_description_test_urdf.dir/depend
 

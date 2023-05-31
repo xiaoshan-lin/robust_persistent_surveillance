@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_map_server.dir/src/hector_map_server.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_map_server/hector_map_server.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_map_server/hector_map_server"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_map_server/hector_map_server.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_map_server/hector_map_server"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -77,7 +77,7 @@ struct ControlCommand_
    typedef double _collective_thrust_type;
   _collective_thrust_type collective_thrust;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _rotor_thrusts_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _rotor_thrusts_type;
   _rotor_thrusts_type rotor_thrusts;
 
 

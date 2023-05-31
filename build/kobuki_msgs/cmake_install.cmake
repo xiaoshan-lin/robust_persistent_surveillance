@@ -1,8 +1,8 @@
-# Install script for directory: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs
+# Install script for directory: /home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/xslin/research/rpg_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xslin/Documents/rpg_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,174 +49,174 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/_setup_util.py")
+   "/home/xslin/Documents/rpg_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/env.sh")
+   "/home/xslin/Documents/rpg_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE PROGRAM FILES "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.bash;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.bash")
+   "/home/xslin/Documents/rpg_ws/install/setup.bash;/home/xslin/Documents/rpg_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/setup.bash"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/setup.bash"
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.sh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.sh")
+   "/home/xslin/Documents/rpg_ws/install/setup.sh;/home/xslin/Documents/rpg_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/setup.sh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/setup.sh"
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/setup.zsh;/home/xslin/Documents/xslin/research/rpg_ws/install/local_setup.zsh")
+   "/home/xslin/Documents/rpg_ws/install/setup.zsh;/home/xslin/Documents/rpg_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/setup.zsh"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/setup.zsh"
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xslin/Documents/xslin/research/rpg_ws/install/.rosinstall")
+   "/home/xslin/Documents/rpg_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xslin/Documents/xslin/research/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xslin/Documents/rpg_ws/install" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/msg" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/BumperEvent.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/CliffEvent.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/DigitalOutput.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/ExternalPower.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/Led.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/PowerSystemEvent.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/SensorState.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/VersionInfo.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/ControllerInfo.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/ButtonEvent.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/DigitalInputEvent.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/DockInfraRed.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/KeyboardInput.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/MotorPower.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/RobotStateEvent.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/Sound.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/ScanAngle.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/msg/WheelDropEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/BumperEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/CliffEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/DigitalOutput.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/ExternalPower.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/Led.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/PowerSystemEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/SensorState.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/VersionInfo.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/ControllerInfo.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/ButtonEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/DigitalInputEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/DockInfraRed.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/KeyboardInput.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/MotorPower.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/RobotStateEvent.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/Sound.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/ScanAngle.msg"
+    "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/msg/WheelDropEvent.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/action" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/action/AutoDocking.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/action" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/action/AutoDocking.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/msg" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingAction.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingActionGoal.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingActionResult.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingGoal.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingResult.msg"
-    "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingAction.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingActionGoal.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingActionResult.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingGoal.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingResult.msg"
+    "/home/xslin/Documents/rpg_ws/devel/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/cmake" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/cmake" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/kobuki_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/include/kobuki_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/roseus/ros/kobuki_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/share/roseus/ros/kobuki_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/kobuki_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/kobuki_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/kobuki_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/kobuki_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/kobuki_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/kobuki_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages/kobuki_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/xslin/Documents/rpg_ws/devel/lib/python2.7/dist-packages/kobuki_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/cmake" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/cmake" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/cmake" TYPE FILE FILES
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgsConfig.cmake"
-    "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgsConfig-version.cmake"
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgsConfig.cmake"
+    "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/catkin_generated/installspace/kobuki_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs" TYPE FILE FILES "/home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/kobuki_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs" TYPE FILE FILES "/home/xslin/Documents/rpg_ws/src/turtlebot/kobuki_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/gtest/cmake_install.cmake")
+  include("/home/xslin/Documents/rpg_ws/build/kobuki_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -228,5 +228,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xslin/Documents/xslin/research/rpg_ws/build/kobuki_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xslin/Documents/rpg_ws/build/kobuki_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

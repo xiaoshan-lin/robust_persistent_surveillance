@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_state_machine_msgs_generate_messages_nodejs"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/mav_state_machine_msgs/msg/StartStopTask.js"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/gennodejs/ros/mav_state_machine_msgs/srv/RunTaskService.js"
+  "/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/mav_state_machine_msgs/msg/StartStopTask.js"
+  "/home/xslin/Documents/rpg_ws/devel/share/gennodejs/ros/mav_state_machine_msgs/srv/RunTaskService.js"
 )
 
 # Per-language clean rules from dependency scanning.

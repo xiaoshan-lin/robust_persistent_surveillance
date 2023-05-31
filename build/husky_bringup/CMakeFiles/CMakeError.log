@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86cc3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86cc3.dir/build.make CMakeFiles/cmTC_86cc3.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86cc3.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_86cc3.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_86cc3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86cc3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_86cc3.dir/CheckSymbolExists.c.o  -o cmTC_86cc3 
-CMakeFiles/cmTC_86cc3.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_d91e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d91e3.dir/build.make CMakeFiles/cmTC_d91e3.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d91e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d91e3.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d91e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d91e3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d91e3.dir/CheckSymbolExists.c.o  -o cmTC_d91e3 
+CMakeFiles/cmTC_d91e3.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_86cc3.dir/build.make:97: recipe for target 'cmTC_86cc3' failed
-make[1]: *** [cmTC_86cc3] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_86cc3/fast' failed
-make: *** [cmTC_86cc3/fast] Error 2
+CMakeFiles/cmTC_d91e3.dir/build.make:97: recipe for target 'cmTC_d91e3' failed
+make[1]: *** [cmTC_d91e3] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d91e3/fast' failed
+make: *** [cmTC_d91e3/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94e03/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94e03.dir/build.make CMakeFiles/cmTC_94e03.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94e03.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94e03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_94e03
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e03.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_94e03.dir/CheckFunctionExists.c.o  -o cmTC_94e03 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_645e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_645e6.dir/build.make CMakeFiles/cmTC_645e6.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_645e6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_645e6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_645e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_645e6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_645e6.dir/CheckFunctionExists.c.o  -o cmTC_645e6 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_94e03.dir/build.make:97: recipe for target 'cmTC_94e03' failed
-make[1]: *** [cmTC_94e03] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_94e03/fast' failed
-make: *** [cmTC_94e03/fast] Error 2
+CMakeFiles/cmTC_645e6.dir/build.make:97: recipe for target 'cmTC_645e6' failed
+make[1]: *** [cmTC_645e6] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/husky_bringup/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_645e6/fast' failed
+make: *** [cmTC_645e6/fast] Error 2
 
 

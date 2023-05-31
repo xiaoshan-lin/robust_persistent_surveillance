@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rpg_quadrotor_integration_test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rpg_quadrotor_integration_test.dir/progress.make
 include CMakeFiles/rpg_quadrotor_integration_test.dir/flags.make
 
 CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o: CMakeFiles/rpg_quadrotor_integration_test.dir/flags.make
-CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp
+CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp
 
 CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp > CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp > CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.i
 
 CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp -o CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test/src/rpg_quadrotor_integration_test.cpp -o CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.s
 
 CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o.requires:
 
@@ -88,39 +88,39 @@ rpg_quadrotor_integration_test_OBJECTS = \
 # External object files for target rpg_quadrotor_integration_test
 rpg_quadrotor_integration_test_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: CMakeFiles/rpg_quadrotor_integration_test.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: gtest/googlemock/gtest/libgtest.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libautopilot_helper.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libposition_controller.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libstate_predictor.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libtrajectory_generation_helper.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libpolynomial_trajectories.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: CMakeFiles/rpg_quadrotor_integration_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test"
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: CMakeFiles/rpg_quadrotor_integration_test.dir/src/rpg_quadrotor_integration_test.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: CMakeFiles/rpg_quadrotor_integration_test.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: gtest/googlemock/gtest/libgtest.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/rpg_ws/devel/lib/libautopilot_helper.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/rpg_ws/devel/lib/libposition_controller.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/rpg_ws/devel/lib/libstate_predictor.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/rpg_ws/devel/lib/libtrajectory_generation_helper.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/rpg_ws/devel/lib/libpolynomial_trajectories.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test: CMakeFiles/rpg_quadrotor_integration_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpg_quadrotor_integration_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rpg_quadrotor_integration_test.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test
+CMakeFiles/rpg_quadrotor_integration_test.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/rpg_quadrotor_integration_test/rpg_quadrotor_integration_test
 
 .PHONY : CMakeFiles/rpg_quadrotor_integration_test.dir/build
 
@@ -133,6 +133,6 @@ CMakeFiles/rpg_quadrotor_integration_test.dir/clean:
 .PHONY : CMakeFiles/rpg_quadrotor_integration_test.dir/clean
 
 CMakeFiles/rpg_quadrotor_integration_test.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/rpg_quadrotor_integration_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/test/rpg_quadrotor_integration_test /home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test /home/xslin/Documents/rpg_ws/build/rpg_quadrotor_integration_test/CMakeFiles/rpg_quadrotor_integration_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rpg_quadrotor_integration_test.dir/depend
 

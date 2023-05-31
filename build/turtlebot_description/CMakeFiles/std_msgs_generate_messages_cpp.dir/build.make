@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_description
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/turtlebot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot/turtlebot_description /home/xslin/Documents/rpg_ws/build/turtlebot_description /home/xslin/Documents/rpg_ws/build/turtlebot_description /home/xslin/Documents/rpg_ws/build/turtlebot_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

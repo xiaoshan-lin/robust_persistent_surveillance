@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/xslin/Documents/rpg_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 Eigen/Dense
 -
 gazebo/gazebo.hh
@@ -16,7 +16,7 @@ gazebo/gazebo.hh
 tinyxml.h
 -
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h
 string
 -
 gazebo/common/common.hh
@@ -30,19 +30,19 @@ gazebo/physics/physics.hh
 mav_msgs/default_topics.h
 -
 Actuators.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Actuators.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/Actuators.pb.h
 JointState.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/JointState.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/JointState.pb.h
 rotors_gazebo_plugins/common.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/common.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/rotors_gazebo_plugins/common.h
 
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_multirotor_base_plugin.cpp
 rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/gazebo_multirotor_base_plugin.h
 ctime
 -
 ConnectGazeboToRosTopic.pb.h
-/home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/ConnectGazeboToRosTopic.pb.h
+/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/ConnectGazeboToRosTopic.pb.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

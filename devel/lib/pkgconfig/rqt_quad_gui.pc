@@ -1,4 +1,4 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: rqt_quad_gui
 Description: Description of rqt_quad_gui

@@ -17,29 +17,29 @@ add_custom_target(hector_nav_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
 add_custom_target(_hector_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" "nav_msgs/Path:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" "std_msgs/Header:geometry_msgs/Point:geometry_msgs/PointStamped"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
 add_custom_target(_hector_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
 add_custom_target(_hector_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" "nav_msgs/Path:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" "nav_msgs/Path:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
 add_custom_target(_hector_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" "std_msgs/Header:geometry_msgs/Point:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" "geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PointStamped"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
 add_custom_target(_hector_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" "geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_nav_msgs" "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" "nav_msgs/Path:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 #
@@ -51,33 +51,33 @@ add_custom_target(_hector_nav_msgs_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_cpp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_cpp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_cpp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_cpp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_nav_msgs
 )
 
@@ -93,15 +93,15 @@ add_custom_target(hector_nav_msgs_generate_messages_cpp
 add_dependencies(hector_nav_msgs_generate_messages hector_nav_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_cpp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_cpp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_cpp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_cpp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_cpp _hector_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,33 +116,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_nav_msgs_generate_messages_c
 
 ### Generating Services
 _generate_srv_eus(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_eus(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_eus(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_eus(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_eus(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_nav_msgs
 )
 
@@ -158,15 +158,15 @@ add_custom_target(hector_nav_msgs_generate_messages_eus
 add_dependencies(hector_nav_msgs_generate_messages hector_nav_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_eus _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_eus _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_eus _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_eus _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_eus _hector_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -181,33 +181,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_nav_msgs_generate_messages_e
 
 ### Generating Services
 _generate_srv_lisp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_lisp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_lisp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_lisp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_lisp(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_nav_msgs
 )
 
@@ -223,15 +223,15 @@ add_custom_target(hector_nav_msgs_generate_messages_lisp
 add_dependencies(hector_nav_msgs_generate_messages hector_nav_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_lisp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_lisp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_lisp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_lisp _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_lisp _hector_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -246,33 +246,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_nav_msgs_generate_messages_l
 
 ### Generating Services
 _generate_srv_nodejs(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_nodejs(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_nodejs(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_nodejs(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_nodejs(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_nav_msgs
 )
 
@@ -288,15 +288,15 @@ add_custom_target(hector_nav_msgs_generate_messages_nodejs
 add_dependencies(hector_nav_msgs_generate_messages hector_nav_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_nodejs _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_nodejs _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_nodejs _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_nodejs _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_nodejs _hector_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -311,33 +311,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hector_nav_msgs_generate_messages_n
 
 ### Generating Services
 _generate_srv_py(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_py(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_py(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_py(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_nav_msgs
 )
 _generate_srv_py(hector_nav_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
+  "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/melodic/share/nav_msgs/cmake/../msg/Path.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_nav_msgs
 )
 
@@ -353,15 +353,15 @@ add_custom_target(hector_nav_msgs_generate_messages_py
 add_dependencies(hector_nav_msgs_generate_messages hector_nav_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_py _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_py _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_py _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_py _hector_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv" NAME_WE)
 add_dependencies(hector_nav_msgs_generate_messages_py _hector_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

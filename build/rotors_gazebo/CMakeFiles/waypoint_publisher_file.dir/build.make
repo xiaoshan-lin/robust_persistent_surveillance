@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rotors_gazebo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/waypoint_publisher_file.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/waypoint_publisher_file.dir/progress.make
 include CMakeFiles/waypoint_publisher_file.dir/flags.make
 
 CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o: CMakeFiles/waypoint_publisher_file.dir/flags.make
-CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp
+CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o: /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o -c /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp
 
 CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp > CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp > CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.i
 
 CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp -o CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo/src/waypoint_publisher_file.cpp -o CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.s
 
 CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o.requires:
 
@@ -88,32 +88,32 @@ waypoint_publisher_file_OBJECTS = \
 # External object files for target waypoint_publisher_file
 waypoint_publisher_file_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: CMakeFiles/waypoint_publisher_file.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: CMakeFiles/waypoint_publisher_file.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file"
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: CMakeFiles/waypoint_publisher_file.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file: CMakeFiles/waypoint_publisher_file.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rotors_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/waypoint_publisher_file.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/waypoint_publisher_file.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file
+CMakeFiles/waypoint_publisher_file.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/rotors_gazebo/waypoint_publisher_file
 
 .PHONY : CMakeFiles/waypoint_publisher_file.dir/build
 
@@ -126,6 +126,6 @@ CMakeFiles/waypoint_publisher_file.dir/clean:
 .PHONY : CMakeFiles/waypoint_publisher_file.dir/clean
 
 CMakeFiles/waypoint_publisher_file.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_gazebo/CMakeFiles/waypoint_publisher_file.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rotors_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo /home/xslin/Documents/rpg_ws/build/rotors_gazebo /home/xslin/Documents/rpg_ws/build/rotors_gazebo /home/xslin/Documents/rpg_ws/build/rotors_gazebo/CMakeFiles/waypoint_publisher_file.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/waypoint_publisher_file.dir/depend
 

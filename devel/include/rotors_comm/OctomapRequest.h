@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -55,7 +55,7 @@ struct OctomapRequest_
    typedef uint8_t _publish_octomap_type;
   _publish_octomap_type publish_octomap;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _filename_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _filename_type;
   _filename_type filename;
 
 
@@ -241,7 +241,7 @@ struct Printer< ::rotors_comm::OctomapRequest_<ContainerAllocator> >
     s << indent << "publish_octomap: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.publish_octomap);
     s << indent << "filename: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.filename);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.filename);
   }
 };
 

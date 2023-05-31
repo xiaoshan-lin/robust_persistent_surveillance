@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: husky_base
 Description: Description of husky_base
 Version: 0.4.5
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/husky/husky_base/include -I/usr/include
+Cflags: -I/home/xslin/Documents/rpg_ws/src/husky/husky_base/include -I/usr/include
 Libs: -L${prefix}/lib -lhorizon_legacy /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_system.so
 Requires: diagnostic_updater hardware_interface husky_msgs roscpp sensor_msgs

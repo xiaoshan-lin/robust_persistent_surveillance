@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/srv/GetState.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/srv/SetDatum.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/srv/SetPose.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/srv/ToggleFilterProcessing.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/srv/FromLL.srv;/home/xslin/Documents/xslin/research/rpg_ws/src/robot_localization/srv/ToLL.srv"
+services_str = "/home/xslin/Documents/rpg_ws/src/robot_localization/srv/GetState.srv;/home/xslin/Documents/rpg_ws/src/robot_localization/srv/SetDatum.srv;/home/xslin/Documents/rpg_ws/src/robot_localization/srv/SetPose.srv;/home/xslin/Documents/rpg_ws/src/robot_localization/srv/ToggleFilterProcessing.srv;/home/xslin/Documents/rpg_ws/src/robot_localization/srv/FromLL.srv;/home/xslin/Documents/rpg_ws/src/robot_localization/srv/ToLL.srv"
 pkg_name = "robot_localization"
 dependencies_str = "geographic_msgs;geometry_msgs;std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

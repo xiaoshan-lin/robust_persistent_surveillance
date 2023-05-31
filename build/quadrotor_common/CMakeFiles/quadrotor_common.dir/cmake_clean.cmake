@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/quadrotor_common.dir/src/quaternion_functions.cpp.o"
   "CMakeFiles/quadrotor_common.dir/src/trajectory_point.cpp.o"
   "CMakeFiles/quadrotor_common.dir/src/trajectory.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libquadrotor_common.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libquadrotor_common.so"
 )
 
 # Per-language clean rules from dependency scanning.

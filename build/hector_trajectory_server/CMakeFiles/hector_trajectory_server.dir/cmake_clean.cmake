@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_trajectory_server/hector_trajectory_server.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/hector_trajectory_server/hector_trajectory_server"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_trajectory_server/hector_trajectory_server.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/hector_trajectory_server/hector_trajectory_server"
 )
 
 # Per-language clean rules from dependency scanning.

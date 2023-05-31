@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/turtlebot_actions
 
 # Include any dependencies generated for this target.
 include CMakeFiles/find_fiducial_pose.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/find_fiducial_pose.dir/progress.make
 include CMakeFiles/find_fiducial_pose.dir/flags.make
 
 CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o: CMakeFiles/find_fiducial_pose.dir/flags.make
-CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp
+CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o: /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o -c /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp
 
 CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp > CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp > CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.i
 
 CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp -o CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/find_fiducial_pose.cpp -o CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.s
 
 CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o.provides.build: C
 
 
 CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o: CMakeFiles/find_fiducial_pose.dir/flags.make
-CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp
+CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o: /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o -c /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp
 
 CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp > CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp > CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.i
 
 CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp -o CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions/src/detect_calibration_pattern.cpp -o CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.s
 
 CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o.requires:
 
@@ -113,206 +113,180 @@ find_fiducial_pose_OBJECTS = \
 # External object files for target find_fiducial_pose
 find_fiducial_pose_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2_ros.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libactionlib.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcv_bridge.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_transport.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libmessage_filters.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libclass_loader.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/libPocoFoundation.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroslib.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librospack.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_geometry.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2_ros.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libactionlib.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcv_bridge.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_transport.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libmessage_filters.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libclass_loader.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/libPocoFoundation.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroslib.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librospack.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_geometry.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose"
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2_ros.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libactionlib.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcv_bridge.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_transport.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libmessage_filters.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libclass_loader.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/libPocoFoundation.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroslib.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librospack.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_geometry.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_gapi.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_highgui.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_ml.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_objdetect.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_photo.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_stitching.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_video.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_videoio.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2_ros.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libactionlib.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libtf2.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcv_bridge.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_transport.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libmessage_filters.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libclass_loader.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/libPocoFoundation.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroslib.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librospack.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libimage_geometry.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_imgcodecs.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_dnn.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_calib3d.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_features2d.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_flann.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_imgproc.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: /usr/local/opencv4/lib/libopencv_core.so.4.5.4
+/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose: CMakeFiles/find_fiducial_pose.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/turtlebot_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_fiducial_pose.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/find_fiducial_pose.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose
+CMakeFiles/find_fiducial_pose.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose
 
 .PHONY : CMakeFiles/find_fiducial_pose.dir/build
 
@@ -326,6 +300,6 @@ CMakeFiles/find_fiducial_pose.dir/clean:
 .PHONY : CMakeFiles/find_fiducial_pose.dir/clean
 
 CMakeFiles/find_fiducial_pose.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions /home/xslin/Documents/xslin/research/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions /home/xslin/Documents/xslin/research/rpg_ws/build/turtlebot_actions/CMakeFiles/find_fiducial_pose.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/turtlebot_actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions /home/xslin/Documents/rpg_ws/src/turtlebot/turtlebot_apps/turtlebot_actions /home/xslin/Documents/rpg_ws/build/turtlebot_actions /home/xslin/Documents/rpg_ws/build/turtlebot_actions /home/xslin/Documents/rpg_ws/build/turtlebot_actions/CMakeFiles/find_fiducial_pose.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/find_fiducial_pose.dir/depend
 

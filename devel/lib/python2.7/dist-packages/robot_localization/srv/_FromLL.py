@@ -77,7 +77,8 @@ float64 altitude
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.ll_point is None:
         self.ll_point = geographic_msgs.msg.GeoPoint()
@@ -109,7 +110,8 @@ float64 altitude
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.ll_point is None:
         self.ll_point = geographic_msgs.msg.GeoPoint()
@@ -203,7 +205,8 @@ float64 z
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.map_point is None:
         self.map_point = geometry_msgs.msg.Point()
@@ -235,7 +238,8 @@ float64 z
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.map_point is None:
         self.map_point = geometry_msgs.msg.Point()

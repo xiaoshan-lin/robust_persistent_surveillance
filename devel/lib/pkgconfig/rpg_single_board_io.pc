@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: rpg_single_board_io
 Description: Description of rpg_single_board_io
 Version: 0.0.0
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/include
+Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_single_board_io/include
 Libs: -L${prefix}/lib -lrpg_single_board_io
 Requires: roscpp std_msgs

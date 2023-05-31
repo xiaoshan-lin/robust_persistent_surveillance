@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8062d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8062d.dir/build.make CMakeFiles/cmTC_8062d.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8062d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8062d.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8062d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8062d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8062d.dir/CheckSymbolExists.c.o  -o cmTC_8062d 
-CMakeFiles/cmTC_8062d.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_9a841/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a841.dir/build.make CMakeFiles/cmTC_9a841.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a841.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9a841.dir/CheckSymbolExists.c.o   -c /home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9a841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a841.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9a841.dir/CheckSymbolExists.c.o  -o cmTC_9a841 
+CMakeFiles/cmTC_9a841.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8062d.dir/build.make:97: recipe for target 'cmTC_8062d' failed
-make[1]: *** [cmTC_8062d] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8062d/fast' failed
-make: *** [cmTC_8062d/fast] Error 2
+CMakeFiles/cmTC_9a841.dir/build.make:97: recipe for target 'cmTC_9a841' failed
+make[1]: *** [cmTC_9a841] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a841/fast' failed
+make: *** [cmTC_9a841/fast] Error 2
 
-File /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp
+Change Dir: /home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9674/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9674.dir/build.make CMakeFiles/cmTC_c9674.dir/build
-make[1]: Entering directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9674.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c9674.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c9674
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9674.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c9674.dir/CheckFunctionExists.c.o  -o cmTC_c9674 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_a1e1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1e1a.dir/build.make CMakeFiles/cmTC_a1e1a.dir/build
+make[1]: Entering directory '/home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1e1a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a1e1a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1e1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1e1a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a1e1a.dir/CheckFunctionExists.c.o  -o cmTC_a1e1a -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c9674.dir/build.make:97: recipe for target 'cmTC_c9674' failed
-make[1]: *** [cmTC_c9674] Error 1
-make[1]: Leaving directory '/home/xslin/Documents/xslin/research/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c9674/fast' failed
-make: *** [cmTC_c9674/fast] Error 2
+CMakeFiles/cmTC_a1e1a.dir/build.make:97: recipe for target 'cmTC_a1e1a' failed
+make[1]: *** [cmTC_a1e1a] Error 1
+make[1]: Leaving directory '/home/xslin/Documents/rpg_ws/build/rotors_control/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a1e1a/fast' failed
+make: *** [cmTC_a1e1a/fast] Error 2
 
 

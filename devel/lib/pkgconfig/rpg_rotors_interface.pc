@@ -1,8 +1,8 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/devel
+prefix=/home/xslin/Documents/rpg_ws/devel
 
 Name: rpg_rotors_interface
 Description: Description of rpg_rotors_interface
 Version: 0.0.0
-Cflags: -I/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/simulation/rpg_rotors_interface/include
+Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/simulation/rpg_rotors_interface/include
 Libs: -L${prefix}/lib 
 Requires: eigen_catkin mav_msgs nav_msgs quadrotor_common quadrotor_msgs roscpp std_srvs

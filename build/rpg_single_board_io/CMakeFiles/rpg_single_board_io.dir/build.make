@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_single_board_io
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/rpg_single_board_io
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rpg_single_board_io.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rpg_single_board_io.dir/progress.make
 include CMakeFiles/rpg_single_board_io.dir/flags.make
 
 CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o: CMakeFiles/rpg_single_board_io.dir/flags.make
-CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/gpio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/gpio.cpp
+CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/gpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/gpio.cpp
 
 CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/gpio.cpp > CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/gpio.cpp > CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.i
 
 CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/gpio.cpp -o CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/gpio.cpp -o CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.s
 
 CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o.provides.build: CMakeFiles/rpg
 
 
 CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o: CMakeFiles/rpg_single_board_io.dir/flags.make
-CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o: /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/adc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o -c /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/adc.cpp
+CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o: /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/adc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o -c /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/adc.cpp
 
 CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/adc.cpp > CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/adc.cpp > CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.i
 
 CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io/src/adc.cpp -o CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xslin/Documents/rpg_ws/src/rpg_single_board_io/src/adc.cpp -o CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.s
 
 CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o.requires:
 
@@ -113,33 +113,33 @@ rpg_single_board_io_OBJECTS = \
 # External object files for target rpg_single_board_io
 rpg_single_board_io_EXTERNAL_OBJECTS =
 
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/build.make
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libroscpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librosconsole.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librostime.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so"
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/src/gpio.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/src/adc.cpp.o
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/build.make
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libroscpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librosconsole.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/librostime.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so: CMakeFiles/rpg_single_board_io.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpg_single_board_io.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rpg_single_board_io.dir/build: /home/xslin/Documents/xslin/research/rpg_ws/devel/lib/librpg_single_board_io.so
+CMakeFiles/rpg_single_board_io.dir/build: /home/xslin/Documents/rpg_ws/devel/lib/librpg_single_board_io.so
 
 .PHONY : CMakeFiles/rpg_single_board_io.dir/build
 
@@ -153,6 +153,6 @@ CMakeFiles/rpg_single_board_io.dir/clean:
 .PHONY : CMakeFiles/rpg_single_board_io.dir/clean
 
 CMakeFiles/rpg_single_board_io.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_single_board_io /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io /home/xslin/Documents/xslin/research/rpg_ws/build/rpg_single_board_io/CMakeFiles/rpg_single_board_io.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/rpg_single_board_io && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_single_board_io /home/xslin/Documents/rpg_ws/src/rpg_single_board_io /home/xslin/Documents/rpg_ws/build/rpg_single_board_io /home/xslin/Documents/rpg_ws/build/rpg_single_board_io /home/xslin/Documents/rpg_ws/build/rpg_single_board_io/CMakeFiles/rpg_single_board_io.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rpg_single_board_io.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/autopilot.dir/src/autopilot_node.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/autopilot/autopilot.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/autopilot/autopilot"
+  "/home/xslin/Documents/rpg_ws/devel/lib/autopilot/autopilot.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/autopilot/autopilot"
 )
 
 # Per-language clean rules from dependency scanning.

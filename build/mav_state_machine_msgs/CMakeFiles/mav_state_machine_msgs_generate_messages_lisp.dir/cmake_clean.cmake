@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_state_machine_msgs_generate_messages_lisp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/mav_state_machine_msgs/msg/StartStopTask.lisp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/share/common-lisp/ros/mav_state_machine_msgs/srv/RunTaskService.lisp"
+  "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/mav_state_machine_msgs/msg/StartStopTask.lisp"
+  "/home/xslin/Documents/rpg_ws/devel/share/common-lisp/ros/mav_state_machine_msgs/srv/RunTaskService.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

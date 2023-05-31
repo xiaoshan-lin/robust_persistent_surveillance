@@ -2,7 +2,7 @@
 
 message(STATUS "quadrotor_msgs: 5 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iquadrotor_msgs:/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iquadrotor_msgs:/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,29 +17,29 @@ add_custom_target(quadrotor_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
 add_custom_target(_quadrotor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" "geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Twist:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
 add_custom_target(_quadrotor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" "geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:quadrotor_msgs/TrajectoryPoint:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" "quadrotor_msgs/TrajectoryPoint:nav_msgs/Odometry:quadrotor_msgs/LowLevelFeedback:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/PoseWithCovariance:std_msgs/Header:geometry_msgs/TwistWithCovariance:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
 add_custom_target(_quadrotor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" "quadrotor_msgs/LowLevelFeedback:nav_msgs/Odometry:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:quadrotor_msgs/TrajectoryPoint:std_msgs/Header:geometry_msgs/TwistWithCovariance:geometry_msgs/PoseWithCovariance:geometry_msgs/Quaternion:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" "geometry_msgs/Vector3:geometry_msgs/Quaternion:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
 add_custom_target(_quadrotor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" "geometry_msgs/Vector3:geometry_msgs/Quaternion:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" "geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Twist:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
 add_custom_target(_quadrotor_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "quadrotor_msgs" "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" "quadrotor_msgs/TrajectoryPoint:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 #
@@ -49,33 +49,33 @@ add_custom_target(_quadrotor_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_cpp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_cpp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/quadrotor_msgs
-)
-_generate_msg_cpp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_cpp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/quadrotor_msgs
+)
+_generate_msg_cpp(quadrotor_msgs
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/quadrotor_msgs
 )
 
@@ -93,15 +93,15 @@ add_custom_target(quadrotor_msgs_generate_messages_cpp
 add_dependencies(quadrotor_msgs_generate_messages quadrotor_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_cpp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_cpp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_cpp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_cpp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_cpp _quadrotor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -114,33 +114,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS quadrotor_msgs_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_eus(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_eus(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/quadrotor_msgs
-)
-_generate_msg_eus(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_eus(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/quadrotor_msgs
+)
+_generate_msg_eus(quadrotor_msgs
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/quadrotor_msgs
 )
 
@@ -158,15 +158,15 @@ add_custom_target(quadrotor_msgs_generate_messages_eus
 add_dependencies(quadrotor_msgs_generate_messages quadrotor_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_eus _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_eus _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_eus _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_eus _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_eus _quadrotor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -179,33 +179,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS quadrotor_msgs_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_lisp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_lisp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/quadrotor_msgs
-)
-_generate_msg_lisp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_lisp(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/quadrotor_msgs
+)
+_generate_msg_lisp(quadrotor_msgs
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/quadrotor_msgs
 )
 
@@ -223,15 +223,15 @@ add_custom_target(quadrotor_msgs_generate_messages_lisp
 add_dependencies(quadrotor_msgs_generate_messages quadrotor_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_lisp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_lisp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_lisp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_lisp _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_lisp _quadrotor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -244,33 +244,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS quadrotor_msgs_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_nodejs(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_nodejs(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/quadrotor_msgs
-)
-_generate_msg_nodejs(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_nodejs(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/quadrotor_msgs
+)
+_generate_msg_nodejs(quadrotor_msgs
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/quadrotor_msgs
 )
 
@@ -288,15 +288,15 @@ add_custom_target(quadrotor_msgs_generate_messages_nodejs
 add_dependencies(quadrotor_msgs_generate_messages quadrotor_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_nodejs _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_nodejs _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_nodejs _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_nodejs _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_nodejs _quadrotor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -309,33 +309,33 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS quadrotor_msgs_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_py(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_py(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/opt/ros/melodic/share/nav_msgs/cmake/../msg/Odometry.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/quadrotor_msgs
-)
-_generate_msg_py(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/quadrotor_msgs
 )
 _generate_msg_py(quadrotor_msgs
-  "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/quadrotor_msgs
+)
+_generate_msg_py(quadrotor_msgs
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg"
+  "${MSG_I_FLAGS}"
+  "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/quadrotor_msgs
 )
 
@@ -353,15 +353,15 @@ add_custom_target(quadrotor_msgs_generate_messages_py
 add_dependencies(quadrotor_msgs_generate_messages quadrotor_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_py _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_py _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_py _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_py _quadrotor_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg" NAME_WE)
 add_dependencies(quadrotor_msgs_generate_messages_py _quadrotor_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

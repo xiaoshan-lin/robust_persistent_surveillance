@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot_calibration_generate_messages_cpp"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/include/turtlebot_calibration/ScanAngle.h"
+  "/home/xslin/Documents/rpg_ws/devel/include/turtlebot_calibration/ScanAngle.h"
 )
 
 # Per-language clean rules from dependency scanning.

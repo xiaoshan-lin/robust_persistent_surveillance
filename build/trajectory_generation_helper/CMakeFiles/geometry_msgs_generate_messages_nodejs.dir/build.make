@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/trajectory_generation_helper
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/trajectory_generation_helper
 
 # Utility rule file for geometry_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/trajectory_generation_helper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper /home/xslin/Documents/xslin/research/rpg_ws/build/trajectory_generation_helper /home/xslin/Documents/xslin/research/rpg_ws/build/trajectory_generation_helper /home/xslin/Documents/xslin/research/rpg_ws/build/trajectory_generation_helper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/trajectory_generation_helper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/trajectory_planning/trajectory_generation_helper /home/xslin/Documents/rpg_ws/build/trajectory_generation_helper /home/xslin/Documents/rpg_ws/build/trajectory_generation_helper /home/xslin/Documents/rpg_ws/build/trajectory_generation_helper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 

@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/xslin/Documents/xslin/research/rpg_ws/build/husky_description'
-export PYTHONPATH="/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export PWD='/home/xslin/Documents/rpg_ws/build/husky_description'

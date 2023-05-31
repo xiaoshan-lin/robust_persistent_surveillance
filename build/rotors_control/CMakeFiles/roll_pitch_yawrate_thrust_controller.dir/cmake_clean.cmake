@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libroll_pitch_yawrate_thrust_controller.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libroll_pitch_yawrate_thrust_controller.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libroll_pitch_yawrate_thrust_controller.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libroll_pitch_yawrate_thrust_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

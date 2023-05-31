@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -102,10 +102,10 @@ struct SensorState_
    typedef uint8_t _battery_type;
   _battery_type battery;
 
-   typedef std::vector<uint16_t, typename ContainerAllocator::template rebind<uint16_t>::other >  _bottom_type;
+   typedef std::vector<uint16_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint16_t>> _bottom_type;
   _bottom_type bottom;
 
-   typedef std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other >  _current_type;
+   typedef std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> _current_type;
   _current_type current;
 
    typedef uint8_t _over_current_type;
@@ -114,7 +114,7 @@ struct SensorState_
    typedef uint16_t _digital_input_type;
   _digital_input_type digital_input;
 
-   typedef std::vector<uint16_t, typename ContainerAllocator::template rebind<uint16_t>::other >  _analog_input_type;
+   typedef std::vector<uint16_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint16_t>> _analog_input_type;
   _analog_input_type analog_input;
 
 

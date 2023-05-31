@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/find_fiducial_pose.dir/src/find_fiducial_pose.cpp.o"
   "CMakeFiles/find_fiducial_pose.dir/src/detect_calibration_pattern.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose"
+  "/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/turtlebot_actions/find_fiducial_pose"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-prefix=/home/xslin/Documents/xslin/research/rpg_ws/install
+prefix=/home/xslin/Documents/rpg_ws/install
 
 Name: trajectory_generation_helper
 Description: Description of trajectory_generation_helper

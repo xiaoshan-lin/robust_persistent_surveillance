@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gazebo_ros_kobuki.dir/src/gazebo_ros_kobuki.cpp.o"
   "CMakeFiles/gazebo_ros_kobuki.dir/src/gazebo_ros_kobuki_updates.cpp.o"
   "CMakeFiles/gazebo_ros_kobuki.dir/src/gazebo_ros_kobuki_loads.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libgazebo_ros_kobuki.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/libgazebo_ros_kobuki.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libgazebo_ros_kobuki.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/libgazebo_ros_kobuki.so"
 )
 
 # Per-language clean rules from dependency scanning.

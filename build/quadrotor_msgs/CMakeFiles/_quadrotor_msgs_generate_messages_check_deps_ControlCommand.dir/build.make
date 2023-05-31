@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs
+CMAKE_SOURCE_DIR = /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs
+CMAKE_BINARY_DIR = /home/xslin/Documents/rpg_ws/build/quadrotor_msgs
 
 # Utility rule file for _quadrotor_msgs_generate_messages_check_deps_ControlCommand.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_m
 include CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/progress.make
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg geometry_msgs/Vector3:geometry_msgs/Quaternion:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg geometry_msgs/Vector3:geometry_msgs/Quaternion:std_msgs/Header
 
 _quadrotor_msgs_generate_messages_check_deps_ControlCommand: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand
 _quadrotor_msgs_generate_messages_check_deps_ControlCommand: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/clean
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/clean
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/depend:
-	cd /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/xslin/research/rpg_ws/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xslin/Documents/rpg_ws/build/quadrotor_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs /home/xslin/Documents/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/rpg_ws/build/quadrotor_msgs /home/xslin/Documents/rpg_ws/build/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_ControlCommand.dir/depend
 

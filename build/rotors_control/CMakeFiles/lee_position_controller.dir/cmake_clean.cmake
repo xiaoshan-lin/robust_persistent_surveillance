@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.pdb"
-  "/home/xslin/Documents/xslin/research/rpg_ws/devel/lib/liblee_position_controller.so"
+  "/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.pdb"
+  "/home/xslin/Documents/rpg_ws/devel/lib/liblee_position_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.
