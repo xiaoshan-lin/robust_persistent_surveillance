@@ -34,19 +34,29 @@
   <!-- launch husky-->
   <group if="$(eval arg('UGV_name')==0)"> 
           <!-- spawn husky in gazebo-->
-          <include file="$(find husky_navigation)/launch/move_base.launch">
+          <!--include file="$(find husky_navigation)/launch/move_base.launch">
             <arg name="no_static_map" value="true"/>
-          </include>
+          </include-->
 
-          <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
+          <include file="$(find test)/launch/spawn_husky.launch">
+            <arg name="robot_namespace" value="$(arg robot_namespace)"/>
             <arg name="laser_enabled" value="$(arg laser_enabled)"/>
             <arg name="realsense_enabled" value="$(arg realsense_enabled)"/>
+            <arg name="multimaster" value="false"/>
             <arg name="x" value="2.5"/>
             <arg name="y" value="5.5"/>
+            <arg name="z" value="$(arg UGV_z)"/>
+            <arg name="yaw" value="$(arg UGV_yaw)"/>
           </include>
 
-          <!--group ns="$(arg robot_namespace)">
+          <group ns="$(arg robot_namespace)">
+            <include file="$(find husky_navigation)/launch/move_base.launch">
+              <arg name="no_static_map" value="true"/>
+            </include>
+          </group>
 
+          <!--group ns="$(arg robot_namespace)">
+          
           <param name="husky_velocity_controller/base_frame_id" value="$(arg robot_namespace)/base_link"/> 
           <param name="move_base_node/global_costmap/global_frame" value="world"/>
           <param name="move_base_node/global_costmap/robot_base_frame" value="$(arg robot_namespace)/base_link"/>

@@ -41,8 +41,6 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <!-- Optionally disable teleop control -->
   <arg name="joystick" default="false" />
 
-  <arg name="tf_prefix" default="$(arg robot_namespace)"/>
-
   <group ns="$(arg robot_namespace)">
 
     <group if="$(arg multimaster)">
@@ -65,25 +63,22 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <!-- For single master bringup, run robot control on the gazebo master -->
     <!-- Note that husky_description/description.launch is already included in husky_control/control.launch. -->
     <group unless="$(arg multimaster)">
-      <include file="$(find husky_control)/launch/control.launch">
+      <include file="$(find test)/launch/control.launch">
         <arg name="multimaster" value="$(arg multimaster)"/>
         <arg name="laser_enabled" value="$(arg laser_enabled)"/>
         <arg name="realsense_enabled" default="$(arg realsense_enabled)"/>
         <arg name="urdf_extras" value="$(arg urdf_extras)"/>
         <arg name="robot_namespace" value="$(arg robot_namespace)"/>
-        <arg name="enable_ekf" default="false"/>
       </include>
-      <!--include file="$(find husky_control)/launch/teleop.launch">
+      <include file="$(find husky_control)/launch/teleop.launch">
         <arg name="joystick" value="$(arg joystick)" />
-      </include-->
+      </include>
     </group>
 
     <!-- Additional nodes for specific accessories -->
     <group if="$(arg realsense_enabled)">
       <include file="$(find husky_gazebo)/launch/realsense.launch" />
     </group>
-
-    <param name="tf_prefix" type="string" value="$(arg tf_prefix)" />
 
     <!-- Spawn robot in gazebo -->
     <node name="spawn_husky_model" pkg="gazebo_ros" type="spawn_model"
