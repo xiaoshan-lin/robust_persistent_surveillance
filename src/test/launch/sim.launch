@@ -23,14 +23,15 @@
   <node name="age_server_node" pkg="test" type="age_server.py" output="screen"/>
 
   <!-- launch 1st UAV-UGV team-->
-  <include file="$(find test)/launch/spawn_UAV_UGV_team.launch">
-    <arg name="ugv_idx" value="0"/> 
-    <!-- ugv_idx: index of the UGV 
-         e.g. 0,1,2,3... --> 
-    <arg name="UGV_name" value="0"/>
-    <!-- UGV_name: type of the UGV 
+  <!-- ugv_idx: index of the UGV 
+         e.g. 0,1,2,3... -->
+  <!-- UGV_name: type of the UGV 
          e.g. 0 - husky
-              1 - turtlebot --> 
+              1 - turtlebot -->
+  <include file="$(find test)/launch/spawn_UAV_UGV_team.launch">
+    <arg name="ugv_idx" value="0"/>      
+    <arg name="UGV_name" value="0"/>
+     
     <arg name="mav_name" value="$(arg mav_name)"/>
     <arg name="enable_logging" value="$(arg enable_logging)" />
     <arg name="enable_ground_truth" value="$(arg enable_ground_truth)" />

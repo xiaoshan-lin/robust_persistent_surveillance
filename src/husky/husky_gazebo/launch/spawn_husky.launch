@@ -39,9 +39,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <arg name="urdf_extras" default="$(optenv HUSKY_URDF_EXTRAS)"/>
 
   <!-- Optionally disable teleop control -->
-  <arg name="joystick" default="false" />
-
-  <arg name="tf_prefix" default="$(arg robot_namespace)"/>
+  <arg name="joystick" default="true" />
 
   <group ns="$(arg robot_namespace)">
 
@@ -70,20 +68,16 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
         <arg name="laser_enabled" value="$(arg laser_enabled)"/>
         <arg name="realsense_enabled" default="$(arg realsense_enabled)"/>
         <arg name="urdf_extras" value="$(arg urdf_extras)"/>
-        <arg name="robot_namespace" value="$(arg robot_namespace)"/>
-        <arg name="enable_ekf" default="false"/>
       </include>
-      <!--include file="$(find husky_control)/launch/teleop.launch">
+      <include file="$(find husky_control)/launch/teleop.launch">
         <arg name="joystick" value="$(arg joystick)" />
-      </include-->
+      </include>
     </group>
 
     <!-- Additional nodes for specific accessories -->
     <group if="$(arg realsense_enabled)">
       <include file="$(find husky_gazebo)/launch/realsense.launch" />
     </group>
-
-    <param name="tf_prefix" type="string" value="$(arg tf_prefix)" />
 
     <!-- Spawn robot in gazebo -->
     <node name="spawn_husky_model" pkg="gazebo_ros" type="spawn_model"

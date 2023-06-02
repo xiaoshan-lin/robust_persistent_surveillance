@@ -4,7 +4,7 @@
   <arg name="multimaster" default="$(optenv ROBOT_MULTIMASTER false)"/>
   <arg name="simulation" default="$(optenv ROBOT_SIMULATION false)"/>
   <arg name="robot_namespace" default="$(optenv ROBOT_NAMESPACE robot)"/>
-  <arg name="enable_ekf" default="$(optenv ENABLE_EKF false)"/>
+  <arg name="enable_ekf" default="$(optenv ENABLE_EKF true)"/>
 
   <arg name="config_extras"
        default="$(eval optenv('HUSKY_CONFIG_EXTRAS', find('husky_control') + '/config/empty.yaml'))"/>
@@ -22,7 +22,6 @@
 
   <!-- Load robot description -->
   <include file="$(find husky_description)/launch/description.launch" >
-    <arg name="robot_namespace" value="$(arg robot_namespace)"/>
     <arg name="laser_enabled" default="$(arg laser_enabled)"/>
     <arg name="realsense_enabled" default="$(arg realsense_enabled)"/>
     <arg name="urdf_extras" default="$(arg urdf_extras)"/>
@@ -37,11 +36,11 @@
 
   <!-- Start EKF for localization -->
   <group if="$(arg enable_ekf)" >
-    
-  <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization" output="screen">
+    <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization">
       <rosparam command="load" file="$(find husky_control)/config/localization.yaml" />
-  </node>
+    </node>
   </group>
+
   <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server" output="screen"/>
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
@@ -49,7 +48,6 @@
   <node pkg="twist_mux" type="twist_mux" name="twist_mux">
     <rosparam command="load" file="$(find husky_control)/config/twist_mux.yaml" />
     <remap from="cmd_vel_out" to="husky_velocity_controller/cmd_vel"/>
-    
   </node>
 
   <!-- Override the default control parameters, see config/empty.yaml for default. -->

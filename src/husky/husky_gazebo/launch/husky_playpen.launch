@@ -25,16 +25,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 -->
 <launch>
 
-  <arg name="mav_name" default="firefly"/>
-  <arg name="world_name" default="basic"/>
-  <arg name="enable_logging" default="false" />
-  <arg name="enable_ground_truth" default="true" />
-  <arg name="log_file" default="$(arg mav_name)" />
-
-
-  <arg name="laser_enabled" default="true"/>
-  <arg name="realsense_enabled" default="false"/>
-  
+  <arg name="laser_enabled" default="$(optenv HUSKY_LASER_LMS1XX_ENABLED 1)"/>
+  <arg name="realsense_enabled" default="$(optenv HUSKY_REALSENSE_ENABLED 0)"/>
 
   <include file="$(find husky_gazebo)/launch/playpen.launch" />
 
@@ -42,6 +34,5 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <arg name="laser_enabled" value="$(arg laser_enabled)"/>
     <arg name="realsense_enabled" value="$(arg realsense_enabled)"/>
   </include>
- 
 
 </launch>
