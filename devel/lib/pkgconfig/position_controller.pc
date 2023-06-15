@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: position_controller
-Description: Description of position_controller
-Version: 0.0.0
-Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/control/position_controller/include
-Libs: -L${prefix}/lib -lposition_controller
-Requires: eigen_catkin quadrotor_common roscpp

@@ -1,5 +1,0 @@
-MagneticField.proto: warning: Import quaternion.proto but not used.
-[01m[K/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GeotaggedImagesPlugin::OnNewFrame(const unsigned char*)[m[K’:
-[01m[K/home/xslin/Documents/rpg_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:174:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
-   [01;35m[Ksystem(gps_tag_command)[m[K;
-   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K

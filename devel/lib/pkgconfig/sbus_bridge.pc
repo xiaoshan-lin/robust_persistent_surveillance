@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: sbus_bridge
-Description: Description of sbus_bridge
-Version: 0.0.0
-Cflags: -I/home/xslin/Documents/rpg_ws/devel/include -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/bridges/sbus_bridge/include
-Libs: -L${prefix}/lib 
-Requires: eigen_catkin message_generation quadrotor_common quadrotor_msgs roscpp std_msgs

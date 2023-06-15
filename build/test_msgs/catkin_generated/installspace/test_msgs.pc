@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/install
-
-Name: test_msgs
-Description: Description of test_msgs
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

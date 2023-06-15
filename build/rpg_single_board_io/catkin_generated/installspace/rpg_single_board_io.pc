@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/install
-
-Name: rpg_single_board_io
-Description: Description of rpg_single_board_io
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lrpg_single_board_io
-Requires: roscpp std_msgs

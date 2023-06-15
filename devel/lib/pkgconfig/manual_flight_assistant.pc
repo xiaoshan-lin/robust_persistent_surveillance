@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: manual_flight_assistant
-Description: Description of manual_flight_assistant
-Version: 0.0.0
-Cflags: -I/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs quadrotor_common roscpp sbus_bridge sensor_msgs std_msgs

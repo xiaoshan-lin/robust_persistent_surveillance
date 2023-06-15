@@ -1,2 +1,0 @@
-set(quadrotor_msgs_MESSAGE_FILES "/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/AutopilotFeedback.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/ControlCommand.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/LowLevelFeedback.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/Trajectory.msg;/home/xslin/Documents/rpg_ws/src/rpg_quadrotor_common/quadrotor_msgs/msg/TrajectoryPoint.msg")
-set(quadrotor_msgs_SERVICE_FILES "")

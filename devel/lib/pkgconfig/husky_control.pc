@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: husky_control
-Description: Description of husky_control
-Version: 0.4.5
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

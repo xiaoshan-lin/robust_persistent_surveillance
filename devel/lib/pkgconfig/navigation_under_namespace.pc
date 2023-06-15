@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: navigation_under_namespace
-Description: Description of navigation_under_namespace
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/install
-
-Name: trajectory_generation_helper
-Description: Description of trajectory_generation_helper
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -ltrajectory_generation_helper
-Requires: eigen_catkin polynomial_trajectories quadrotor_common roscpp

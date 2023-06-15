@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/install
-
-Name: autopilot
-Description: Description of autopilot
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lautopilot_helper
-Requires: eigen_catkin geometry_msgs nav_msgs position_controller quadrotor_common quadrotor_msgs roscpp state_predictor std_msgs trajectory_generation_helper

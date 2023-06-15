@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: vbat_thrust_calibration
-Description: Description of vbat_thrust_calibration
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: nav_msgs quadrotor_msgs rospy

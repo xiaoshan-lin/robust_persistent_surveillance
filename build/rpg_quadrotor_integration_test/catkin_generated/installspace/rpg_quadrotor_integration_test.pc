@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/install
-
-Name: rpg_quadrotor_integration_test
-Description: Description of rpg_quadrotor_integration_test
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: autopilot eigen_catkin polynomial_trajectories quadrotor_common quadrotor_msgs roscpp rotors_description rotors_gazebo rpg_rotors_interface std_msgs trajectory_generation_helper

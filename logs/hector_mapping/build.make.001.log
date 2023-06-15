@@ -1,9 +1,0 @@
-[  0%] Built target _hector_mapping_generate_messages_check_deps_HectorDebugInfo
-[  0%] Built target _hector_mapping_generate_messages_check_deps_HectorIterData
-[ 18%] Built target hector_mapping_generate_messages_py
-[ 31%] Built target hector_mapping_generate_messages_nodejs
-[ 43%] Built target hector_mapping_generate_messages_lisp
-[ 62%] Built target hector_mapping_generate_messages_eus
-[ 75%] Built target hector_mapping_generate_messages_cpp
-[ 75%] Built target hector_mapping_generate_messages
-[100%] Built target hector_mapping

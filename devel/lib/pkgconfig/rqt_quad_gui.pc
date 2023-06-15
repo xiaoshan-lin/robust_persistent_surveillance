@@ -1,8 +1,0 @@
-prefix=/home/xslin/Documents/rpg_ws/devel
-
-Name: rqt_quad_gui
-Description: Description of rqt_quad_gui
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs quadrotor_msgs rospy rqt_gui rqt_gui_py std_msgs
