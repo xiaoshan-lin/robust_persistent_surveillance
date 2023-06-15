@@ -34,9 +34,14 @@
   <!-- launch husky-->
   <group if="$(eval arg('UGV_name')==0)"> 
           <!-- spawn husky in gazebo-->
-          <include file="$(find husky_navigation)/launch/move_base.launch">
-            <arg name="no_static_map" value="true"/>
-          </include>
+            <include file="$(find husky_navigation)/launch/move_base.launch">
+              <arg name="no_static_map" value="true"/>
+            </include>
+
+            <node name="husky_control_center" pkg="test" type="husky_control_center.py" output="screen" 
+                args="$(arg start_idx) $(arg robot_namespace) $(arg uav0) $(arg uav1) $(arg uav2) $(arg uav3) $(arg ugv_idx) 
+                      $(arg UGV_x) $(arg UGV_y)"/>
+
 
           <include file="$(find test)/launch/spawn_husky.launch">
            <arg name="laser_enabled" value="$(arg laser_enabled)"/>
@@ -44,27 +49,27 @@
            <arg name="x" value="2.5"/>
            <arg name="y" value="5.5"/>
            <arg name="z" value="$(arg UGV_z)"/>
-            <arg name="yaw" value="$(arg UGV_yaw)"/>
+           <arg name="yaw" value="$(arg UGV_yaw)"/>
+           <arg name="robot_namespace" value="$(arg robot_namespace)"/>
           </include>
 
+
           <include file="$(find husky_viz)/launch/view_robot.launch"/>
-
-          <node name="husky_control_center" pkg="test" type="husky_control_center.py" output="screen" 
-                args="$(arg start_idx) $(arg robot_namespace) $(arg uav0) $(arg uav1) $(arg uav2) $(arg uav3) $(arg ugv_idx) 
-                      $(arg UGV_x) $(arg UGV_y)"/>
-
           
           <param name="move_base/global_costmap/global_frame" value="world"/>
           <param name="move_base/local_costmap/global_frame" value="world"/>
+
+          <param name="move_base/global_costmap/robot_base_frame" value="$(arg robot_namespace)/base_link"/>
+          <param name="move_base/local_costmap/robot_base_frame" value="$(arg robot_namespace)/base_link"/>
+          <param name="$(arg robot_namespace)/husky_velocity_controller/base_frame_id" value="$(arg robot_namespace)/base_link"/>
           
           <!--
-          <param name="husky_velocity_controller/base_frame_id" value="$(arg robot_namespace)/base_link"/> 
-          <param name="move_base_node/global_costmap/robot_base_frame" value="$(arg robot_namespace)/base_link"/>
-          <param name="move_base_node/local_costmap/robot_base_frame" value="$(arg robot_namespace)/base_link"/-->
+          <param name="husky_velocity_controller/base_frame_id" value="$(arg robot_namespace)/base_link"/--> 
+          
           
           <node name="message_to_tf" pkg="message_to_tf" type="message_to_tf" output="screen"/>
           <param name="message_to_tf/frame_id" value="/world"/>
-          <param name="message_to_tf/odometry_topic" value="/ground_truth/state"/>
+          <param name="message_to_tf/odometry_topic" value="$(arg robot_namespace)/ground_truth/state"/>
           <!--param name="message_to_tf/odometry_topic" value="/$(arg robot_namespace)/ground_truth/state"/-->
           
 

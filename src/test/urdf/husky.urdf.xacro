@@ -41,12 +41,14 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <xacro:arg name="urdf_extras" default="empty.urdf" />
 
   <!-- Included URDF/XACRO Files -->
-  <xacro:include filename="$(find husky_description)/urdf/decorations.urdf.xacro" />
-  <xacro:include filename="$(find husky_description)/urdf/wheel.urdf.xacro" />
+  <xacro:include filename="$(find test)/urdf/decorations.urdf.xacro" />
+  <xacro:include filename="$(find test)/urdf/wheel.urdf.xacro" />
 
-  <xacro:include filename="$(find husky_description)/urdf/accessories/intel_realsense.urdf.xacro"/>
+  <xacro:include filename="$(find test)/urdf/accessories/intel_realsense.urdf.xacro"/>
   <xacro:include filename="$(find test)/urdf/accessories/sick_lms1xx_mount.urdf.xacro"/>
-  <xacro:include filename="$(find husky_description)/urdf/accessories/sensor_arch.urdf.xacro"/>
+  <xacro:include filename="$(find test)/urdf/accessories/sensor_arch.urdf.xacro"/>
+
+  <xacro:property name="robot_namespace" value="$(arg robot_namespace)"/>
 
   <xacro:property name="M_PI" value="3.14159"/>
 
@@ -64,7 +66,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <xacro:property name="wheel_length" value="0.1143" />
   <xacro:property name="wheel_radius" value="0.1651" />
 
-  <!--link name="solarPanel_link">
+  <link name="${robot_namespace}/solarPanel_link">
    <inertial>
      <origin xyz="0 0 0" rpy="0 0 0"/>
      <mass value="0.2"/>
@@ -99,19 +101,15 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
         <ode/>
        </contact>
    </surface>
-  </link-->
-  <!--gazebo reference="solarPanel_link">
-    <mu1 value="10"/>
-    <mu2 value="10"/>
-  </gazebo-->
-  <!--joint name="base_to_panel_joint" type="fixed">
+  </link>
+  <joint name="${robot_namespace}/base_to_panel_joint" type="fixed">
     <origin xyz="0 0 0.2" rpy="0 0 0" />
-    <parent link="base_link"/>
-    <child link="solarPanel_link"/>
-  </joint-->
+    <parent link="${robot_namespace}/base_link"/>
+    <child link="${robot_namespace}/solarPanel_link"/>
+  </joint>
 
   <!-- Base link is the center of the robot's bottom plate -->
-  <link name="base_link">
+  <link name="${robot_namespace}/base_link">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
@@ -133,16 +131,16 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   </link>
 
   <!-- Base footprint is on the ground under the robot -->
-  <link name="base_footprint"/>
+  <link name="${robot_namespace}/base_footprint"/>
 
-  <joint name="base_footprint_joint" type="fixed">
+  <joint name="${robot_namespace}/base_footprint_joint" type="fixed">
     <origin xyz="0 0 ${wheel_vertical_offset - wheel_radius}" rpy="0 0 0" />
-    <parent link="base_link" />
-    <child link="base_footprint" />
+    <parent link="${robot_namespace}/base_link" />
+    <child link="${robot_namespace}/base_footprint" />
   </joint>
 
   <!-- Inertial link stores the robot's inertial information -->
-  <link name="inertial_link">
+  <link name="${robot_namespace}/inertial_link">
     <inertial>
       <mass value="46.034" />
       <origin xyz="-0.00065 -0.085 0.062" />
@@ -150,49 +148,49 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     </inertial>
   </link>
 
-  <joint name="inertial_joint" type="fixed">
+  <joint name="${robot_namespace}/inertial_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0" />
-    <parent link="base_link" />
-    <child link="inertial_link" />
+    <parent link="${robot_namespace}/base_link" />
+    <child link="${robot_namespace}/inertial_link" />
   </joint>
 
   <!-- IMU Link is the standard mounting position for the UM6 IMU.-->
   <!-- Can be modified with environment variables in /etc/ros/setup.bash -->
-  <link name="imu_link"/>
-  <joint name="imu_joint" type="fixed">
+  <link name="${robot_namespace}/imu_link"/>
+  <joint name="${robot_namespace}/imu_joint" type="fixed">
     <origin xyz="$(optenv HUSKY_IMU_XYZ 0.19 0 0.149)" rpy="$(optenv HUSKY_IMU_RPY 0 -1.5708 3.1416)" />
-    <parent link="base_link" />
-    <child link="imu_link" />
+    <parent link="${robot_namespace}/base_link" />
+    <child link="${robot_namespace}/imu_link" />
   </joint>
-  <gazebo reference="imu_link">
+  <gazebo reference="${robot_namespace}/imu_link">
   </gazebo>
 
   <!-- Husky wheel macros -->
-  <xacro:husky_wheel wheel_prefix="front_left">
+  <xacro:husky_wheel wheel_prefix="front_left" robot_namespace="${robot_namespace}" >
     <origin xyz="${wheelbase/2} ${track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:husky_wheel>
-  <xacro:husky_wheel wheel_prefix="front_right">
+  <xacro:husky_wheel wheel_prefix="front_right" robot_namespace="${robot_namespace}">
     <origin xyz="${wheelbase/2} ${-track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:husky_wheel>
-  <xacro:husky_wheel wheel_prefix="rear_left">
+  <xacro:husky_wheel wheel_prefix="rear_left" robot_namespace="${robot_namespace}">
     <origin xyz="${-wheelbase/2} ${track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:husky_wheel>
-  <xacro:husky_wheel wheel_prefix="rear_right">
+  <xacro:husky_wheel wheel_prefix="rear_right" robot_namespace="${robot_namespace}">
     <origin xyz="${-wheelbase/2} ${-track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
   </xacro:husky_wheel>
 
-  <xacro:husky_decorate />
+  <xacro:husky_decorate robot_namespace="${robot_namespace}"/>
 
   <xacro:if value="$(arg laser_enabled)">
 
-    <sick_lms1xx_mount prefix="base"/>
+    <sick_lms1xx_mount prefix="base" robot_namespace="${robot_namespace}"/>
 
-    <sick_lms1xx frame="base_laser" topic="scan" robot_namespace="$(arg robot_namespace)"/>
+    <sick_lms1xx frame="$(arg robot_namespace)/base_laser" topic="scan" robot_namespace="$(arg robot_namespace)"/>
 
-    <joint name="laser_mount_joint" type="fixed">
+    <joint name="${robot_namespace}/laser_mount_joint" type="fixed">
       <origin xyz="$(arg laser_xyz)" rpy="$(arg laser_rpy)" />
-      <parent link="top_plate_link" />
-      <child link="base_laser_mount_3" />
+      <parent link="${robot_namespace}/top_plate_link" />
+      <child link="${robot_namespace}/base_laser_mount_3" />
     </joint>
 
   </xacro:if>
@@ -204,20 +202,24 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   -->
   <xacro:property name="topbar_needed_realsense" value="$(arg realsense_enabled)" />
   <xacro:if value="${topbar_needed_realsense}">
-    <xacro:sensor_arch prefix="" parent="top_plate_link">
+    <xacro:sensor_arch robot_namespace="${robot_namespace}" prefix="" parent="${robot_namespace}/top_plate_link">
       <origin xyz="-0.35 0 0.51" rpy="0 0 -3.14"/>
     </xacro:sensor_arch>
   </xacro:if>
 
   <!-- add the intel realsense to the topbar if needed -->
   <xacro:if value="$(arg realsense_enabled)">
-    <link name="realsense_mountpoint"/>
-    <joint name="realsense_mountpoint_joint" type="fixed">
+    <link name="${robot_namespace}/realsense_mountpoint"/>
+    <joint name="${robot_namespace}/realsense_mountpoint_joint" type="fixed">
       <origin xyz="0 0 0" rpy="0 0 -3.14159" />
-      <parent link="$(arg realsense_mount)"/>
-      <child link="realsense_mountpoint" />
+      <parent link="${robot_namespace}/$(arg realsense_mount)"/>
+      <child link="${robot_namespace}/realsense_mountpoint" />
     </joint>
-    <xacro:intel_realsense_mount prefix="camera" topic="realsense" parent_link="realsense_mountpoint"/>
+    <xacro:intel_realsense_mount 
+       prefix="camera" 
+       topic="realsense" 
+       parent_link="${robot_namespace}/realsense_mountpoint"
+       robot_namespace="${robot_namespace}"/>
   </xacro:if>
 
   <gazebo>
@@ -263,7 +265,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <robotNamespace>$(arg robot_namespace)</robotNamespace>
       <alwaysOn>true</alwaysOn>
       <updateRate>50.0</updateRate>
-      <bodyName>base_link</bodyName>
+      <bodyName>${robot_namespace}/base_link</bodyName>
       <topicName>ground_truth/state</topicName>
       <gaussianNoise>0.01</gaussianNoise>
       <frameName>world</frameName>

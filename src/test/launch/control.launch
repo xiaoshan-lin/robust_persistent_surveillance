@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-
   <arg name="multimaster" default="$(optenv ROBOT_MULTIMASTER false)"/>
   <arg name="simulation" default="$(optenv ROBOT_SIMULATION false)"/>
   <arg name="robot_namespace" default="$(optenv ROBOT_NAMESPACE robot)"/>
@@ -21,7 +20,7 @@
   </include>
 
   <!-- Load robot description -->
-  <include file="$(find husky_description)/launch/description.launch" >
+  <include file="$(find test)/launch/description.launch" >
     <arg name="laser_enabled" default="$(arg laser_enabled)"/>
     <arg name="realsense_enabled" default="$(arg realsense_enabled)"/>
     <arg name="urdf_extras" default="$(arg urdf_extras)"/>
