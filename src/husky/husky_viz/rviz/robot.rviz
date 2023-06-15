@@ -6,15 +6,18 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /RobotModel1
         - /Sensing1
         - /Navigation1
         - /Navigation1/Exploration1
+        - /Navigation1/Local Costmap1/Status1
       Splitter Ratio: 0.49492400884628296
     Tree Height: 430
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
     Expanded:
+      - /Interact1
       - /2D Pose Estimate1
       - /2D Nav Goal1
       - /Publish Point1
@@ -65,103 +68,103 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        base_footprint:
+        husky0/base_footprint:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        base_laser:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        base_laser_mount_1:
+        husky0/base_laser:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        base_laser_mount_2:
+        husky0/base_laser_mount_1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        base_laser_mount_3:
+        husky0/base_laser_mount_2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        base_link:
+        husky0/base_laser_mount_3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        front_bumper_link:
+        husky0/base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        front_left_wheel_link:
+        husky0/front_bumper_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        front_right_wheel_link:
+        husky0/front_left_wheel_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        imu_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        inertial_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        rear_bumper_link:
+        husky0/front_right_wheel_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rear_left_wheel_link:
+        husky0/imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        husky0/inertial_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        husky0/rear_bumper_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rear_right_wheel_link:
+        husky0/rear_left_wheel_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        solarPanel_link:
+        husky0/rear_right_wheel_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        top_chassis_link:
+        husky0/solarPanel_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        top_plate_front_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        top_plate_link:
+        husky0/top_chassis_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        top_plate_rear_link:
+        husky0/top_plate_front_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        user_rail_link:
+        husky0/top_plate_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        husky0/top_plate_rear_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        husky0/user_rail_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
       Name: RobotModel
-      Robot Description: robot_description
+      Robot Description: husky0/robot_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
@@ -180,15 +183,6 @@ Visualization Manager:
         {}
       Update Interval: 0
       Value: false
-    - Class: rviz/InteractiveMarkers
-      Enable Transparency: true
-      Enabled: true
-      Name: TwistMarker
-      Show Axes: false
-      Show Descriptions: false
-      Show Visual Aids: false
-      Update Topic: /twist_marker_server/update
-      Value: true
     - Class: rviz/Group
       Displays:
         - Angle Tolerance: 0.10000000149011612
@@ -248,7 +242,7 @@ Visualization Manager:
           Size (Pixels): 3
           Size (m): 0.029999999329447746
           Style: Flat Squares
-          Topic: /scan
+          Topic: /husky0/scan
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
@@ -346,7 +340,7 @@ Visualization Manager:
           Draw Behind: true
           Enabled: true
           Name: Global Costmap
-          Topic: /move_base/global_costmap/costmap
+          Topic: /husky0/move_base/global_costmap/costmap
           Unreliable: false
           Use Timestamp: false
           Value: true
@@ -356,7 +350,7 @@ Visualization Manager:
           Draw Behind: false
           Enabled: true
           Name: Local Costmap
-          Topic: /move_base/local_costmap/costmap
+          Topic: /husky0/move_base/global_costmap/costmap
           Unreliable: false
           Use Timestamp: false
           Value: true
@@ -380,7 +374,7 @@ Visualization Manager:
           Radius: 0.029999999329447746
           Shaft Diameter: 0.10000000149011612
           Shaft Length: 0.10000000149011612
-          Topic: /move_base/NavfnROS/plan
+          Topic: /husky0/move_base/DWAPlannerROS/global_plan
           Unreliable: false
           Value: true
         - Alpha: 1
@@ -403,10 +397,10 @@ Visualization Manager:
           Radius: 0.029999999329447746
           Shaft Diameter: 0.10000000149011612
           Shaft Length: 0.10000000149011612
-          Topic: /move_base/DWAPlannerROS/local_plan
+          Topic: /husky0/move_base/DWAPlannerROS/global_plan
           Unreliable: false
           Value: true
-      Enabled: false
+      Enabled: true
       Name: Navigation
   Enabled: true
   Global Options:
@@ -422,11 +416,11 @@ Visualization Manager:
     - Class: rviz/Select
     - Class: rviz/SetInitialPose
       Theta std deviation: 0.2617993950843811
-      Topic: /initialpose
+      Topic: ""
       X std deviation: 0.5
       Y std deviation: 0.5
     - Class: rviz/SetGoal
-      Topic: /move_base_simple/goal
+      Topic: husky0/move_base_simple/goal
     - Class: rviz/PublishPoint
       Single click: false
       Topic: /clicked_point
@@ -434,25 +428,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 33.811187744140625
+      Distance: 30.106891632080078
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 1.629080057144165
-        Y: -0.08347029983997345
-        Z: -0.8487120270729065
+        X: 4.498552322387695
+        Y: 9.222224235534668
+        Z: 3.868281602859497
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.9598000049591064
+      Pitch: 0.954800009727478
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.220399856567383
+      Yaw: 4.51539945602417
     Saved: ~
 Window Geometry:
   Displays:
@@ -460,7 +454,7 @@ Window Geometry:
   Height: 834
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000001f7000002a6fc0200000005fb0000001200530065006c0065006300740069006f006e00000001e10000009b000000b000fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000b0fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000006e000002a60000018200ffffff000000010000010f000002ddfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000043000002dd0000013200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a0000008d800fffffffb0000000800540069006d006501000000000000045000000000000000000000043d000002a600000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000030c000002a6fc0200000005fb0000001200530065006c0065006300740069006f006e00000001e10000009b000000b000fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df0000051e00000259fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000006e000002a60000018200ffffff000000010000010f000002ddfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000043000002dd0000013200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a0000008d800fffffffb0000000800540069006d0065010000000000000450000000000000000000000328000002a600000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -471,4 +465,4 @@ Window Geometry:
     collapsed: false
   Width: 1600
   X: 420
-  Y: 181
+  Y: 61

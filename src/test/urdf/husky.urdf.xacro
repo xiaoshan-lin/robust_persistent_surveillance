@@ -185,7 +185,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
     <sick_lms1xx_mount prefix="base" robot_namespace="${robot_namespace}"/>
 
-    <sick_lms1xx frame="$(arg robot_namespace)/base_laser" topic="scan" robot_namespace="$(arg robot_namespace)"/>
+    <sick_lms1xx frame="$(arg robot_namespace)/base_laser" topic="$(arg robot_namespace)/scan"/>
 
     <joint name="${robot_namespace}/laser_mount_joint" type="fixed">
       <origin xyz="$(arg laser_xyz)" rpy="$(arg laser_rpy)" />
