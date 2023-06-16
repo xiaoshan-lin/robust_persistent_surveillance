@@ -28,7 +28,17 @@
   </include>
 
   <!-- Load controller configuration -->
-  <rosparam command="load" file="$(find husky_control)/config/control.yaml" />
+  <rosparam command="load" file="$(find test)/config/control.yaml" />
+
+  <arg name="left_wheel" default="['$(arg robot_namespace)/front_left_wheel', '$(arg robot_namespace)/rear_left_wheel']"/>
+  <rosparam param="husky_velocity_controller/left_wheel"  
+                    subst_value="True">$(arg left_wheel)
+  </rosparam> 
+
+  <arg name="right_wheel" default="['$(arg robot_namespace)/front_right_wheel', '$(arg robot_namespace)/rear_right_wheel']"/>
+  <rosparam param="husky_velocity_controller/right_wheel"  
+                    subst_value="True">$(arg right_wheel)
+  </rosparam>    
 
   <!-- Spawn controllers -->
   <node name="base_controller_spawner" pkg="controller_manager" type="spawner"
