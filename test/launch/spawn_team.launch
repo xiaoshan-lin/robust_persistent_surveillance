@@ -54,6 +54,16 @@
            <arg name="robot_namespace" value="$(arg robot_namespace)"/>
           </include>
 
+          <arg name="left_wheel" default="['$(arg robot_namespace)/front_left_wheel', '$(arg robot_namespace)/rear_left_wheel']"/>
+          <rosparam param="$(arg robot_namespace)/husky_velocity_controller/left_wheel"  
+                    subst_value="True">$(arg left_wheel)
+          </rosparam> 
+
+          <arg name="right_wheel" default="['$(arg robot_namespace)/front_right_wheel', '$(arg robot_namespace)/rear_right_wheel']"/>
+          <rosparam param="$(arg robot_namespace)/husky_velocity_controller/right_wheel"  
+                    subst_value="True">$(arg right_wheel)
+          </rosparam>    
+
           <include file="$(find test)/launch/view_robot.launch"/>
           
           <param name="$(arg robot_namespace)/move_base/global_costmap/global_frame" value="world"/>
