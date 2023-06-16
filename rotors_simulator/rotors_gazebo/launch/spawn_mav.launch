@@ -13,6 +13,7 @@
   <arg name="log_file" default="$(arg mav_name)"/>
   <arg name="wait_to_record_bag" default="false"/>
   <arg name="enable_mavlink_interface" default="false"/>
+  <arg name="node_start_delay" default="2.0" />
 
   <!-- send the robot XML to param server -->
   <param name="robot_description" command="
@@ -35,6 +36,6 @@
          -y $(arg y)
          -z $(arg z)
          -model $(arg namespace)"
-   respawn="false" output="screen">
+   respawn="false" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " >
   </node>
 </launch>
