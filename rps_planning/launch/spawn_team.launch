@@ -39,12 +39,12 @@
               <arg name="no_static_map" value="true"/>
             </include>
 
-            <node name="husky_control_center" pkg="test" type="husky_control_center.py" output="screen" 
+            <node name="husky_control_center" pkg="rps_planning" type="husky_control_center.py" output="screen" 
                 args="$(arg start_idx) $(arg robot_namespace) $(arg uav0) $(arg uav1) $(arg uav2) $(arg uav3) $(arg ugv_idx) 
                       $(arg UGV_x) $(arg UGV_y)"/>
           </group>
 
-          <include file="$(find test)/launch/spawn_husky.launch">
+          <include file="$(find rps_planning)/launch/spawn_husky.launch">
            <arg name="laser_enabled" value="$(arg laser_enabled)"/>
            <arg name="realsense_enabled" value="$(arg realsense_enabled)"/>
            <arg name="x" value="2.5"/>
@@ -54,7 +54,7 @@
            <arg name="robot_namespace" value="$(arg robot_namespace)"/>
           </include>
 
-          <include file="$(find test)/launch/view_robot.launch"/>
+          <include file="$(find rps_planning)/launch/view_robot.launch"/>
           
           <param name="$(arg robot_namespace)/move_base/global_costmap/global_frame" value="world"/>
           <param name="$(arg robot_namespace)/move_base/local_costmap/global_frame" value="world"/>
@@ -107,8 +107,8 @@
     </node>
 
   <!-- uav control high-level control, trajectory publisher-->
-  <node name="uav_control_center" pkg="test" type="uav_control_center" output="screen" 
-          args="$(find test)/resource 0 0 4">  
+  <node name="uav_control_center" pkg="rps_planning" type="uav_control_center" output="screen" 
+          args="$(find rps_planning)/resource 0 0 4">  
        <remap from="cmd2UAV" to="/$(arg robot_namespace)/cmd2UAV"/>
   </node>
  </group> 
@@ -147,8 +147,8 @@
        <remap from="autopilot/state_estimate" to="ground_truth/odometry" />
     </node>
 
-  <node name="uav_control_center" pkg="test" type="uav_control_center" output="screen" 
-          args="$(find test)/resource 1 0 2">  
+  <node name="uav_control_center" pkg="rps_planning" type="uav_control_center" output="screen" 
+          args="$(find rps_planning)/resource 1 0 2">  
        <remap from="cmd2UAV" to="/$(arg robot_namespace)/cmd2UAV"/>
   </node>
  </group> 
@@ -187,8 +187,8 @@
        <remap from="autopilot/state_estimate" to="ground_truth/odometry" />
     </node>
 
-  <node name="uav_control_center" pkg="test" type="uav_control_center" output="screen" 
-          args="$(find test)/resource 2 0 4">  
+  <node name="uav_control_center" pkg="rps_planning" type="uav_control_center" output="screen" 
+          args="$(find rps_planning)/resource 2 0 4">  
        <remap from="cmd2UAV" to="/$(arg robot_namespace)/cmd2UAV"/>
   </node> 
  </group> 
@@ -227,8 +227,8 @@
        <remap from="autopilot/state_estimate" to="ground_truth/odometry" />
     </node>
 
-  <node name="uav_control_center" pkg="test" type="uav_control_center" output="screen" 
-          args="$(find test)/resource 3 0 2">  
+  <node name="uav_control_center" pkg="rps_planning" type="uav_control_center" output="screen" 
+          args="$(find rps_planning)/resource 3 0 2">  
        <remap from="cmd2UAV" to="/$(arg robot_namespace)/cmd2UAV"/>
   </node> 
  </group> 

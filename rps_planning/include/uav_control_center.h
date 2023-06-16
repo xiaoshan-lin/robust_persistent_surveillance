@@ -8,7 +8,7 @@
 #include <waypointstruct.h>
 #include <geometry_msgs/Point.h>
 #include <geometry_msgs/PointStamped.h>
-#include <test_msgs/floatlist.h>
+#include <rps_msgs/floatlist.h>
 #include <std_msgs/Bool.h>
 #include <std_msgs/Empty.h>
 #include <quadrotor_msgs/Trajectory.h>
@@ -95,7 +95,7 @@ class UAV_CONTROL_CENTER {
   std_msgs::Bool bridge_msg;
   std_msgs::Empty hover_msg;
 
-  void cmd2UAV_sub_callback(const test_msgs::floatlist::ConstPtr& msg);
+  void cmd2UAV_sub_callback(const rps_msgs::floatlist::ConstPtr& msg);
 
   void status_sub_callback(const std_msgs::Bool::ConstPtr& msg);
     

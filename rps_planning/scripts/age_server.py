@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 import os
 import rospy
-from test.srv import age, ageResponse
+from rps_planning.srv import age, ageResponse
 import numpy as np
 project_dir = os.path.abspath(__file__ + "/../../resource") 
 f=np.load(os.path.join(project_dir,'ugvwaypoint.npz'), 'rb')

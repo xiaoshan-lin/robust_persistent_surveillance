@@ -215,7 +215,7 @@ void UAV_CONTROL_CENTER::hover_publisher(){
      hover_pub.publish(hover_msg);
 }
 
-void UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const test_msgs::floatlist::ConstPtr& msg){
+void UAV_CONTROL_CENTER::cmd2UAV_sub_callback(const rps_msgs::floatlist::ConstPtr& msg){
     flight_info.type = msg -> type;
     flight_info.x = msg -> x;
     flight_info.y = msg -> y;

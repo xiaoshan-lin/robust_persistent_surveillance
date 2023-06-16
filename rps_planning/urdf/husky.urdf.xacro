@@ -41,12 +41,12 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <xacro:arg name="urdf_extras" default="empty.urdf" />
 
   <!-- Included URDF/XACRO Files -->
-  <xacro:include filename="$(find test)/urdf/decorations.urdf.xacro" />
-  <xacro:include filename="$(find test)/urdf/wheel.urdf.xacro" />
+  <xacro:include filename="$(find rps_planning)/urdf/decorations.urdf.xacro" />
+  <xacro:include filename="$(find rps_planning)/urdf/wheel.urdf.xacro" />
 
-  <xacro:include filename="$(find test)/urdf/accessories/intel_realsense.urdf.xacro"/>
-  <xacro:include filename="$(find test)/urdf/accessories/sick_lms1xx_mount.urdf.xacro"/>
-  <xacro:include filename="$(find test)/urdf/accessories/sensor_arch.urdf.xacro"/>
+  <xacro:include filename="$(find rps_planning)/urdf/accessories/intel_realsense.urdf.xacro"/>
+  <xacro:include filename="$(find rps_planning)/urdf/accessories/sick_lms1xx_mount.urdf.xacro"/>
+  <xacro:include filename="$(find rps_planning)/urdf/accessories/sensor_arch.urdf.xacro"/>
 
   <xacro:property name="robot_namespace" value="$(arg robot_namespace)"/>
 

@@ -35,7 +35,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <arg name="start_idx" default="-1"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find test)/worlds/basic.world" />
+    <arg name="world_name" value="$(find rps_planning)/worlds/basic.world" />
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -43,10 +43,10 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <arg name="debug" value="false"/>
   </include>
 
-  <rosparam command="load" file="$(find test)/config/UAV_UGV.yaml" />
-  <node name="age_server_node" pkg="test" type="age_server.py" output="screen"/>
+  <rosparam command="load" file="$(find rps_planning)/config/UAV_UGV.yaml" />
+  <node name="age_server_node" pkg="rps_planning" type="age_server.py" output="screen"/>
 
-  <include file="$(find test)/launch/spawn_team.launch">
+  <include file="$(find rps_planning)/launch/spawn_team.launch">
     <arg name="ugv_idx" value="0"/>      
     <arg name="UGV_name" value="0"/>
      

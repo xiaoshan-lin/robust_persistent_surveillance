@@ -10,10 +10,10 @@ from actionlib_msgs.msg import GoalStatusArray
 from move_base_msgs.msg import MoveBaseActionFeedback
 from numpy import remainder as rem
 import numpy as np
-from test_msgs.msg import floatlist
+from rps_msgs.msg import floatlist
 from math import floor, ceil
 import json
-from test.srv import *
+from rps_planning.srv import *
 
 project_dir = os.path.abspath(__file__ + "/../../resource") 
 PI = 3.1415926 
