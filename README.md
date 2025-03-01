@@ -1,6 +1,4 @@
 # Robust Planning for Persistent Surveillance with Energy-Constrained UAVs and Mobile Charging Stations
-## Table of contents
-- [Quick start](#quick-start)
 
 ## Quick start
 This code is run and tested on Ubuntu 18.04 with ROS melodic and python3.
