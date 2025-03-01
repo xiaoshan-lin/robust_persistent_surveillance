@@ -1,0 +1,8 @@
+*.pyc
+
+/rps_planning/resource
+
+*.png
+
+.rosinstall
+.rosinstall.bak

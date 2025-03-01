@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   roscpp
   rospy
+  rps_msgs
   message_generation
 )
 
@@ -107,7 +108,7 @@ generate_messages(
 catkin_package(
    INCLUDE_DIRS include
    LIBRARIES ${PROJECT_NAME}
-   CATKIN_DEPENDS message_runtime trajectory_msgs
+   CATKIN_DEPENDS message_runtime trajectory_msgs rps_msgs
 #  DEPENDS system_lib
 )
 
@@ -118,11 +119,11 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-include ${catkin_INCLUDE_DIRS}
+include ${catkin_INCLUDE_DIRS} ${rps_msgs_INCLUDE_DIRS}
 )
 
 add_executable(uav_control_center src/uav_control_center.cpp)
-target_link_libraries(uav_control_center ${catkin_LIBRARIES})
+target_link_libraries(uav_control_center ${catkin_LIBRARIES} ${rps_msgs_LIBRARIES})
 add_dependencies(uav_control_center ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ library
